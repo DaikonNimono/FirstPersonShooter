@@ -9,6 +9,8 @@ public class HandAnimationController : Component
 	// контроллер игрока с видом от первого лица (FirstPersonController)
 	public FirstPersonController fpsController = null;
 
+	public ShootInput shootInput = null;
+
 	public float moveAnimationSpeed = 30.0f;
 	public float shootAnimationSpeed = 30.0f;
 	public float idleWalkMixDamping = 5.0f;
@@ -100,6 +102,10 @@ public class HandAnimationController : Component
 
 		// проверяем, движется ли персонаж
 		bool isMoving = movementVector.Length2 > MathLib.EPSILON;
+
+		// handle input: check if the fire button is pressed
+		if (shootInput.IsShooting())
+			Shoot();
 
 		// обработка ввода: проверка нажатия клавиши “огонь”
 		bool isShooting = Input.IsMouseButtonDown(Input.MOUSE_BUTTON.LEFT);

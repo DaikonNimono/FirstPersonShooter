@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>37c301bff495e86069da00a84295485df343e04b</guid>
+	<type>component</type>
+	<hash>cca7e313</hash>
+	<runtimes>
+		<runtime id="37c301bff495e86069da00a84295485df343e04b" name="ShootInput.cs" link="0"/>
+		<runtime id="19086705f07c9e76dd45800696a0f47c5ef21cf1" name="ShootInput.prop" link="1" type="4"/>
+	</runtimes>
+</asset>
