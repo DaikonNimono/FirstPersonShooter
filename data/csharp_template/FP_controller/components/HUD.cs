@@ -60,4 +60,19 @@ public class HUD : Component
 	{
 		label.Text = "Health: " + health.ToString();
 	}
+
+	// обновление текущего уровня здоровья игрока
+	public void DisplayStateMessage(GameState state)
+	{
+		// добавляем виджет WidgetLabel для отображения финального сообщение о результате игры, устанавливаем размер и цвет шрифта
+		WidgetLabel end_message = new WidgetLabel(screenGui, (state == GameState.Win) ? "ПОБЕДА!" : "ВЫ ПРОИГРАЛИ!");
+		end_message.FontSize = 100;
+		end_message.FontColor = vec4.RED;
+		screenGui.AddChild(end_message, Gui.ALIGN_CENTER | Gui.ALIGN_OVERLAP);
+		// привязываем время жизни виджета к миру
+		end_message.Lifetime = Widget.LIFETIME.WORLD;
+
+		// завершаем процесс
+		ComponentSystem.FindComponentInWorld<GameController>().Enabled = false;
+	}
 }

@@ -48,6 +48,16 @@ public class Bullet : Component
 		hitEffect.WorldPosition = hitInfo.Point;
 		hitEffect.SetWorldDirection(hitInfo.Normal, vec3.UP, MathLib.AXIS.Y);
 
+		// проверяем объект, в который попали (hitObject), игрок ли это и есть ли у него компонента Health
+		Health health = hitObject.GetComponent<Health>();
+		if (health && hitObject.GetComponentInParent<PlayerLogic>())
+		{
+			// применяем ущерб от пули
+			health.TakeDamage(damage);
+
+			// обновляем информацию о здоровье игрока в HUD
+			ComponentSystem.FindComponentInWorld<HUD>().UpdateHealthInfo(health.health);
+		}
 		// удаляем пулю
 		node.DeleteLater();
 	}
