@@ -2474,6 +2474,14 @@
 			<reference>guid://59e4bb833f8dab069c5b06ad189c382836a5bd67</reference>
 			<transform>-0.99999982 -8.7422762e-08 0 0.0 8.7422769e-08 -0.99999988 0 0.0 0 0 0.99999976 0.0 8 11.499999 0.99999994 1.0</transform>
 		</node>
+		<node type="NodeDummy" id="1691423456" name="HUD">
+			<properties>
+				<property parent="6b62a5653e3463f1423407e64c4abca756dadd51" guid="705f78570fc3c20af6780c62702c53a5b41f84ae">
+					<parameter name="crosshairImage">guid://d024b1face9f9911442f7f3c0c66516b9584b7ce</parameter>
+				</property>
+			</properties>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
 	</editor>
 	<console>
 		<bake_lighting_bounces>4</bake_lighting_bounces>
