@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>19e7f77b24d4869eee4abd659c8dcf80f3cf7cdf</guid>
+	<type>node</type>
+	<hash>156d5684</hash>
+	<runtimes>
+		<runtime id="19e7f77b24d4869eee4abd659c8dcf80f3cf7cdf" name="bullet_spawn.node" link="0" type="3"/>
+	</runtimes>
+</asset>

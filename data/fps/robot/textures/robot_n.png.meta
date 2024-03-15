@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>e335c1cc1e4d12bb501268dee0d4baa5a3b72bc0</guid>
+	<type>texture</type>
+	<hash>869b688a</hash>
+	<runtimes>
+		<runtime id="e335c1cc1e4d12bb501268dee0d4baa5a3b72bc0" name="robot_n.png" link="0" type="6"/>
+		<runtime id="a0e9e17f9d8f00d24b87aa09baf32bd4e5f2a523" name="robot_n.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="int" name="blur_radius">1</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">1</parameter>
+		<parameter type="bool" name="mipmap_sharp_only_lightness">0</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">normal map (rg)</parameter>
+		<parameter type="float" name="sharpness_intensity">0.25</parameter>
+		<parameter type="float" name="sharpness_radius">1</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

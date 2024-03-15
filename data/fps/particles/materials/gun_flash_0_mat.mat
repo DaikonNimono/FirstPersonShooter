@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.18.0.1" guid="5f1ff8207e9ef0fde7b3767cc127388a7044c332" base_material="b7c07dfd4ce80edac55fcbfdd0befa02ccd20b88">
+	<options blend_src="2" blend_dest="2" depth_mask="0" overlap="0"/>
+	<state name="ambient">0</state>
+	<state name="light_world">0</state>
+	<state name="emission">1</state>
+	<state name="world_shadow">1</state>
+	<state name="transparent_shadow">0</state>
+	<texture name="albedo">guid://37b28c78c5d70a422728952736bac460e771dcaf</texture>
+	<texture name="emission">guid://37b28c78c5d70a422728952736bac460e771dcaf</texture>
+	<parameter name="albedo_color" expression="0">1 0.768627524 0.48627454 1</parameter>
+	<parameter name="animation_size" expression="0">8 8</parameter>
+	<parameter name="animation_scale" expression="0">1</parameter>
+	<parameter name="soft_interaction_scale" expression="0">0.5</parameter>
+	<parameter name="environment_scale" expression="0">0</parameter>
+	<parameter name="diffuse_scale" expression="0">0</parameter>
+	<parameter name="emission_scale" expression="0">10</parameter>
+	<parameter name="emission_color" expression="0">1 0.768627524 0.48627454 1</parameter>
+</material>

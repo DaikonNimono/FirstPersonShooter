@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.18.0.1" guid="55268c62a0e52059dba60de4e8aa7ff37acd44b6" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<options transparent="2" blend_src="2" blend_dest="2" depth_mask="0" depth_test="1" two_sided="1" cast_shadow="0" cast_world_shadow="0" overlap="1"/>
+	<state name="deferred">0</state>
+	<state name="emission">1</state>
+	<state name="emission_bake_gi">0</state>
+	<state name="planar_reflection">0</state>
+	<state name="ambient">0</state>
+	<state name="environment_probe">0</state>
+	<state name="voxel_probe">0</state>
+	<state name="light_omni">0</state>
+	<state name="light_proj">0</state>
+	<state name="light_world">0</state>
+	<texture name="emission" wrap="clamp_z" anisotropy="0">guid://cdaf27407da9119d950d1af45576b476a8cac44b</texture>
+	<parameter name="albedo_color" expression="0">0 0 0 1</parameter>
+	<parameter name="specular" expression="0">0</parameter>
+	<parameter name="transparent_pow" expression="0">1</parameter>
+	<parameter name="emission_color" expression="0">1 0.721568644 0.490196079 1</parameter>
+	<parameter name="emission_scale" expression="0">0.0149999997</parameter>
+</material>

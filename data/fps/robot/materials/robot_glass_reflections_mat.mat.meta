@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>2771ecd2c215a609ee90f7d4503e01232073f426</guid>
+	<type>material</type>
+	<hash>c2a6b98f</hash>
+	<runtimes>
+		<runtime id="2771ecd2c215a609ee90f7d4503e01232073f426" name="robot_glass_reflections_mat" link="0" type="5"/>
+	</runtimes>
+</asset>

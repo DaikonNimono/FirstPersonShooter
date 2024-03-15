@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>6b953d4d25f4be4842b54d076203a6baf33686d1</guid>
+	<type>material</type>
+	<hash>9bdf4569</hash>
+	<runtimes>
+		<runtime id="6b953d4d25f4be4842b54d076203a6baf33686d1" name="hands_mat" link="0" type="5"/>
+	</runtimes>
+</asset>

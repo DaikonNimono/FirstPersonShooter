@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>0632ab51782cec7c550c5daba114d70eb88b7315</guid>
+	<type>material</type>
+	<hash>19ce788</hash>
+	<runtimes>
+		<runtime id="0632ab51782cec7c550c5daba114d70eb88b7315" name="pistol_mat" link="0" type="5"/>
+	</runtimes>
+</asset>

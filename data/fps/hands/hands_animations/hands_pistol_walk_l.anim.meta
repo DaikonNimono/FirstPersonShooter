@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>4dbed84c58ba373b54a8435e27ffd325d12a6a40</guid>
+	<type>animation</type>
+	<hash>381257be</hash>
+	<runtimes>
+		<runtime id="4dbed84c58ba373b54a8435e27ffd325d12a6a40" name="hands_pistol_walk_l.anim" link="0" type="2"/>
+	</runtimes>
+</asset>

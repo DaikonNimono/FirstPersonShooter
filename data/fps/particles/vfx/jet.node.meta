@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>0a134f9336798fd67bd0853d9e11057894320a77</guid>
+	<type>node</type>
+	<hash>9f1a3dd2</hash>
+	<runtimes>
+		<runtime id="0a134f9336798fd67bd0853d9e11057894320a77" name="jet.node" link="0" type="3"/>
+	</runtimes>
+</asset>

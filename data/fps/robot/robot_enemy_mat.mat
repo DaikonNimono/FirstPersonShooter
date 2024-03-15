@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.18.0.1" guid="bc7eb378d117e07749b3c36aafc61bc1ce66422c" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<options two_sided="1"/>
+	<state name="ao_map">1</state>
+	<state name="procedural_effects">1</state>
+	<state name="bevel">1</state>
+	<texture name="albedo">guid://34e6f0b471a4e48305a5c00650f217ad1e0e1528</texture>
+	<texture name="shading">guid://79c3f825bbde4b40b1f4459f661ad6720e5f4329</texture>
+	<texture name="normal">guid://a0e9e17f9d8f00d24b87aa09baf32bd4e5f2a523</texture>
+	<texture name="ambient_occlusion">guid://f72ef6ac96e6021bbf96d0be70d14105b0743ea0</texture>
+	<parameter name="material_mask" expression="0">0</parameter>
+	<parameter name="metalness" expression="0">1</parameter>
+	<parameter name="bevel_scale" expression="0">0.0500000007</parameter>
+</material>

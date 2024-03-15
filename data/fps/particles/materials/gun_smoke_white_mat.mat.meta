@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>956d8162cc2c2c695238ba5a04a87f6718fd7f88</guid>
+	<type>material</type>
+	<hash>1992be11</hash>
+	<runtimes>
+		<runtime id="956d8162cc2c2c695238ba5a04a87f6718fd7f88" name="gun_smoke_white_mat" link="0" type="5"/>
+	</runtimes>
+</asset>

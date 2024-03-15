@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.18.0.1" guid="e2ce988ff7acaca278ce439927c85824b03dc533" base_material="b7c07dfd4ce80edac55fcbfdd0befa02ccd20b88">
+	<options blend_src="2" blend_dest="2"/>
+	<state name="refraction">1</state>
+	<state name="transparent_blur">1</state>
+	<state name="ambient">0</state>
+	<state name="light_world">0</state>
+	<state name="transparent_shadow">0</state>
+	<texture name="normal">guid://082045fa7881aeb1f8b8c590683c24fc96ff90fa</texture>
+	<texture name="transparent_blur">guid://86bb460b88ece3eed5855a750bac29507572ec6f</texture>
+	<parameter name="albedo_color" expression="0">1 0.870588005 0.737254977 1</parameter>
+	<parameter name="refraction_scale" expression="0">0.0500000007</parameter>
+	<parameter name="transparent_blur" expression="0">0.100000001</parameter>
+	<parameter name="soft_interaction_scale" expression="0">0.159999996</parameter>
+	<parameter name="environment_scale" expression="0">0</parameter>
+	<parameter name="diffuse_scale" expression="0">0</parameter>
+</material>

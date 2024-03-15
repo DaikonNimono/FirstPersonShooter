@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>5f1ff8207e9ef0fde7b3767cc127388a7044c332</guid>
+	<type>material</type>
+	<hash>5a1c7e21</hash>
+	<runtimes>
+		<runtime id="5f1ff8207e9ef0fde7b3767cc127388a7044c332" name="gun_flash_0_mat" link="0" type="5"/>
+	</runtimes>
+</asset>

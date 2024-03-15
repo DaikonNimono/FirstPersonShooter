@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>bc7eb378d117e07749b3c36aafc61bc1ce66422c</guid>
+	<type>material</type>
+	<hash>5fded692</hash>
+	<runtimes>
+		<runtime id="bc7eb378d117e07749b3c36aafc61bc1ce66422c" name="robot_enemy_mat" link="0" type="5"/>
+	</runtimes>
+</asset>

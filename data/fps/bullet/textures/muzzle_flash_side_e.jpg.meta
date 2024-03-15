@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>6e6cc97ef75fe0b4cf047bbd8633f22a7aeb890b</guid>
+	<type>texture</type>
+	<hash>d36a0a1b</hash>
+	<runtimes>
+		<runtime id="6e6cc97ef75fe0b4cf047bbd8633f22a7aeb890b" name="muzzle_flash_side_e.jpg" link="0" type="6"/>
+		<runtime id="cdaf27407da9119d950d1af45576b476a8cac44b" name="muzzle_flash_side_e.texture" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="int" name="blur_radius">1</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="string" name="image_format">RGB8</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="bool" name="mipmap_sharp_only_lightness">1</parameter>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+		<parameter type="float" name="sharpness_intensity">0.25</parameter>
+		<parameter type="float" name="sharpness_radius">1</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="width">auto</parameter>
+	</parameters>
+</asset>

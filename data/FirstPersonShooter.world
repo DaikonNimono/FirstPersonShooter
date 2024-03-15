@@ -2470,9 +2470,9 @@
 				<transform>1 2.5243552e-29 0 0.0 -2.5243552e-29 1 -1.4210854e-14 0.0 -3.5873241e-43 1.4210855e-14 1 0.0 4.0681005 -1.2260934 5.4835181 1.0</transform>
 			</node>
 		</node>
-		<node type="NodeReference" id="1777446179" name="first_person_controller">
+		<node type="NodeReference" id="1777446179" name="player">
 			<reference>guid://59e4bb833f8dab069c5b06ad189c382836a5bd67</reference>
-			<transform>-0.70710671 0.70710677 0 0.0 -0.70710677 -0.70710671 0 0.0 0 0 0.99999988 0.0 6.0763869 11.499999 3.2710779 1.0</transform>
+			<transform>-0.99999982 -8.7422762e-08 0 0.0 8.7422769e-08 -0.99999988 0 0.0 0 0 0.99999976 0.0 8 11.499999 0.99999994 1.0</transform>
 		</node>
 	</editor>
 	<console>

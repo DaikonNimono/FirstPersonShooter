@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.18.0.1">
+	<node type="ObjectParticles" id="1387933037" name="jet">
+		<variation_x>1</variation_x>
+		<clear_on_enable>0</clear_on_enable>
+		<number_per_spawn>1</number_per_spawn>
+		<spawn_rate>30</spawn_rate>
+		<emitter_enabled>1</emitter_enabled>
+		<emitter_based>1</emitter_based>
+		<life_mean>0.100000001</life_mean>
+		<life_spread>0</life_spread>
+		<fps_visible_camera>-1</fps_visible_camera>
+		<fps_visible_shadow>30</fps_visible_shadow>
+		<fps_invisible>0</fps_invisible>
+		<surface name="particles" bake_to_env_probe="0" bake_to_gi="0" cast_env_probe_shadow="0" shadow_mode="1" physics_friction="1" physics_restitution="1" material="189bd33d3377fb78367088772a244b6a33ad03c1" lighting_mode="1"/>
+		<transform>0.99999785 -2.1606684e-07 6.7055225e-08 0.0 1.15484e-07 0.99999708 1.7881393e-07 0.0 -1.0430813e-07 -1.7881393e-07 0.99999321 0.0 -4.2915344e-06 4.7683716e-07 2.3841858e-07 1.0</transform>
+		<node type="ObjectParticles" id="228009318" name="jet_refraction">
+			<variation_x>1</variation_x>
+			<clear_on_enable>0</clear_on_enable>
+			<number_per_spawn>1</number_per_spawn>
+			<spawn_rate>10</spawn_rate>
+			<emitter_enabled>1</emitter_enabled>
+			<life_mean>0.400000006</life_mean>
+			<life_spread>0</life_spread>
+			<fps_visible_camera>-1</fps_visible_camera>
+			<fps_visible_shadow>30</fps_visible_shadow>
+			<fps_invisible>0</fps_invisible>
+			<surface name="particles" bake_to_env_probe="0" bake_to_gi="0" cast_env_probe_shadow="0" shadow_mode="1" physics_friction="1" physics_restitution="1" material="e2ce988ff7acaca278ce439927c85824b03dc533" lighting_mode="1"/>
+			<transform>1.0000002 3.7252903e-08 2.9802322e-08 0.0 2.2351742e-08 1 1.1920929e-07 0.0 2.9802322e-08 -4.4703484e-08 0.9999997 0.0 0 -5.9604645e-08 -0.063923582 1.0</transform>
+			<radius_modifier value="0.6199999924542381" value_min="0.5800000210884733" value_max="0.6199999924542381" mode="1"/>
+			<growth_modifier value="-0.4999999920899164" value_min="-0.4999999920899164" value_max="-0.4999999920899164" mode="1"/>
+			<velocity_modifier value="1.10000002" value_min="0.899999976" value_max="1.10000002" mode="1"/>
+			<direction_modifier value="0.200000003 0.200000003 -1" value_min="-0.200000003 -0.200000003 -1" value_max="0.200000003 0.200000003 -1" mode="1"/>
+			<physical_mass>0</physical_mass>
+		</node>
+		<radius_modifier value="0.18999999515569063" value_min="0.15000000116250883" value_max="0.18999999515569063" mode="1"/>
+		<growth_modifier value="-0.4000000191277772" value_min="-0.4000000191277772" value_max="-0.4000000191277772" mode="1"/>
+		<velocity_modifier value="1.10000002" value_min="0.899999976" value_max="1.10000002" mode="1"/>
+		<direction_modifier value="0.200000003 0.200000003 -1" value_min="-0.200000003 -0.200000003 -1" value_max="0.200000003 0.200000003 -1" mode="1"/>
+		<physical_mass>0</physical_mass>
+	</node>
+</nodes>

@@ -1,19 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <nodes version="2.18.0.1">
-	<node type="ObjectDummy" id="1629978444" trigger_interaction_enabled="1" name="first_person_controller">
-		<body type="BodyDummy" id="1760069272" frozen="0">
-			<shape type="ShapeCapsule" id="1919658981" transform="0.99999994 0 0 0 0 1 0 0 0 0 0.999999762 0 0 0 0.875 1">
+	<node type="ObjectDummy" id="27839483" trigger_interaction_enabled="1" name="player">
+		<body type="BodyDummy" id="686092799" frozen="0">
+			<shape type="ShapeCapsule" id="1624124541" transform="0.99999994 0 0 0 0 1 0 0 0 0 0.999999762 0 0 0 0.875 1">
 				<radius>0.300000012</radius>
 				<height>1.14999998</height>
 			</shape>
 		</body>
 		<properties>
-			<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="358905170baa5f8a0aa0c961814ed34cd80bf63b">
+			<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="42054e3bda8c3f309fe7d114c6089ca4a8b77e07">
 				<parameter name="useObjectBody">1</parameter>
+				<parameter name="cameraMode">2</parameter>
+				<parameter name="camera">2127188254</parameter>
 				<parameter name="nearClipping">0.100000001</parameter>
 				<parameter name="farClipping">100000</parameter>
 			</property>
 		</properties>
-		<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+		<transform>1 -1.4921397e-13 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+		<node type="PlayerDummy" id="2127188254" name="PlayerDummy">
+			<fov>75</fov>
+			<zfar>100000</zfar>
+			<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+			<is_oblique_frustum>0</is_oblique_frustum>
+			<is_main>1</is_main>
+			<is_listener>1</is_listener>
+			<controlled>1</controlled>
+			<transform>1 -3.7421756e-14 0 0.0 0 5.9604638e-08 0.99999982 0.0 -3.742176e-14 -1 5.9604652e-08 0.0 0 0 1.65 1.0</transform>
+			<node type="NodeDummy" id="888473061" name="hands">
+				<transform>1.0000001 0 0 0.0 0 5.9604645e-08 -0.99999994 0.0 0 1.0000004 5.9604673e-08 0.0 0 0 0 1.0</transform>
+				<node type="ObjectMeshSkinned" id="546733568" name="hands">
+					<mesh_name>guid://60020a35ebc7961062ebf22feb7ff9c29363ee39</mesh_name>
+					<fps_visible_camera>-1</fps_visible_camera>
+					<fps_visible_shadow>30</fps_visible_shadow>
+					<fps_invisible>0</fps_invisible>
+					<speed>30</speed>
+					<surface name="hands_mat" intersection="1" shadow_mask="0x0" material="6b953d4d25f4be4842b54d076203a6baf33686d1"/>
+					<properties>
+						<property parent="f21127b33f4bf8120d79170e808b628f1d16ea1a" guid="b4842dd34ae36445407c8eaedcdfe44a38a623ba">
+							<parameter name="fpsController">42054e3bda8c3f309fe7d114c6089ca4a8b77e07</parameter>
+							<parameter name="idleAnimation">guid://e61be599754592242eb5b733e6a292f613446ddd</parameter>
+							<parameter name="moveForwardAnimation">guid://5b9eff0f2598e1220b37ee19579500a41d4553b3</parameter>
+							<parameter name="moveBackwardAnimation">guid://0618cf62aee4875963a848e477497ef3f97a37b6</parameter>
+							<parameter name="moveRightAnimation">guid://cbfdf1845c72cf13e5a0095692adb0bd26213af8</parameter>
+							<parameter name="moveLeftAnimation">guid://4dbed84c58ba373b54a8435e27ffd325d12a6a40</parameter>
+							<parameter name="shootAnimation">guid://6e5043b26ddd4f69bf90d1b424eb5183d4a74906</parameter>
+						</property>
+					</properties>
+					<transform>1 1.6689304e-06 4.0911085e-14 0.0 -1.6689298e-06 1 2.4335923e-08 0.0 -2.9612317e-16 -2.4335897e-08 0.99999988 0.0 5.4846364e-21 0.25 -0.02499938 1.0</transform>
+					<node type="WorldTransformBone" id="675764575" name="WorldTransformBone">
+						<bone>joint_hold</bone>
+						<transform>0.17363977 0.25486851 0.95125794 0.0 -4.068017e-06 0.96593118 -0.2587992 0.0 -0.9848094 0.044934005 0.16772509 0.0 0.17025253 0.16304654 -0.028451072 1.0</transform>
+						<node type="NodeDummy" id="1878087474" name="pistol">
+							<transform>0.99999988 0 0 0.0 0 1.0000004 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+							<node type="ObjectMeshSkinned" id="407915753" name="pistol">
+								<mesh_name>guid://2a8475f4b0fc28c3ac85b7462c1525ed9ac34e68</mesh_name>
+								<fps_visible_camera>-1</fps_visible_camera>
+								<fps_visible_shadow>30</fps_visible_shadow>
+								<fps_invisible>0</fps_invisible>
+								<speed>30</speed>
+								<surface name="pistol_mat" intersection="1" shadow_mask="0x0" material="0632ab51782cec7c550c5daba114d70eb88b7315"/>
+								<transform>1 -5.8887914e-25 2.9611872e-16 0.0 -3.8976016e-24 1 2.4335929e-08 0.0 -2.9611872e-16 -2.4335929e-08 1 0.0 0 0 0 1.0</transform>
+							</node>
+						</node>
+					</node>
+				</node>
+				<node type="ObjectMeshStatic" id="2045292852" immovable="1" name="player_hit_box">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://89640b0d7ffa9f7f02a1a97753abc138ef6e3f24</mesh_name>
+					<surface name="box" intersection="1" shadow_mask="0x0" viewport_mask="0x0" material="37b5258e98b7907a6fdfa8cc5256713c8ffef517"/>
+					<transform>1 -5.8887914e-25 2.9611872e-16 0.0 -6.6174449e-24 1 2.4335929e-08 0.0 -2.9611872e-16 -2.4335929e-08 1 0.0 -6.4233473e-16 -5.2789002e-08 0 1.0</transform>
+				</node>
+			</node>
+		</node>
 	</node>
 </nodes>

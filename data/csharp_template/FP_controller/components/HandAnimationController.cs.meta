@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>4e28861d843434e837504ef0429bf99b43420c5c</guid>
+	<type>component</type>
+	<hash>c50daf24</hash>
+	<runtimes>
+		<runtime id="4e28861d843434e837504ef0429bf99b43420c5c" name="HandAnimationController.cs" link="0"/>
+		<runtime id="f21127b33f4bf8120d79170e808b628f1d16ea1a" name="HandAnimationController.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

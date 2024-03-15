@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>1052eb5f16b3c132e06baee99e58ab34533a5d03</guid>
+	<type>node</type>
+	<hash>a078073a</hash>
+	<runtimes>
+		<runtime id="1052eb5f16b3c132e06baee99e58ab34533a5d03" name="robot_enemy.node" link="0" type="3"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>299173a497e92ab305c47076c7bdad5de238cf18</guid>
+	<type>material</type>
+	<hash>0b3043f2</hash>
+	<runtimes>
+		<runtime id="299173a497e92ab305c47076c7bdad5de238cf18" name="robot_glass_color" link="0" type="5"/>
+	</runtimes>
+</asset>
