@@ -2497,6 +2497,7 @@
 					<parameter name="hitPrefab">guid://8c628a2a1e96b3815d3476ec7c87055be14f7afe</parameter>
 					<parameter name="muzzleFlashPrefab">guid://dda131848d3d0f13356549567731f0bdb2587af8</parameter>
 				</property>
+				<property parent="96c240040ff7888aa3804c36b43a466e1b430b9e" guid="8f9065512eab9f295d4b71e700410ba2f3c00d69"/>
 			</properties>
 			<transform>-0.99999982 -8.7422492e-08 0 0.0 8.7422762e-08 -0.99999982 0 0.0 0 0 0.9999997 0.0 8 11.499999 0.99999994 1.0</transform>
 			<node type="PlayerDummy" id="1303834765" name="PlayerDummy">
@@ -2555,6 +2556,9 @@
 						<streaming_mode_ram>0</streaming_mode_ram>
 						<mesh_name>guid://89640b0d7ffa9f7f02a1a97753abc138ef6e3f24</mesh_name>
 						<surface name="box" intersection="1" shadow_mask="0x0" viewport_mask="0x0" intersection_mask="0x2" material="37b5258e98b7907a6fdfa8cc5256713c8ffef517"/>
+						<properties>
+							<property parent="51e877b3c29f323185bb02f9fb15bbc3f3022b4b" guid="32fbb6e3f511f228f0ff32a98500d9171aac507b"/>
+						</properties>
 						<transform>1 -7.1054274e-15 2.9611872e-16 0.0 7.1054274e-15 1 2.4335929e-08 0.0 -2.9611893e-16 -2.4335929e-08 1 0.0 5.5368699e-21 3.765877e-14 0 1.0</transform>
 					</node>
 				</node>
@@ -2575,7 +2579,7 @@
 		</node>
 		<node type="NodeReference" id="1735244756" name="robot_enemy">
 			<reference>guid://1052eb5f16b3c132e06baee99e58ab34533a5d03</reference>
-			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.075533859 5.9413724 0.99999994 1.0</transform>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.075533859 5.9413724 1.5 1.0</transform>
 		</node>
 	</editor>
 	<console>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>c70564d6d805b75f7c23b858d839b1091b4f9c80</guid>
+	<type>component</type>
+	<hash>8602d67f</hash>
+	<runtimes>
+		<runtime id="c70564d6d805b75f7c23b858d839b1091b4f9c80" name="PlayerLogic.cs" link="0"/>
+		<runtime id="96c240040ff7888aa3804c36b43a466e1b430b9e" name="PlayerLogic.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

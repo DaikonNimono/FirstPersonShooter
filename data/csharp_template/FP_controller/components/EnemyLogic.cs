@@ -37,6 +37,8 @@ public class EnemyLogic : Component
 	// инициализируем состояние врага
 	private EnemyLogicState currentState = EnemyLogicState.Idle;
 
+	private Health health = null;
+
 	private bool targetIsVisible;
 	private Vec3 lastSeenPosition;
 	private vec3 lastSeenDirection;
@@ -80,6 +82,9 @@ public class EnemyLogic : Component
 		targetIsVisible = false;
 		// берем компонент EnemyFireController
 		fireController = node.GetComponent<EnemyFireController>();
+
+		health = node.GetComponentInChildren<Health>();
+
 		shouldUpdateRoute = true;
 		lastCalculationTime = Game.Time;
 
@@ -107,6 +112,11 @@ public class EnemyLogic : Component
 			case EnemyLogicState.Chase: color = vec4.YELLOW; break;
 			case EnemyLogicState.Attack: color = vec4.RED; break;
 		}
+
+		// проверяем, выставлен ли флаг IsDead
+		if (health && health.IsDead)
+			// удаляем врага со сцены, если он убит (IsDead)
+			node.DeleteLater();
 
 		// визуализируем состояния врага
 		Visualizer.RenderPoint3D(node.WorldPosition + vec3.UP * 2.0f, 0.25f, color);

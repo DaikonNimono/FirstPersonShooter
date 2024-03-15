@@ -10,6 +10,8 @@ public class HUD : Component
 	public AssetLink crosshairImage = null;
 	public int crosshairSize = 16;
 
+	private WidgetLabel label = null;
+
 	private WidgetSprite sprite = null;
 	private Gui screenGui = null;
 	private ivec2 prev_size = new ivec2(0, 0);
@@ -30,6 +32,16 @@ public class HUD : Component
 		screenGui.AddChild(sprite, Gui.ALIGN_CENTER | Gui.ALIGN_OVERLAP);
 		// привязываем время жизни виджета к миру
 		sprite.Lifetime = Widget.LIFETIME.WORLD;
+
+		// добавляем виджет WidgetLabel для отображения здоровья игрока, устанавливаем его положение размер шрифта
+		label = new WidgetLabel(screenGui, "");
+		label.FontSize = 50;
+		label.SetPosition(10, 10);
+
+		// добавляем виджет к GUI
+		screenGui.AddChild(label, Gui.ALIGN_CENTER | Gui.ALIGN_OVERLAP);
+		// привязываем время жизни виджета к миру
+		label.Lifetime = Widget.LIFETIME.WORLD;
 	}
 
 	private void Update()
@@ -38,8 +50,14 @@ public class HUD : Component
 		if (prev_size != new_size)
 		{
 			screenGui.RemoveChild(sprite);
-			screenGui.AddChild(sprite, Gui.ALIGN_CENTER | Gui.ALIGN_OVERLAP);
+			screenGui.AddChild(sprite, Gui.ALIGN_OVERLAP | Gui.ALIGN_FIXED);
 		}
 		prev_size = new_size;
+	}
+
+	// обновление текущего уровня здоровья игрока
+	public void UpdateHealthInfo(int health)
+	{
+		label.Text = "Health: " + health.ToString();
 	}
 }

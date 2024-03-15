@@ -2,7 +2,7 @@
 <asset version="2.18.0.1">
 	<guid>5faca71f8446cfac3ee60b883c3368aef60d5fab</guid>
 	<type>component</type>
-	<hash>c4c7bfe4</hash>
+	<hash>3964a462</hash>
 	<runtimes>
 		<runtime id="5faca71f8446cfac3ee60b883c3368aef60d5fab" name="HUD.cs" link="0"/>
 		<runtime id="6b62a5653e3463f1423407e64c4abca756dadd51" name="HUD.prop" link="1" type="4"/>

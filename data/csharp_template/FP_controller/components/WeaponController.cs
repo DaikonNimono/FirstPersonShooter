@@ -48,6 +48,10 @@ public class WeaponController : Component
 
 			// визуализируем эффект попадания в точке пересечения
 			vfx.OnHit(hitInfo.Point, hitInfo.Normal, hitObject);
+
+			Health health = hitObject.GetComponent<Health>();
+			if (health)
+				health.TakeDamage(damage);
 		}
 	}
 
