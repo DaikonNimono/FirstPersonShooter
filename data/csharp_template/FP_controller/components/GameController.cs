@@ -45,7 +45,6 @@ public class GameController : Component
 		else
 		{
 			// если врагов больше не осталось, переходим в состояние “Победа” (Win)
-			Log.MessageLine(spawned_enemy_counter + NumEnemies);
 			if (!ComponentSystem.FindComponentInWorld<EnemyLogic>() && spawned_enemy_counter == NumEnemies)
 				state = GameState.Win;
 			// генерируем новых врагов (enemyPrefab) в заданной точке (SpawnPoint) 

@@ -39,7 +39,7 @@ public class HUD : Component
 		label.SetPosition(10, 10);
 
 		// добавляем виджет к GUI
-		screenGui.AddChild(label, Gui.ALIGN_CENTER | Gui.ALIGN_OVERLAP);
+		screenGui.AddChild(label, Gui.ALIGN_BOTTOM | Gui.ALIGN_FIXED);
 		// привязываем время жизни виджета к миру
 		label.Lifetime = Widget.LIFETIME.WORLD;
 	}
@@ -64,6 +64,9 @@ public class HUD : Component
 	// обновление текущего уровня здоровья игрока
 	public void DisplayStateMessage(GameState state)
 	{
+		label.DeleteLater();
+		sprite.DeleteLater();
+
 		// добавляем виджет WidgetLabel для отображения финального сообщение о результате игры, устанавливаем размер и цвет шрифта
 		WidgetLabel end_message = new WidgetLabel(screenGui, (state == GameState.Win) ? "ПОБЕДА!" : "ВЫ ПРОИГРАЛИ!");
 		end_message.FontSize = 100;

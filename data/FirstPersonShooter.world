@@ -2558,7 +2558,7 @@
 						<surface name="box" intersection="1" shadow_mask="0x0" viewport_mask="0x0" intersection_mask="0x2" material="37b5258e98b7907a6fdfa8cc5256713c8ffef517"/>
 						<properties>
 							<property parent="51e877b3c29f323185bb02f9fb15bbc3f3022b4b" guid="32fbb6e3f511f228f0ff32a98500d9171aac507b">
-								<parameter name="health">30</parameter>
+								<parameter name="health">100</parameter>
 							</property>
 						</properties>
 						<transform>1 -7.1054274e-15 2.9611872e-16 0.0 7.1054274e-15 1 2.4335929e-08 0.0 -2.9611893e-16 -2.4335929e-08 1 0.0 5.5368699e-21 3.765877e-14 0 1.0</transform>
@@ -2604,6 +2604,10 @@
 			<is_listener>1</is_listener>
 			<controlled>1</controlled>
 			<transform>-0.8171438 -0.57643408 4.1443864e-06 0.0 0.038207922 -0.054155827 0.99780136 0.0 -0.57516634 0.81534731 0.066277385 0.0 -4.7989421 17.581108 4.3357677 1.0</transform>
+		</node>
+		<node type="NodeReference" id="1664156207" name="robot_enemy">
+			<reference>guid://1052eb5f16b3c132e06baee99e58ab34533a5d03</reference>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -1.0054816 11.708945 0.99999994 1.0</transform>
 		</node>
 	</editor>
 	<console>
