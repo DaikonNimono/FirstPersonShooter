@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.18.0.1">
+	<node type="ObjectMeshStatic" id="722101530" immovable="1" name="glass">
+		<mesh_name>guid://6e10090b18eccaeeaa8e15759a9fa850236a5f6f</mesh_name>
+		<surface name="floor_0_mat" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" physics_friction="1" physics_restitution="1" material="95d5a1fcc86e952b0aaea88ed4541695ba4076f0" intersection="1"/>
+		<transform>0.9999997 -1.1368683e-13 -3.8213786e-15 0.0 0 0.99999976 8.7422222e-08 0.0 3.821365e-15 -8.7422734e-08 0.99999964 0.0 0 -3.7959126e-08 0 1.0</transform>
+	</node>
+</nodes>

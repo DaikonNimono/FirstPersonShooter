@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.18.0.1">
+	<node type="ObjectDummy" id="1629978444" trigger_interaction_enabled="1" name="first_person_controller">
+		<body type="BodyDummy" id="1760069272" frozen="0">
+			<shape type="ShapeCapsule" id="1919658981" transform="0.99999994 0 0 0 0 1 0 0 0 0 0.999999762 0 0 0 0.875 1">
+				<radius>0.300000012</radius>
+				<height>1.14999998</height>
+			</shape>
+		</body>
+		<properties>
+			<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="358905170baa5f8a0aa0c961814ed34cd80bf63b">
+				<parameter name="useObjectBody">1</parameter>
+				<parameter name="nearClipping">0.100000001</parameter>
+				<parameter name="farClipping">100000</parameter>
+			</property>
+		</properties>
+		<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

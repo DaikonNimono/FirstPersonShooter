@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>21104c81e1573bec49c9065bb30f87fecc360f45</guid>
+	<type>material</type>
+	<hash>fe22072c</hash>
+	<runtimes>
+		<runtime id="21104c81e1573bec49c9065bb30f87fecc360f45" name="floor_green_mat" link="0" type="5"/>
+	</runtimes>
+</asset>

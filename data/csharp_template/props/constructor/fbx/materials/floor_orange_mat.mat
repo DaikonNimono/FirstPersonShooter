@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.18.0.1" guid="fbc9263de6d73278a1305377d3c39a6a013e06c1" base_material="da25ebcc733b34bbd3b622def6412ca511a4f5c0">
+	<state name="emission_bake_gi">1</state>
+	<texture name="albedo">guid://84543662d1f2c25999e347e4a0e271f3c2108eb6</texture>
+</material>

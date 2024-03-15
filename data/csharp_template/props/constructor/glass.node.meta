@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>cbb22016af69587dc23f3fb886007fb7b63759aa</guid>
+	<type>node</type>
+	<hash>7193af9e</hash>
+	<runtimes>
+		<runtime id="cbb22016af69587dc23f3fb886007fb7b63759aa" name="glass.node" link="0" type="3"/>
+	</runtimes>
+</asset>

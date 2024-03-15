@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.18.0.1" guid="ebdbd7378e47a573cc3484a02a6bdc11a2c5f17c" base_material="ec1ffd42b4691bb9fbe211c4d621f2534cd05396">
+	<state name="emission_bake_gi">1</state>
+	<parameter name="albedo_color" expression="0">0.552941203 0.117647067 0.117647067 1</parameter>
+	<parameter name="roughness" expression="0">0.100000001</parameter>
+</material>

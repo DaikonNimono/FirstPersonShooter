@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>ce58c1b1fe664f5cab3ba30b9d7f9cee67aebf75</guid>
+	<type>node</type>
+	<hash>9f8206a3</hash>
+	<runtimes>
+		<runtime id="ce58c1b1fe664f5cab3ba30b9d7f9cee67aebf75" name="sphere.node" link="0" type="3"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>5d4b3c2ed3b955b533ab6b90aa0ec9af75a1eb42</guid>
+	<type>material_graph</type>
+	<hash>7e8114b2</hash>
+	<runtimes>
+		<runtime id="5d4b3c2ed3b955b533ab6b90aa0ec9af75a1eb42" name="glass_mat.mgraph" link="0"/>
+		<runtime id="95d5a1fcc86e952b0aaea88ed4541695ba4076f0" name="glass_mat" link="1" type="5"/>
+	</runtimes>
+</asset>

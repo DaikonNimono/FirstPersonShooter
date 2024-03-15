@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>60586bbbe11bedde064e7ba5e6cbf8c084a7151f</guid>
+	<type>world</type>
+	<hash>f7ff6f8</hash>
+	<runtimes>
+		<runtime id="60586bbbe11bedde064e7ba5e6cbf8c084a7151f" name="FirstPersonShooter.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="render_settings_path">guid://92a0ee7917704584f2b913132a497d56e78094bd</parameter>
+		<parameter type="string" name="script_name"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="viewports_settings">&lt;scene_cameras&gt;
+&lt;1&gt;
+&lt;transform&gt;-0.68708944320678711 -0.72657305002212524 3.683196337078698e-05 0 0.068454325199127197 -0.064683973789215088 0.99555522203445435 0 -0.72334116697311401 0.68403792381286621 0.094180658459663391 0 -3.3602867126464844 15.237039566040039 3.623237133026123 1&lt;/transform&gt;
+&lt;fov_mode&gt;0&lt;/fov_mode&gt;
+&lt;fov&gt;60&lt;/fov&gt;
+&lt;focal_length&gt;30&lt;/focal_length&gt;
+&lt;film_gate&gt;35&lt;/film_gate&gt;
+&lt;znear&gt;0.100000001&lt;/znear&gt;
+&lt;zfar&gt;100000&lt;/zfar&gt;
+&lt;viewport_mask&gt;-1&lt;/viewport_mask&gt;
+&lt;reflection_mask&gt;-1&lt;/reflection_mask&gt;
+&lt;source_mask&gt;-1&lt;/source_mask&gt;
+&lt;reverb_mask&gt;-1&lt;/reverb_mask&gt;
+&lt;projection_mode&gt;0&lt;/projection_mode&gt;
+&lt;ortho_height&gt;16&lt;/ortho_height&gt;
+&lt;projection&gt;1.7320509 0 0 0 0 1.7320509 0 0 0 0 -1.00000203 -1 0 0 -0.200000197 0&lt;/projection&gt;
+&lt;/1&gt;
+&lt;/scene_cameras&gt;
+</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,3158 @@
+{
+	"version": 1,
+	"store_id": "1ee0f247-314d-6b2e-95ef-1f3869180c41",
+	"addon_name": "UNIGINE_Starter_Course_Projects",
+	"tabs": [
+		{
+			"title": "Description",
+			"fields": [
+				{
+					"title": "Title",
+					"text": "UNIGINE Starter Course Projects"
+				},
+				{
+					"title": "Categories",
+					"text": "3d models, Textures & Materials, Tutorials"
+				},
+				{
+					"title": "Source Code",
+					"text": "No Code"
+				},
+				{
+					"title": "Supported Versions",
+					"text": "2.17"
+				},
+				{
+					"title": "Release Date",
+					"text": "2023-06-23T11:39:31+07:00"
+				},
+				{
+					"title": "Platform",
+					"text": "cross"
+				},
+				{
+					"title": "Description",
+					"text": "<p>A set of ready-to-use assets required for completion of four development projects in the framework of <em><strong>UNIGINE Starter Course for Beginners</strong></em>. </p><ol><li><strong>ArchViz </strong>- Interactive interior scene for architectural visualization.</li><li><strong>FPS </strong>- First-person shooter game project.</li><li><strong>Race </strong>- Simple free-roam cross-country racing game.</li><li><strong>VR </strong>- Virtual Reality project based on <em>VR Template</em> included in UNIGINE SDK.</li></ol><p>Assets for each project are stored in a separate folder with the corresponding name. Download the package, add the required folder to your new project via the Editor and use the corresponding assets according to instructions given in the Course.</p>"
+				},
+				{
+					"title": "Tags",
+					"text": "course, projects"
+				},
+				{
+					"title": "Version Number",
+					"text": "2.17"
+				}
+			]
+		}
+	],
+	"assets": [
+		{
+			"path": "/data/archviz/interior/sockets_and_ventilation/materials/socket.mat",
+			"guid": "c06f6bbdd6d8203c1a2218222f512a6bcc38b268",
+			"size": 667,
+			"hashsum_file": "77694abda1b76f60a28b7d34eb6a6e878d95518e5129aaee3cb4829f2363b813",
+			"hashsum_meta": "c8be77d23da550bf0f8a3169c73a923b58efbbcb006b19daed398b61cacaab59"
+		},
+		{
+			"path": "/data/fps/robot/textures/robot_a.png",
+			"guid": "ef20462216560f192242ada480051cb3939bba76",
+			"size": 3795143,
+			"hashsum_file": "0fadf48131f3b0b19d923e6c80cc21462931f2476b705a347bdfb33bd0b77401",
+			"hashsum_meta": "be2b5b8f8a3975cc107525c733065661f2221213a7396073a6c94f5b0ab0104a"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/0c977a05253b23a02b41827f47282dd2553cf309.texture",
+			"guid": "0c977a05253b23a02b41827f47282dd2553cf309",
+			"size": 814326,
+			"hashsum_file": "a65d4cacbd7c6661be95d638d16d0150bbcbbeb416adf477a2de74511b7f74fe",
+			"hashsum_meta": "5c2a6cc447b75c403ba5ccb775cc2423b9fa3dcb9d12f7b1fc35cc004c251e4d"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/7a6d16d625f8603d8659247823359d77c3845c6a.texture",
+			"guid": "7a6d16d625f8603d8659247823359d77c3845c6a",
+			"size": 625615,
+			"hashsum_file": "48933256b7b250771026bf6caf7c4c50dd2715f998e721b573e3c2a5d481bcf6",
+			"hashsum_meta": "512ec3311c232dac8531378bc6523bbb4335002ea5bf5e0c7d137b5adc91d421"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/deposit_albedo.png",
+			"guid": "57452ca7970bc1da858ea771356d7a1c7e614ecb",
+			"size": 9877106,
+			"hashsum_file": "0c6b90ec2e8df71dc6f1b496d1d4f8a7a377b05cd8e675d8f28e562b3de53d55",
+			"hashsum_meta": "107fc7049151764043fbb8ce65f35e494b6cd96d50ae87eb2acb577e5e9e9124"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/cde33bd812e90d575b144aca3ffd3ba134c6208c.texture",
+			"guid": "cde33bd812e90d575b144aca3ffd3ba134c6208c",
+			"size": 464347,
+			"hashsum_file": "9b468a080b876ad448a851d0ec5062fbedb4fc9d639abf7adf0659d539ee6211",
+			"hashsum_meta": "0014f3840191e5c2ce04962308bbb26283dacceb449117398d030faba21f8438"
+		},
+		{
+			"path": "/data/archviz/base_materials/pbr_two_sided_base.mgraph",
+			"guid": "e3f1f6e954da5334a8bfe503a0b7c68601f36c2d",
+			"size": 32299,
+			"hashsum_file": "6f39c2dc69b2b3920779e3e7b4067a50f12adb4801833afa6a3bfd3646af5cc8",
+			"hashsum_meta": "9153b826e4345494053af671d2214618b16e6def03281505f75d281327c08874"
+		},
+		{
+			"path": "/data/archviz/interior/frame_picture/materials/picture_mat.mat",
+			"guid": "1dbe7e86467111cddbc81d1770d6038b1dd3dbfb",
+			"size": 539,
+			"hashsum_file": "dd5ef4baf24b74a7775d8302def8c663d8422fb6dfe3b75c105b8bf521aada26",
+			"hashsum_meta": "792f64e95a71cd4d8c573872d9418e94bea98fdb873e9f571e09f4e24a34a428"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/948657fce5ebd32b7ebece8ede4a049576918cf0.texture",
+			"guid": "948657fce5ebd32b7ebece8ede4a049576918cf0",
+			"size": 22776169,
+			"hashsum_file": "6ed433f151afbf0c2ed9b7583b163fed6315f47dff35acaf7ff2c05aa23ddab2",
+			"hashsum_meta": "4ffc1a34653b3523af61a32d89c64ec8ef943c11c11819dfd321d3df3315d802"
+		},
+		{
+			"path": "/data/archviz/interior/materials/convectors_metal_mat.mat",
+			"guid": "ede39700be279e5f24d2d8323a29d9e92522da34",
+			"size": 422,
+			"hashsum_file": "164edc8f593bb4ef2bc1c317353f4ea847b95f9505848ced717457a86660bb27",
+			"hashsum_meta": "2c9cb3e80a2032ef2794beecabbb0e6b45bb9cfd3fb9464b22f7b26197631a1c"
+		},
+		{
+			"path": "/data/fps/pistol/pistol_mat.mat",
+			"guid": "0632ab51782cec7c550c5daba114d70eb88b7315",
+			"size": 756,
+			"hashsum_file": "03596efc98eb4f4a8747b86c34b4df3fd35512395ef0cd7b41f7d3f7d621e5f2",
+			"hashsum_meta": "3506663a0a8dd7fced2b6b45b0c4ad9de37ebd69e6fe5a38e7a84f249c1900f7"
+		},
+		{
+			"path": "/data/race/terrain/details/detail_deposit.mat",
+			"guid": "21496ef2050001a9a7995ef420e1fdc3bb0f8846",
+			"size": 465,
+			"hashsum_file": "5811a44d9700e3e9c495407c6d1275a8f2512b7cd5e475dd58e3c4565208e2ba",
+			"hashsum_meta": "ac41fb8211bfde2b116349096ce71d8ec6cb4ac9a295000f583c5891cd3e4a06"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/velocity_0_height.jpg",
+			"guid": "1763c3003731da5f3a3fe432ef7b75e91a6fc634",
+			"size": 1541387,
+			"hashsum_file": "295e2642c558b47b86e079398511e99087bdc580e1ca7e1aeb7427ec379d5b6c",
+			"hashsum_meta": "c92e22bd21768b45272c8764b5bb243059d2f895e52f8a293a764f4e4649cede"
+		},
+		{
+			"path": "/data/race/props/checkpoint/target_decal_alb.tif",
+			"guid": "a1c529640cb3e573f7386c36d6aff61d484300d8",
+			"size": 59229516,
+			"hashsum_file": "cae4d018ef4887347a8948bffa39cf4e82a6a9d71c62d6e2a8193e0bf6dd1a12",
+			"hashsum_meta": "c16dea32f354dae223ac4b3a9700264192af1ee63189758ded91d648c246a4b4"
+		},
+		{
+			"path": "/data/archviz/interior/tv/textures/tv_detail_sh.png",
+			"guid": "5107d31ad9ea8a132b652d0a20b9315fe1d75563",
+			"size": 115508,
+			"hashsum_file": "9847238239db6dd66b4b1b07bbd210e09f7d65a5da98d0f1cb82b8b17d9000bf",
+			"hashsum_meta": "e1e052d6f2c81ba553b5d1b68cca5b42a6038bb9abb2025bbbe6732f8220b8f2"
+		},
+		{
+			"path": "/data/race/vegetation/grass/grass_clutter.node",
+			"guid": "8d3d7dda32fd3371bbd2961c56abbacb4d6751ae",
+			"size": 3136,
+			"hashsum_file": "0781151c2d9b604c6d48a8cce6dbd3cc6ec8611a4afb4712a47f09e340fd1f12",
+			"hashsum_meta": "b5976329b8f75c8d52196314f692f7950e1dfe5a5a1a9adabcd534c256edc59e"
+		},
+		{
+			"path": "/data/archviz/interior/bed/fbx/bed.fbx",
+			"guid": "a8ca1da33b6c66a6780c4dcdd51394c8633d3187",
+			"size": 36544,
+			"hashsum_file": "b6127f03452d9c647093b6d600d3f8bfdc71a992433efa6c542e6159bdaa34bc",
+			"hashsum_meta": "11e7d9a218b333e2309d3373e998cf739144b2f2b81ab8fa96ebc47aa7fbb542"
+		},
+		{
+			"path": "/data/archviz/interior/dinner_lamp/textures/dinner_lamp_alb.png",
+			"guid": "cb4ccdf57818a2d924ad2d6e0e0ed858deda5094",
+			"size": 1849805,
+			"hashsum_file": "ca5f8a68dbe0c0fa0630111646c3432a5352b698dc3880d609ac75fd24ae3bbe",
+			"hashsum_meta": "8dc77b709d5980aaa7e41550e5441afd5f6e8ca673785cc557c4e9819eb5bb30"
+		},
+		{
+			"path": "/data/race/terrain/details/detail_occlusion.mat",
+			"guid": "6419bc36f401061da1c0d0d8ab879e5771e7a7ca",
+			"size": 465,
+			"hashsum_file": "b82f38af6d5fa3d452d93e7424c763aa1c236d0b14abdf33062fb4f8225b4646",
+			"hashsum_meta": "45b75f54615216407a5227e63925a2911615093a7e734265c9296d76d9b52481"
+		},
+		{
+			"path": "/data/fps/bullet/bullet_hit.node",
+			"guid": "8c628a2a1e96b3815d3476ec7c87055be14f7afe",
+			"size": 37971,
+			"hashsum_file": "86d23d8d9fc794995ac93632aa433dc90905dee17c4355c47f0d2591d3594405",
+			"hashsum_meta": "dd106355ea8a25a19c13db39d5dd8fd9303334477aa9b4da951a84bb90165e05"
+		},
+		{
+			"path": "/data/archviz/interior/dinner_lamp/materials/dinner_lamp.mat",
+			"guid": "b4fd56404a16ef5492919e0895c26eacfedfba0e",
+			"size": 850,
+			"hashsum_file": "63b696597599df832dadb7add0462e98127984c192a73a7ea81c0006179fd973",
+			"hashsum_meta": "0d0f4c2dbb78b51eddf7f77a8d2e92747e445b1b431524b6eeeb7a41ab188c70"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/4244285cb2f5a80b9cefddee73480c75037b3350.texture",
+			"guid": "4244285cb2f5a80b9cefddee73480c75037b3350",
+			"size": 7826008,
+			"hashsum_file": "9cb4a29abf2a13610ebc7b616350f6dbc8b3ff16e7845ab67614cf442f911219",
+			"hashsum_meta": "f35fafe6bdb5c8bcde8b6a27a6e1ddde361055e8dcbc6261e99888413f5da235"
+		},
+		{
+			"path": "/data/archviz/interior/home/textures/lamp.jpg",
+			"guid": "7ab3c817c44a7e5eb1b7db3806fd16d5e6f414e6",
+			"size": 243506,
+			"hashsum_file": "a296c399803c807aa0019596a6946ef06d6a155e26465eeac86dd116fc73510a",
+			"hashsum_meta": "130552241d395cfd4edc4bc475d8df9f399691c05ac2af5cce52ca1a165a9c46"
+		},
+		{
+			"path": "/data/race/vegetation/trees/impostors/mapple_imp_depth.texture",
+			"guid": "99df7a6d0c3498e8beaf272787bc7a5a2c8b05f1",
+			"size": 4439537,
+			"hashsum_file": "949dcce0f5a2a4c35d8cf07c4205f5d47f9d4cf3a103fe9e01556083b4fd7188",
+			"hashsum_meta": "f863825c6fc2b19e4326184ce48b6da0ef3a37b88ab7f74e7b6241aa5060b8c4"
+		},
+		{
+			"path": "/data/race/props/pickup/materials/pickup_salon_mat.mat",
+			"guid": "3a861f8f3ac887a25d7a62995fdfeb2449023c33",
+			"size": 678,
+			"hashsum_file": "241b89539e278576c289bdac8b0566ff13cb8704fa97ff44ec96d5fe3302a5cb",
+			"hashsum_meta": "ef19004fd4a62bd5e55929318bfc09e43f521ebeebc3e4d5f2eb3e7b7d6bb93d"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/Ground025_2K_Color.png",
+			"guid": "0d702060c166d83f26f80892e0b38ec922124994",
+			"size": 25400761,
+			"hashsum_file": "e66b9122f9fb69bbdb6fd1ab895bc39404bae2545e8a94d4c3bf6c17013a9563",
+			"hashsum_meta": "e7d5ee87e21bf232c2f59a436bd10d4d262dca54f556531debe6e650f5095e90"
+		},
+		{
+			"path": "/data/archviz/interior/cup/textures/cup_n.tif",
+			"guid": "1cf84fc85a494effa4d63bc7db6bcad9dd9a87c6",
+			"size": 50352936,
+			"hashsum_file": "c908a210ad6e49ad4b622b5bd9fbacc2abb7529ca416f697d9b7d58380cd6103",
+			"hashsum_meta": "ebc0b8ec95a2cd83628ac5e95bfaa9ada0a45c2dd6684cfa65269faaafcb6774"
+		},
+		{
+			"path": "/data/archviz/interior/tv/fbx/tv.fbx",
+			"guid": "24a9496cb7d4b5db1514717e88feeac5b0285d60",
+			"size": 194656,
+			"hashsum_file": "530dce98f8562ab08ad4c54347b97712367e379b6d64c8d14e683326ecbd541c",
+			"hashsum_meta": "5f16ef5abe12c75e972df19fba53159429ac6f34489fe8dfd5de2cd8bbaaee84"
+		},
+		{
+			"path": "/data/fps/hands/hand_a.png",
+			"guid": "2f288d6c996329db9f88557e01b97ec59c99e160",
+			"size": 749022,
+			"hashsum_file": "09d4088e9611446afc967fa55ccaf4d62526e572d15bab004c7cfd4a40087000",
+			"hashsum_meta": "6de41f84955233f6bdc0b73c9fcb8b55b2764d8b06946a4fbad9257f3ceb8619"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/test_dust.jpg",
+			"guid": "962c716ca56dbddbe709d97e21e532c53c8a0560",
+			"size": 814616,
+			"hashsum_file": "4c7515c58578a58880d87ebc24bf43207e1356c4978375628244290719eebdce",
+			"hashsum_meta": "647021dbcc5d616faae417bb2992291141f0d42bfb381a5487ba49004461dcaa"
+		},
+		{
+			"path": "/data/archviz/interior/plants/materials/plant_bedroom.mat",
+			"guid": "f99a113bf3c8cbc715c618226c4e64a7ab2fe346",
+			"size": 900,
+			"hashsum_file": "5fafb8ed585c292bd68514b4e45009c0024d86fa42607ddece35371622a1940e",
+			"hashsum_meta": "e373d7fe964af40c5c990f51cc828099b3f65df6eb5e01add46e1a08386ef5df"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/deposit_height.png",
+			"guid": "751556451ba0d2e04f7ee8bf9143df1270847349",
+			"size": 8152283,
+			"hashsum_file": "c882cc0da52d76a968158fff376d6685eeeaf1afe38d14a1f3949adb6d01fa56",
+			"hashsum_meta": "9abf4beb8e71e79f22125d4cb69b13053438c57294879c40e3ec56bb030a6ce4"
+		},
+		{
+			"path": "/data/archviz/interior/clock/fbx/alarm_clock.FBX",
+			"guid": "898212cde18c95c854c83e876eb2ea3a0481f451",
+			"size": 206416,
+			"hashsum_file": "e925bc01d39f851ddb477d45e0bed5382379cd8135b5ea30fde26ecd36bef992",
+			"hashsum_meta": "88cd789ce3892dea51fc42cc29ba1a07bb6d5eec3a06d689f644ccf676d93df7"
+		},
+		{
+			"path": "/data/fps/robot/robot_idle.fbx",
+			"guid": "5e7d62cda42fa5c8bf700e8706187a3a3c0a4451",
+			"size": 737520,
+			"hashsum_file": "be74d20673b7e884a4ab14c59d43b2a703204bfeac56e95ea388385b8e40d7fb",
+			"hashsum_meta": "64d5677e29a6327cb8827b064c006c10ade2743f23eb9abcbb30148eba33ffe8"
+		},
+		{
+			"path": "/data/race/props/pickup/pickup.node",
+			"guid": "cef28d6f32f15c02f98b6b79f4269e8480719813",
+			"size": 13102,
+			"hashsum_file": "bae7d8e7c2a6c87b3c4f6d695a8a55b29b111a0f51578b66b8494dbba1861f54",
+			"hashsum_meta": "37fdbaeccf72268452e28c416832635e148c4f2aa05a096dda9cb6aa9bdcec5a"
+		},
+		{
+			"path": "/data/archviz/interior/wood/wood_sh.jpg",
+			"guid": "ae3456526bb02853202a882ee1ddf4fad000b8bb",
+			"size": 6971958,
+			"hashsum_file": "d89c15141f53d59bdb75a6a00ac13e09f2aafd33d2d55f3855188e8f9b5110e0",
+			"hashsum_meta": "d4da0a7042be1270f3ba10c7743b514b8b24a70307c6a3f57c1f13ef14bd8a46"
+		},
+		{
+			"path": "/data/fps/hands/hands.fbx",
+			"guid": "6b5d71c007403a1fdee140f2a561aba9504b00f4",
+			"size": 2728944,
+			"hashsum_file": "0504d359ca32e004eaa4b56ef32856ed6e5955d9c6053663ebe37b6d95bab34d",
+			"hashsum_meta": "b5779934e65c409f3b8741b3631dd8b082dd29a629c824678b5bb9b5eb0eab99"
+		},
+		{
+			"path": "/data/race/props/markers/Map_BG.tif",
+			"guid": "9ba5b491cbf3e4bc1b5078eb7ea5b94ecb4c7055",
+			"size": 1802364,
+			"hashsum_file": "806afdf1d58f113a433d2babb1293d76735bf55a79be7726a861a3ad43a43c6f",
+			"hashsum_meta": "8eed0f8b88408a98db7cdf0f4bd21821fd307acfc2e8af9164149c6aa0e2f61c"
+		},
+		{
+			"path": "/data/archviz/interior/tray/textures/tray_alb.png",
+			"guid": "eae5007df52eae730ae7903ddc726d927ae0a83d",
+			"size": 5459683,
+			"hashsum_file": "a930ac4f6903c2d45d901a2d88ef5a36075acb15a92dca055212ba3494b1fb16",
+			"hashsum_meta": "0baf579ab3f8cbd95d5da9c22d8cbe496e22f5d1a07301d64242327a19468a2c"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/ae8072246bf31733d70072f68f48cddd9fbc7598.texture",
+			"guid": "ae8072246bf31733d70072f68f48cddd9fbc7598",
+			"size": 21529065,
+			"hashsum_file": "5851843da079d15ebbb8f2c75feb99b62afdf680f0736199b6bcbc09e84cc061",
+			"hashsum_meta": "b39c6f3746679860da69ee70ac0c49915ccf49a27dc8df23d5fbf481a2e95836"
+		},
+		{
+			"path": "/data/vr/particles/particles_rain_effect.mat",
+			"guid": "4c92856607fc5d8d544ae18860609747638bebfa",
+			"size": 875,
+			"hashsum_file": "279bbed295e9e5e5b76cbcc16cd91623237373e2c1c4e4c6162e28b98aed5c90",
+			"hashsum_meta": "c6b2711eaf8af16e058e8bfe431c770f450564b5f9b113a4a7e97c6d34514065"
+		},
+		{
+			"path": "/data/archviz/interior/bed/textures/bed_pillows_sh.png",
+			"guid": "0a404b9b5f0eeaa6f447f3f8b9106211211d1e1f",
+			"size": 11286760,
+			"hashsum_file": "5339a453170bbd037de43e0430c34f697c5e4ede0ffb9a2a705160b5f0266477",
+			"hashsum_meta": "2993115ecee8fa6c9e92930bdfb810b27ecc1d87209045366792df86a6fbaafc"
+		},
+		{
+			"path": "/data/archviz/interior/plants/textures/pot_ceramic_small_alb.png",
+			"guid": "f200cf2f89eb42e509a3b75be99ed684eacb6cc2",
+			"size": 14424923,
+			"hashsum_file": "53abbbb227b3820a179ee033b1ea29db6aec55f1da11f04268e9af8c305ea1b8",
+			"hashsum_meta": "b112c09aa3515b0076a032df2935c68f89109ae38bb56c3c13b1bb6201658e77"
+		},
+		{
+			"path": "/data/archviz/interior/clock/textures/alarm_clock_alb.png",
+			"guid": "a5eefc7695c5370da849356dff0ccfe4b9210db7",
+			"size": 2743508,
+			"hashsum_file": "1f6d14acdb711dfb3782d4a8d4eb13a5baf68190c579a748e9a372dd25cb4a2c",
+			"hashsum_meta": "5cadbec2d444e8890064a34bb0db902f50ceef8e86fdba31fa3c6e912e87ba03"
+		},
+		{
+			"path": "/data/archviz/interior/toy_fox/toy_fox.mesh",
+			"guid": "7fac72e1a5ef6ecce1a8dbbb6ed19ddecca86ba5",
+			"size": 105859,
+			"hashsum_file": "18567efa74638e4296eff2101c2131d330dbc22f83d298b4e59f81210ba5ecd8",
+			"hashsum_meta": "b373d6d45eb1587a6adb331956cde7d293bbbd89333025ebffa54486aa8d6c7b"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/097c7442a88526b9a0b0a0c4789935539c90ba96.texture",
+			"guid": "097c7442a88526b9a0b0a0c4789935539c90ba96",
+			"size": 20290336,
+			"hashsum_file": "fe2b6ca59daa9a8c9d7f772a3ff934d2df479c6e1f0e78b405f1d7bdd7f0eab9",
+			"hashsum_meta": "1d97cec49c3be78cd75e072fdc63e8ad4df85f3771cc1c4f883478f685720f93"
+		},
+		{
+			"path": "/data/archviz/interior/magazines/materials/magazines.mat",
+			"guid": "077851c422ca8fe908c53c643066290627d0aca0",
+			"size": 642,
+			"hashsum_file": "441464067cd28ed4a70c995ef5b2f42014bf77fb447156f33b23b2b746e5b713",
+			"hashsum_meta": "513735f7e8f6d89a261a293aaff3bc25f0ba389b899c7dc51e9b6fb4697746cb"
+		},
+		{
+			"path": "/data/archviz/interior/bed/fbx/table_bedside.fbx",
+			"guid": "d76c60b4cd0b9483c3fcb0060efc47ad83b28528",
+			"size": 31760,
+			"hashsum_file": "d89c7baf7fde578f1f0f74197b2a6429bac726eab750fe4cd15cad3f16dc9560",
+			"hashsum_meta": "98c3c9f8c6394d230628ec933fdf19477dde3f224a8fea0258989834663e50de"
+		},
+		{
+			"path": "/data/archviz/interior/slippers/materials/slippers.mat",
+			"guid": "98087ccb1dbebab79d66d0c7614ea573d7f91656",
+			"size": 560,
+			"hashsum_file": "ab752323d1a6a9dcbb0b463a1abad0d43f37d27c7d5e539820bd4d7a10a70b06",
+			"hashsum_meta": "775622d38813ea304fe0c3f4aeb4a00ce455be7bacaa7d6dfa28418c86790f95"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/909200f6d84103dd7fdb33981af7221766cfd88a.texture",
+			"guid": "909200f6d84103dd7fdb33981af7221766cfd88a",
+			"size": 119897,
+			"hashsum_file": "2164c716dac184b17f94f630ab2627d2c914f0e3851584336b72e586e2abf528",
+			"hashsum_meta": "751af08b27f0cb6c96970c22ced669956760d6f26561f4b866add2628a219635"
+		},
+		{
+			"path": "/data/archviz/interior/bed/fbx/materials/pillow_01_front.mat",
+			"guid": "62063cf6a7100fddab26cf98a9f60e1747c9d48a",
+			"size": 1310,
+			"hashsum_file": "3c7b32fa7d33553f47f08b04d21a776046909eb64a1f67f2e72e65d0d22214e7",
+			"hashsum_meta": "b98d5b40b167acc63e4137ea20762a20b0eb89fc21b4b35a0c3fa74453dbb8dd"
+		},
+		{
+			"path": "/data/archviz/interior/toy_fox/material/toy_fox_mat.mat",
+			"guid": "baca7fc2c4453210cb2d23a6e145a76ab1f4a2e9",
+			"size": 560,
+			"hashsum_file": "f6e5d928446fa95010e42b5e282d06a69e98f3125c05132e8c30ac251beb4d59",
+			"hashsum_meta": "23d4539cabd04e9aca1b79aae0cde83d12fb5b8ba56ee86042cb3177b797e5a5"
+		},
+		{
+			"path": "/data/archviz/textures/tex03.jpg",
+			"guid": "2ea12bc7187e767a6ff99391c61037bc32d2afeb",
+			"size": 970175,
+			"hashsum_file": "1f6828fe42a24128eb00897dd4a70cb2c2e399d38ed569b252d9766a874f10ed",
+			"hashsum_meta": "b4c20b4738fa1d4576c848d3aa6e981dba4720a9d38c2bee0d76e18ddf84046a"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/grass_2_alb.jpg",
+			"guid": "3fed3aadbbc0dc281cda1167497fdf9ac10eaa31",
+			"size": 12217830,
+			"hashsum_file": "9ddffcd8d02c6f009b3b124ffebcfcd2a481ddd4025ee0f481f2c8db79bf31c5",
+			"hashsum_meta": "5102194f8805967d53dbda30a280c44b5aab786800477c2c8d2ae5f38269d1a6"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/f383cc120b317c49a8985914329d71639c462766.texture",
+			"guid": "f383cc120b317c49a8985914329d71639c462766",
+			"size": 8189217,
+			"hashsum_file": "16766d3b31c84eb9485f5cada7e45f62a00f86876497f705ceb0d95c02f8d181",
+			"hashsum_meta": "9b5a133f36b9c018e2c3e45332a16c4f37ca3d16b2b7a8b2e85f4b3d5aa6495a"
+		},
+		{
+			"path": "/data/race/props/pickup/materials/pickup_lights_emission.mat",
+			"guid": "408175468b91cbed543bbc68b6b0f4a7e934e9da",
+			"size": 1019,
+			"hashsum_file": "a27d3f64b8a82262b13defe3d54d24ebf935e3dee0b420827f558eb80527c5ef",
+			"hashsum_meta": "f91fd0efb2ec3c3e0614c08ccd1bd508cae94628d4b9d95dd201e3ca26242b31"
+		},
+		{
+			"path": "/data/archviz/interior/slippers/textures/slippers_n.png",
+			"guid": "4968e6668b5b28447337a1022bbc52282dcf3f1d",
+			"size": 6183753,
+			"hashsum_file": "7fc097de75ebb89865a33f296760edd54b0b4004cb935a644a211b96534b6a96",
+			"hashsum_meta": "bf5f5b1df1be1cd7434ee48502153095331c4e75932e0e56d88566012951277b"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/28d6fc1b966f82be12be4b055579c0a0e5fd7b7f.texture",
+			"guid": "28d6fc1b966f82be12be4b055579c0a0e5fd7b7f",
+			"size": 1232688,
+			"hashsum_file": "d2220f7328351f44988064d1bb93eb98607a83ea09c41c59c66a2ba3d450cf4f",
+			"hashsum_meta": "669ec9e59f0d68749c4c2a107381e3d12f875f5306427fafc9cbff6b5dd96e0a"
+		},
+		{
+			"path": "/data/fps/particles/materials/jet_mat.mat",
+			"guid": "189bd33d3377fb78367088772a244b6a33ad03c1",
+			"size": 810,
+			"hashsum_file": "39272feea3d128e244c3abba07e2ba4d17814742c8334403418ce16006035938",
+			"hashsum_meta": "92ca4b43e2992d2c029918193716ab1478b6bad56c99144082d8c1cb3066fbe4"
+		},
+		{
+			"path": "/data/race/terrain/Mask3_Protrusion.tif",
+			"guid": "d4aafa709dd64b0ff6afbd2241091a19b6bc3ca4",
+			"size": 4194571,
+			"hashsum_file": "30156b9935add139d511d3e16d095c0a7a7338e5e561282a1240b3760f6ee7d2",
+			"hashsum_meta": "ef433a279b10629f0ff7d70758a39d18b5d47f249ceff3425708d69cd21c8d08"
+		},
+		{
+			"path": "/data/archviz/interior/fan/materials/fan_body_mat_0.mat",
+			"guid": "dfffefc1ffce062ceaa6cb9b7e2a0c3e97804685",
+			"size": 409,
+			"hashsum_file": "7d912ed8bd8102c14e60b0885d0e022566b444b3be482ef00ac8f82c962e6fb3",
+			"hashsum_meta": "da2ca45984657954c0ed69f1fd22be153c4edc0fe7b5287f7371d726871ff817"
+		},
+		{
+			"path": "/data/race/props/checkpoint/materials/checkpoint_decal_mat.mat",
+			"guid": "9e4e581417756463010f7e66ce8b028d5c474288",
+			"size": 345,
+			"hashsum_file": "638eb9fb51ead83aab774202c7d796a993cfd3fcbe0f0bbe440f52d3c07c57e5",
+			"hashsum_meta": "51a41b6afd208f2b329cf8e6ae60cbdbebd0ae8b3a3e1ecd099652326bdc53db"
+		},
+		{
+			"path": "/data/archviz/interior/lamp_bedside/textures/lamp_bedside_e.png",
+			"guid": "5f73d108c929928c341896e11ca3fc047370c2e9",
+			"size": 483202,
+			"hashsum_file": "5fd0f1e6683ddb7fdafc4ac08ce50778c90e899252ce8924717a81c3365b0f09",
+			"hashsum_meta": "c75a4ed2fd4b8399d5fbe0aa9e930d39f5136befb8251e5720770a79a10f8cd6"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_2_n.png",
+			"guid": "83f7a00d3b0c420891257dc7d3e2a07af6cbb591",
+			"size": 2259494,
+			"hashsum_file": "f0f3764990df27d7b731959aba8b683cb9d80f1ed195b1e47352e28c90c191f6",
+			"hashsum_meta": "a123778e03cd8f9297516b8e40df08ac2c40de03c01492fc7c91f39f7fcd89ed"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/rocks_0_height.png",
+			"guid": "ff60440d34b496088429c1c78232147acd0c9991",
+			"size": 357995,
+			"hashsum_file": "91b90e1d88485d78081e80a38fa3fb3a278e2737b1b11f89b3ed8026511263c5",
+			"hashsum_meta": "25dcfdc518053bad34722df70379a8310f17a69c3c20d6cc25d322c8a632052b"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/salon_sh.png",
+			"guid": "138ab2e47604e0f3240a31b67b87fd9d75b86258",
+			"size": 10992943,
+			"hashsum_file": "7e131c736e2594aaf15d9c4eba85e884dc0b75371bc1e3314a7da0dd6b6f6c13",
+			"hashsum_meta": "039a6f2d61c196f0212ece5bb74ed85e4e680ddfb18185ea4766e64045db6594"
+		},
+		{
+			"path": "/data/race/vegetation/grass/materials/grass_mesh_high.mat",
+			"guid": "3234e026be23794ddf15ca48002ae907192492ba",
+			"size": 1642,
+			"hashsum_file": "3a10bb63d4a9bce7ec0155f56a7e00d53778c8d173acd368e75bf9f50c5b26fd",
+			"hashsum_meta": "8470be3791dcf3dab6989257cb3e96c2be0e36a90afc0d588b1ad169608ee1e9"
+		},
+		{
+			"path": "/data/archviz/interior/remote_controller/material/remote_controller_mat.mat",
+			"guid": "f895dcff3384df8f27e29bcb3f5c55c957552c95",
+			"size": 560,
+			"hashsum_file": "2c3c3a0cb429edb2f078f7036f051b9d59cd7c666779a9165a767e594ee13c74",
+			"hashsum_meta": "aaf3177646c97edab045bfa6b04b2aa79373dc49f0e2dbdbe7a0ccc9eb73b44c"
+		},
+		{
+			"path": "/data/archviz/textures/wood/wood_2_alb.jpg",
+			"guid": "92f24f4681cb2b566ba8caa93463ccf8207d70c6",
+			"size": 10692045,
+			"hashsum_file": "b0a02d73583f32011d1d620517d92afcb85da795ffeae567a7172fe2dd1024c1",
+			"hashsum_meta": "eb9744e3f0c33426edb0f3262aa47d5071abab6bd7a1e6efb87d10e958d0b1ae"
+		},
+		{
+			"path": "/data/race/props/pickup/materials/pickup_lights.mat",
+			"guid": "52daf6b9c7ec30c441ff85536aa2ca964c1100fd",
+			"size": 838,
+			"hashsum_file": "71a6e07f208a22757a04aa5ea27e3ad040c297122f253a451f2ea59247dc3479",
+			"hashsum_meta": "e4c173cd8581e91c4e9b30deb1d0f82aed94ad7505e9b13f519d02a85a296c3d"
+		},
+		{
+			"path": "/data/archviz/interior/magazines/textures/magazines_2_alb.png",
+			"guid": "f98887f299be8c9f6a1c3eef2067c0277c2c8ff2",
+			"size": 27077559,
+			"hashsum_file": "ae7dda1c280560472f9d0cfddb84345d198d9af6fdc1113fe665301ad6826867",
+			"hashsum_meta": "651d64ddfa5a56c4271bf14e1f8df733a47459e4234f2566f743ba9f2e711bc8"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/a0bde8aec9c718352c5d4c10170a302f2bbd1fc2.texture",
+			"guid": "a0bde8aec9c718352c5d4c10170a302f2bbd1fc2",
+			"size": 8300854,
+			"hashsum_file": "584a7d3bcbc323a88d4760c03ddaf345d5bab27f465027958f8c3c3251228179",
+			"hashsum_meta": "a18d85b9cd7fa82711db4ed40c7db656f7a56ee8889d662b776785469159fcfd"
+		},
+		{
+			"path": "/data/archviz/interior/plants/fbx/plant_bedroom.fbx",
+			"guid": "d8d544aeed9ec435b8d90810e23abc2f80fc3bc2",
+			"size": 999248,
+			"hashsum_file": "66bd60b7bb69725ec3cd5b4e77a3161c7a41aca1129fbe8b143acb0e9ce1d3ce",
+			"hashsum_meta": "03e14a922dda00180adadae4e9f92fa4a71809e79baa1fb8501955d76ba2be81"
+		},
+		{
+			"path": "/data/fps/particles/textures/smoke_wispy_white_alb.tga",
+			"guid": "f5132723226ae226a7ad934d4b751c487dae1307",
+			"size": 16777260,
+			"hashsum_file": "c244318a9f06f008779bf19b7c002b740e4fb02113f6227b0840acfa6083a9f0",
+			"hashsum_meta": "98640c46b3b3c475558b43abdd4b52bd37ba2e4e04448835b48bf52ad8875497"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/23423207496947baea85b3d1fa475afc42eafa2b.texture",
+			"guid": "23423207496947baea85b3d1fa475afc42eafa2b",
+			"size": 869396,
+			"hashsum_file": "a95896534aad9c8454a5179d0bff61fd64b1353f3b8dd7eb6ad56a35d65b6ace",
+			"hashsum_meta": "da77af2024d12a43e8faa7ec83f2195ea6c12f3572d8c24607d1bc1cd130e5db"
+		},
+		{
+			"path": "/data/race/vegetation/trees/trees_clutter.node",
+			"guid": "4483e7c9e81cce94aca868e358f1b8e61ed6fb0d",
+			"size": 4245,
+			"hashsum_file": "cf8a1023a193caf1f114eb13bbaf13b307b57333aa977296dc6f5b03c79e7c7d",
+			"hashsum_meta": "5e9736f324758a9eafca8fadd248cf2a993e19e02cf65f6c1e8cc1d9a50aab6c"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/836f27dc1771a18b7a24896e6ac9c1f5fce26ad0.texture",
+			"guid": "836f27dc1771a18b7a24896e6ac9c1f5fce26ad0",
+			"size": 751563,
+			"hashsum_file": "d8b1abfe4349fed9402661486e87dd89de08b06b09a7e4903ff5113ab52466e0",
+			"hashsum_meta": "8d86f79a560bdd8866a86c3a3f447acc567d1da10c67aa35c96d34305738d36f"
+		},
+		{
+			"path": "/data/archviz/interior/frame/fbx/frame_2.FBX",
+			"guid": "33babf7ef884e0c5bff9db60f5e7573f6b187b92",
+			"size": 106080,
+			"hashsum_file": "38a0b657b908b0e162de22f5fe74ac3334098333cf556a98b978cc545f543435",
+			"hashsum_meta": "54ee98ebe1b772d403e75888ddd9e06f285c3f72b98457901519fe708c6846f1"
+		},
+		{
+			"path": "/data/fps/hands/hands_animations/hands_pistol_walk_f.anim",
+			"guid": "5b9eff0f2598e1220b37ee19579500a41d4553b3",
+			"size": 6341,
+			"hashsum_file": "fceddcec40e0de1e0dbc028d9a9c3a6850577cb4541597dbeb712b5b8bbcf524",
+			"hashsum_meta": "622fad19211cdddd3bd101324035387a63f18e4718d525abb71799e3ce38e56b"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/344f7ec4f21e7b53b839489680e966fdd606fc38.texture",
+			"guid": "344f7ec4f21e7b53b839489680e966fdd606fc38",
+			"size": 172021,
+			"hashsum_file": "3563750d705667e2df978538ef69b2546a5b181d638b257ccbaa9e4146835e93",
+			"hashsum_meta": "6c02cb1b8133947838ee0515b0d7dd348edc526b430f47a7a6582bad15723458"
+		},
+		{
+			"path": "/data/archviz/interior/lamp_bedside/materials/lamp_bedside.mat",
+			"guid": "05ca50657a08ade59a3280272e1b95bf75df812b",
+			"size": 1117,
+			"hashsum_file": "fa68b313b366c252f52eb4dcdd31b014f94456083eda2577227473b117adbd21",
+			"hashsum_meta": "a325d8af2910b35424106005b91abf1077519f23bf571d84daecbc0ee07cdb90"
+		},
+		{
+			"path": "/data/race/terrain/Mask5_Soil.tif",
+			"guid": "8adb1606baeb75ad092bdb2893e30467a0c6369a",
+			"size": 4194571,
+			"hashsum_file": "892957a63a421bd4175362bbf53f4990cba08db55e81a881a62d656faeadb8ea",
+			"hashsum_meta": "737924dd6f3cdf371735548675b6586fdab7f09d308306d9d49a1489b22466dd"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/efb4d308107adac76346597a0b921a91a19912bc.texture",
+			"guid": "efb4d308107adac76346597a0b921a91a19912bc",
+			"size": 49068,
+			"hashsum_file": "19d82629499cb7558ca4e63b1039d510cc3bcca3623bc524d624e658f91f881d",
+			"hashsum_meta": "a50f5cba4844f70bcf90d381e3411675ff70b7dc964b28a417fc52b3bf937227"
+		},
+		{
+			"path": "/data/archviz/interior/tray/textures/tray_sh.png",
+			"guid": "4577db24a82ae5dc26bf4a685ce5ffb6edac5a66",
+			"size": 1200793,
+			"hashsum_file": "13a188d58bfcf6a87fcffa5869f5b93eec31c087e3d7b72def621ebb506f13a5",
+			"hashsum_meta": "657b0fbf205888b9bbe4fe6ce51fb58985ed0f3359e1ee810f5ceb3e1c51afe1"
+		},
+		{
+			"path": "/data/archviz/interior/bed/textures/cloth_n.png",
+			"guid": "952ac3c4ee28a36c017446480ef9f467a10dbb95",
+			"size": 35527673,
+			"hashsum_file": "efe04c01709afa621961e9e9bdadbb2ecc8239e4df25db96a098f767ed7064e8",
+			"hashsum_meta": "4d643b9f8e015990720d95f2968da948ded0f7a529bd7ec26c75b20c45f82f7a"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/0e05beece1d7ad5b915802fef9e64e45550d6ae0.texture",
+			"guid": "0e05beece1d7ad5b915802fef9e64e45550d6ae0",
+			"size": 163332,
+			"hashsum_file": "6709805a79e31afa84756d193cc783fe9604162117c6c44bb10dbf2322111749",
+			"hashsum_meta": "d2cdde93373782aae4886c28d6427a87d5755ae47d7ddf2e24ab5d8856d8ebbe"
+		},
+		{
+			"path": "/data/archviz/interior/fan/materials/fan_propeller_mat.mgraph",
+			"guid": "f6bf297dfbe0dcb82cc378b72e53feaaecc49e01",
+			"size": 13602,
+			"hashsum_file": "77eb288332e26e0ea6791a58172140909bb49eacaa49fddac25456db3fe91571",
+			"hashsum_meta": "54116dffb74bfbc2ab092540a0ae63708de3190228cdde8a8c229a55eaeffd36"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/b03dc98e7cbec395ad993ff05b20d28f80f59ea2.texture",
+			"guid": "b03dc98e7cbec395ad993ff05b20d28f80f59ea2",
+			"size": 524592,
+			"hashsum_file": "4376a09d26ef281c8f3dc4be06d0ad21746abcd37647f0c63d8a31efbbacff1f",
+			"hashsum_meta": "b227da3cbb262761b0a91ff8796439dd765f3211d67be7261f1696651bde6c4a"
+		},
+		{
+			"path": "/data/archviz/interior/lamp_bedside/materials/glass_color.mat",
+			"guid": "e12f24191f18738a7d33a4d0b875cb34f138313f",
+			"size": 1111,
+			"hashsum_file": "b35e615cbf5e59d3c42f147320af5bfaee7e22f532621c8298ffb932caf3f9ad",
+			"hashsum_meta": "be5ca5e24cb2dd04b17419f3def6e6705e846d029d79eff0699fba317a40de71"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/occlusion_height.png",
+			"guid": "6f6d06ec02c6555bbc668afe3bd33645ba8532e0",
+			"size": 756470,
+			"hashsum_file": "bc13e739124485e828a0b9308af0b0423d86d5fb01b4928b97f50ca028d0675b",
+			"hashsum_meta": "6e52708dc2dafcffb570850bb60c0e7f08323158a64b5e4bcb6839b2e4b4856f"
+		},
+		{
+			"path": "/data/race/vegetation/trees/textures/tree_bigleafmaple_trunk_n.tga",
+			"guid": "a7f5f40ef5cd94e948656b4c7e854ed6b9e36dc4",
+			"size": 1572908,
+			"hashsum_file": "3f1c92acc310412323787956b2a094a021665f1fcfa0245e657873924f07c5ac",
+			"hashsum_meta": "8a5e5259e8038b81ff619f53f2fa9286641a63ba95a3c1f467717aba9e1276ba"
+		},
+		{
+			"path": "/data/race/props/trinkets/car_freshner.fbx",
+			"guid": "d49f59a947c0d6f4b4b315c3e43dc04635039aed",
+			"size": 94204,
+			"hashsum_file": "18509a73545a6b1864cac02401bf280bcd512ee53bee2ffc0b8f653d313d3f30",
+			"hashsum_meta": "9196cf47e214e4387a39ad2589b109b7c641336b5ee996563e53b883a00311c9"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/0fb0b41105cfde3c0e65246bd2876eceb593a7d5.texture",
+			"guid": "0fb0b41105cfde3c0e65246bd2876eceb593a7d5",
+			"size": 224288,
+			"hashsum_file": "bc33cb22744faaff56b1c80321835b0fb2086837b4063edad9bc434c47e0441a",
+			"hashsum_meta": "c077c79dbddb8e674564e989249e7eef28c6ae89adf94564fa1b7b52c9a9f65f"
+		},
+		{
+			"path": "/data/fps/robot/materials/robot_glass_color.mat",
+			"guid": "299173a497e92ab305c47076c7bdad5de238cf18",
+			"size": 259,
+			"hashsum_file": "3aee935be3327b0747fefd7269cc720922c891a1f3b9824b4a6b5ad8163f31d4",
+			"hashsum_meta": "d7bceca64bec172929623f846faa28fb78e9afc9d2a0e4c485741cc301906ad8"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/salon_n.png",
+			"guid": "33cb335557816cb05c7f984f255029621c901959",
+			"size": 23151601,
+			"hashsum_file": "f59da069bb6a28ea0be01c6bb2674eb9a07ea4215476d5f00d3d14e8e2b3354c",
+			"hashsum_meta": "fc20f9e2bf3b279001d8d03091199047a8b1e1fc538bacccb7c31e8536a7ded6"
+		},
+		{
+			"path": "/data/archviz/interior/frame_picture/textures/atlas_pictures.png",
+			"guid": "a34de47b6110fb20273502440b7b1bbfc0f5d24d",
+			"size": 22279036,
+			"hashsum_file": "c00f3ab88a173df69bb425b2a569196ecb0d46cd4a53ec1b7ba90c8363aeb030",
+			"hashsum_meta": "85a2b02ba56ea082d6d52334a460984b4f7cc085a5377e955595e22f6f67c96c"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_livery_1_alb.tiff",
+			"guid": "7052d8e821b867277eb4ba5ae0a645f1b947869c",
+			"size": 7243100,
+			"hashsum_file": "97205f88e711900c885d98c3324d8e57802b6f7d37681c8edcc3ca88a4f1e035",
+			"hashsum_meta": "79232399c231eb331a17748f6b1da86d1322cda4853cf3c2d1f20f160aa57f09"
+		},
+		{
+			"path": "/data/archviz/interior/bed/materials/cloth_bed.mat",
+			"guid": "50f2d11c67cdbae538c59df03c9d4713e92ae51b",
+			"size": 1286,
+			"hashsum_file": "ea7c5c704059c24928d8295644db772d986de5f278ff82b4fff2ea029f7916eb",
+			"hashsum_meta": "4134ab279d5f651f541e4b0fac57283b63d24ef8e96eed99532d5d135dfc04fc"
+		},
+		{
+			"path": "/data/archviz/interior/materials/floor_interior_mat.mat",
+			"guid": "c9c93e1abaef76b1bb2b805c9bc5200bd148f5ee",
+			"size": 562,
+			"hashsum_file": "f934a2f46434a7a9edc36ba848ce4cf1d6fdd734dd80ebb67b79b0db0d695e9c",
+			"hashsum_meta": "8ab1693456cc16b410140a3c59350403401fc1fb97db42ec2b7e3a4f6a08b6ae"
+		},
+		{
+			"path": "/data/archviz/interior/fabric/cloth_2_alb.png",
+			"guid": "7a7b9f19707831c1b912160d0499c4ff286f2128",
+			"size": 7521722,
+			"hashsum_file": "c4e485430361fe2fb7c9a30d3a267bde2db894778d8f3e3f28379b371bfd3e61",
+			"hashsum_meta": "aa60f4443170ea26bc356a03d2dd0fc0d2f7a7a38114daa6035b92345d1fcbc5"
+		},
+		{
+			"path": "/data/fps/hands/hands_animations/hands_pistol_walk_l.anim",
+			"guid": "4dbed84c58ba373b54a8435e27ffd325d12a6a40",
+			"size": 6341,
+			"hashsum_file": "ed2bd0ec1a8ea2ba76e89150f9c9bc6f728e1bd4e511f5ae2d9f9d862dfd7f45",
+			"hashsum_meta": "62e2f8d521a7952ba92f381b6a8de68a81fce59067292583132797344f558271"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_body_alb.png",
+			"guid": "954135bb0b6a2fdecc93d5a5642d8ac004c77f1f",
+			"size": 3223407,
+			"hashsum_file": "97211ee31f6f69f9a65b18d767b7b1694d423fd41327dce63b22b3a6b236165d",
+			"hashsum_meta": "05d6bd5eeeb4ce2e705f28d46800497627e33c9c8f6d1f4171e0c21eebd47458"
+		},
+		{
+			"path": "/data/race/props/pickup/materials/pickup_clearcoat_1.mat",
+			"guid": "c4d4c5904d045bafd6465542776b93b996d229c4",
+			"size": 920,
+			"hashsum_file": "f4e09e891c24da2806f2120ef9509d6803a7dad9a3346d6e4bff6c96727b944b",
+			"hashsum_meta": "c6587f9f2419d2a4baec777119152e44ca9cab33266403e763824b9f0ba8e0a2"
+		},
+		{
+			"path": "/data/archviz/interior/food/textures/bun_n.png",
+			"guid": "74d52ed1d19cb6600d83d277557df6f76a3c1e40",
+			"size": 2346193,
+			"hashsum_file": "eaab1bf470e1c2a5fd238df99f58b6ea90070dbb4cb2cdeea421d584521330ad",
+			"hashsum_meta": "6056ed2b499d0571c536820136829ccb8ffa0e76dd81c730ea8e9c6abcf237b0"
+		},
+		{
+			"path": "/data/archviz/interior/clock/textures/alarm_clock_n.png",
+			"guid": "edea5b84280d87cb8e286a1fece4221a0982a504",
+			"size": 4934091,
+			"hashsum_file": "42960a55dff258231cb1755e290e210b96e45f0875741075d03b873a24e74ff6",
+			"hashsum_meta": "f3599b4a80fe5d86b2ff92006fc2a69bd0427ae8e31b724dd92a3dbccdbe88ec"
+		},
+		{
+			"path": "/data/archviz/interior/sockets_and_ventilation/fbx/materials/switch_indicator.mat",
+			"guid": "56d6046358b79e665ed4a28da5c4628885f22447",
+			"size": 559,
+			"hashsum_file": "90e03626826d3ab7a34c05363e5c968ed324d85162fe6cb526078745e8d94168",
+			"hashsum_meta": "4ae311244aedc609a836e22bd8dd61a982cc0d49f59f60919949b327ad81888f"
+		},
+		{
+			"path": "/data/archviz/interior/food/textures/bun_alb.png",
+			"guid": "889b8e846d31f3b1e33a3106b111671e12e9745b",
+			"size": 2631349,
+			"hashsum_file": "0f9426beb997f34273e92a0cdbbfdfe2028f23865668d57eaad34a57f0c19db1",
+			"hashsum_meta": "a262228e5afc9b9b704180c36b8aa0de3eb6f343d435408380b5b133c8cc2131"
+		},
+		{
+			"path": "/data/archviz/interior/remote_controller/textures/remote_controller_sh.png",
+			"guid": "6836b998016e53d8548a8d046c1ce136824050d6",
+			"size": 8285546,
+			"hashsum_file": "18ee1c8dc58a2af2a8a8b9cc56c114c9a9469fac9905cce240d86cb7ec936d13",
+			"hashsum_meta": "c6b7f6f07a2b4e3b27318f06223f7384e2640505b3435d705b1bea0da4d2cc88"
+		},
+		{
+			"path": "/data/archviz/interior/tray/materials/tray_mt.mat",
+			"guid": "7a85e5cb43fac1defba0537c8dc4e4205ae97d18",
+			"size": 628,
+			"hashsum_file": "02ef5d37043ac6695aa74686cf4750722f7dc156e6b2a857058d85e2d5571b44",
+			"hashsum_meta": "d258ce8b8acd651f369dbfa6a9139282b5d523f1c5b55a40e6439fc9a516d864"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/e76421f833457cf7badfb5eaa0206c41db8f58ac.texture",
+			"guid": "e76421f833457cf7badfb5eaa0206c41db8f58ac",
+			"size": 53058,
+			"hashsum_file": "d6db06edfa851c1cd5bc682cf5d21612bdd75e5334b4b60dcd21c0ddfc1b525d",
+			"hashsum_meta": "06b7308f75b24b5fd3f670871093e9c8ed5cf610e81b4fabe29ecfb73f6746e7"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_lights_alb.png",
+			"guid": "7b03b0a0339eab7fd33942d24d790409c810bdd4",
+			"size": 334529,
+			"hashsum_file": "1eb4fed8310dc8f9d5f47d968ea3cab7f854a4a364d840bf5d118ef7ea2d188d",
+			"hashsum_meta": "23ca5729679b45c9d6565efb09b1316a3a5bbd97da1a3ffea324c5b123c01e94"
+		},
+		{
+			"path": "/data/archviz/interior/materials/metal_chrome_mat.mat",
+			"guid": "240c22924714e0c91daf7394efd8c9e3820ca5e6",
+			"size": 351,
+			"hashsum_file": "2e5c7656259e7f51aec9862de532369af12ad4a1088a73f9d49f57ba5482ed0b",
+			"hashsum_meta": "5133774c598eb3a61fdf028c04090532600ea705472587aa109723cd8ea6e406"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/protrusion_height.png",
+			"guid": "81a563576ae8a8cad93a01a189c02e8c5969187b",
+			"size": 620051,
+			"hashsum_file": "8669c24bd18d29a6162f862b13504276214badff46c72560653b466d1976672c",
+			"hashsum_meta": "e5416c4a0462cb5e7399f5909349bf3bcce0b50e741fab275870559fa4085a93"
+		},
+		{
+			"path": "/data/archviz/interior/tv/textures/tv_alb2.tga",
+			"guid": "2f2cdd9bb77e934ace7fe3309836d8b5959b5552",
+			"size": 33554476,
+			"hashsum_file": "bf3bceb3571978772ecab465424bb8d964d1c863452e28da3c70b24894b66719",
+			"hashsum_meta": "d51380fe297acd8d3424449bb0488664cc5003c971b87c0e75809177869f5be5"
+		},
+		{
+			"path": "/data/archviz/interior/magazines/fbx/magazine_pile_01.FBX",
+			"guid": "200c4dfa618a851160257b3c164c1d6b917813ce",
+			"size": 34480,
+			"hashsum_file": "15227aa431b38d6598f92fb9f9c4bab2405be791b06e6d0ef0568216d8fe56fb",
+			"hashsum_meta": "0c4487d4d5c09f65390dd731916373378540c80301b3f9c5763e8fb84bda5b3d"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/5e2271dfdc5495b2bec17969dde2f3b4baa30b83.texture",
+			"guid": "5e2271dfdc5495b2bec17969dde2f3b4baa30b83",
+			"size": 25807434,
+			"hashsum_file": "9e424633a97152f0ccbb03883ca81f42ec27d4f6261d3b86409c316704adad65",
+			"hashsum_meta": "2114e4f82aea290f97f15b4cc5fdf9f4c263a241b9c8f32ad41d2045dc4b8b02"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/574be341192e63acbb4c8b1bd461c5be49bdb205.texture",
+			"guid": "574be341192e63acbb4c8b1bd461c5be49bdb205",
+			"size": 1453818,
+			"hashsum_file": "4ba23891c445d6bf157dcf55bab8c1754a8dd480acd1695042f7c69071d8da2d",
+			"hashsum_meta": "b3135b4710cc6b8dc3fdf09f2a6a8f3a693c3cbdd4216a50589ada5c621d9581"
+		},
+		{
+			"path": "/data/archviz/interior/toy_fox/textures/toy_fox_n.png",
+			"guid": "80655c35713f0382b57328a7cc533bd52f0c6094",
+			"size": 10001599,
+			"hashsum_file": "284af8d123128ccde40817aba44ead88adc4caedab54de4f2b2b8ac2ad5d7d12",
+			"hashsum_meta": "da9b0084ccab4c23d062005c8d38e7895d886f35e159392ab015cad8fb63c169"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/9c90d0fc4ba9f82b0924af8e761c7195a8af15f0.texture",
+			"guid": "9c90d0fc4ba9f82b0924af8e761c7195a8af15f0",
+			"size": 122266,
+			"hashsum_file": "e2caf96c6e71c0de4f6c9bb178358430b5c9984fc8c46c64daf3a208024453bd",
+			"hashsum_meta": "a8209a3f4dca606bbbbab7ef5e5d8a6869a7a7580e3e96e08c7e36435a67fd39"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/f8a7978d7018d3887a41e147b178adfa524b6511.texture",
+			"guid": "f8a7978d7018d3887a41e147b178adfa524b6511",
+			"size": 12577329,
+			"hashsum_file": "b2cd9172ff19f561389d681a1f23f90bf0f522ad7248efec0ad47adfea602e0f",
+			"hashsum_meta": "5c7616e3177ab1cb8fd874f9bb83c735fc009c5496232774299770e0093fc477"
+		},
+		{
+			"path": "/data/race/props/checkpoint/materials/target_decal_graph.mgraph",
+			"guid": "c22d0cfc5081042b22d84b8e90635d954c5111f0",
+			"size": 11161,
+			"hashsum_file": "05d17e4582ccfa682deb403c075a4f8eeb5457f8f17240c084283d5169fb5ac0",
+			"hashsum_meta": "b28bad861f2a8fe1f1b374edcd1fa7cbdd34dac1d89d89cc225dd3b56f6a5e08"
+		},
+		{
+			"path": "/data/archviz/interior/lamp_bedside/fbx/lamp_bedside.fbx",
+			"guid": "1748ee2fbca0c5c22f564a3944f46e44e56ba4d3",
+			"size": 1038784,
+			"hashsum_file": "3704d23f5f35c65bc6a9c623ec7af81c581cb10ab6ad549898b467046352bfff",
+			"hashsum_meta": "8b44c19213b3043cb9cd8cf1b5aeb7793d50bae2974ed4a9cc143281622e6c9e"
+		},
+		{
+			"path": "/data/archviz/interior/frame/textures/frame_2_sh.png",
+			"guid": "accabd3b8db15c4e338d6e6caf0929b7cba62c6f",
+			"size": 8941081,
+			"hashsum_file": "9d703f6be3ea35beb6a0ff637fb88fb91de3a370910d803d25100ec592fb4ac8",
+			"hashsum_meta": "989dda73dc49c2e31e384eddddb2428549ab7ce78320862668619d727bdf5b91"
+		},
+		{
+			"path": "/data/archviz/interior/fan/materials/fan_propeller_mat_0.mat",
+			"guid": "719f36a6c780ddcd5f5ee4c83af041875aed113a",
+			"size": 410,
+			"hashsum_file": "1d3e1b977946ddc1af158059caee9b09ad9188347baf739d6ccea4212308f216",
+			"hashsum_meta": "dc17fa3b656ea58bd14dbd11cdcf7944eaf0d16b61476503b86b7b0a626f118b"
+		},
+		{
+			"path": "/data/archviz/textures/tex01.jpg",
+			"guid": "4c4b0afb1521841e90b49ce5de7b29009c06085f",
+			"size": 266060,
+			"hashsum_file": "ce467005ad87cbc2b4ef963da555b91d427ebaa742de012f070cd891b9211d21",
+			"hashsum_meta": "4ba466268a5ae87a099e296d440b962b3d9dae7e40150e5d9406c5e04771f4bd"
+		},
+		{
+			"path": "/data/archviz/interior/wood/wood_alb.png",
+			"guid": "7e1510fc6da89ffa69e0fb4d742a8252911b20c2",
+			"size": 3698537,
+			"hashsum_file": "a662eaea67cc22e4b87f7b3b91994af182099bb9209c97df790ebacb950d36de",
+			"hashsum_meta": "f476de8a69db904923e28bd2a56ba1337281278cab586493c55d195a940d9c58"
+		},
+		{
+			"path": "/data/fps/robot/materials/glass_reflections_mat.mat",
+			"guid": "e2b3d14bd547762e14a447b5be05b590e4208baf",
+			"size": 749,
+			"hashsum_file": "837609c168f6af8710091b997f8a0ae36fbf7b3ad51995fbf9e6280e01319177",
+			"hashsum_meta": "e0cffbb5aeb1785aaea699af3ff569f99c09b347f93483c142414d4e0e0e7489"
+		},
+		{
+			"path": "/data/race/vegetation/trees/textures/tree_bigleafmaple_branches_alb.tga",
+			"guid": "97ddf0dee6e8741c2a673aeb9cdbe97fd0f0bee0",
+			"size": 16777260,
+			"hashsum_file": "33d02c07f6878c284209fa93855d3947dd6a5d16ce05e820be0792bef08d4171",
+			"hashsum_meta": "016f8f2470466fd5d81084831c9bb95dd12ef2840ef1f1646d319593ef9fbe10"
+		},
+		{
+			"path": "/data/archviz/interior/magazines/fbx/materials/magazines.mat",
+			"guid": "d7f9a8862257e62d7b0091a8eee748e7a3c8b11a",
+			"size": 515,
+			"hashsum_file": "ae8ea133172a06c86f893a6e755badfce619487e2d36fcef92875e3fb0960cfd",
+			"hashsum_meta": "9410333b5015ef64f8bb75b40a9f0bec00af9ed3611112be1e04f2cae71074f4"
+		},
+		{
+			"path": "/data/archviz/base_materials/pbr_microfiber_base.mgraph",
+			"guid": "c1713d9731783e0ab73c15e19e2cb5ccd60f76bb",
+			"size": 36113,
+			"hashsum_file": "fbef4dee42bd8b54623c84662a25a9851258e4fd42b0098e9ba719d731ca160a",
+			"hashsum_meta": "0dc211637f0f30d43173c25aee110fc2493d801fba82c13bbdad1181fb9a17ba"
+		},
+		{
+			"path": "/data/archviz/interior/clock/textures/alarm_clock_sh.png",
+			"guid": "d52fdd195d1eb42dd9fd62023d538bf7b5a7c242",
+			"size": 9289954,
+			"hashsum_file": "80ca24bf6e4b174bb60c8418a19f13666413c20c5ccb6398176a3521faf6dfad",
+			"hashsum_meta": "1dc74f263d0589854f4d809c54c6b9701f1c476f28f3b11863158e9022efa575"
+		},
+		{
+			"path": "/data/archviz/interior/remote_controller/textures/remote_controller_alb.png",
+			"guid": "c41e27f537258e96688b18b8ea92e7c97b8aea26",
+			"size": 1545516,
+			"hashsum_file": "2ec5418aec89a89c7ff3745d7e244f4130ee45f600492f4c85e27d2492cf41b2",
+			"hashsum_meta": "32e3d8e9bcfc3898365f1cc80bd7f50ca937be416afc73afaf98f7d735deab85"
+		},
+		{
+			"path": "/data/race/terrain/details/detail_grass_0.mat",
+			"guid": "41e8f6ba7fbb96d13175e1fcc911d52b5e78e88e",
+			"size": 610,
+			"hashsum_file": "cac6f5e86f57e044e7d9d5a4488c52bf4d5d827c932431efb914fd2bf1eb7480",
+			"hashsum_meta": "7c0a24a4a505ec36a53b027dee6b8f8f47850f5be072f66648dfa2fb3f9a5163"
+		},
+		{
+			"path": "/data/vr/particles/rain_effect.node",
+			"guid": "609ef886c09cf62d98e261a8bc3ed8e7049b011a",
+			"size": 8009,
+			"hashsum_file": "fbeeea73e9841fcdbd851f2544e6ffa9828afce5e44dbe9897f73393b8adf70a",
+			"hashsum_meta": "32d2f2bcb9d532f0d5838f056af5090db08172cbc8e281b5d900f5acaaec9ac6"
+		},
+		{
+			"path": "/data/race/props/pickup/materials/pickup_details.mat",
+			"guid": "676a7cfd1f591a38e3df9837c2ce982a4da76981",
+			"size": 851,
+			"hashsum_file": "5b5ae84ece2caa32b01a40bf802f119e0a8c4e09225ebee00f1f957f0cb5b84f",
+			"hashsum_meta": "a2e72439922e4d1e57f154ad71cbc949f0729ad775d5685d99f362df10c8dda3"
+		},
+		{
+			"path": "/data/race/vegetation/trees/materials/bigleafmaple_trunk.mat",
+			"guid": "17f6d28d48383d24c6d035bb5e1921b7a0aa6811",
+			"size": 1927,
+			"hashsum_file": "a7b890ff3a78e408b3f956375f3a968e4681b75981e818bad2097b6930164e9a",
+			"hashsum_meta": "eae5466e4a3e73ef41a7092383ce3e6ab425963601c97baa468f52e4c8efd209"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/3410ea1f7b9a30f2ba65dba9bca170f42b76e7c3.texture",
+			"guid": "3410ea1f7b9a30f2ba65dba9bca170f42b76e7c3",
+			"size": 1678111,
+			"hashsum_file": "d6457a38b697305e97211bc5f01738df6b20c9f3fa9873bded86a0fe80b1b7c9",
+			"hashsum_meta": "dd4082308f45543189ffb476125c72cedd40ef5ffadf13e5af56674be22c5b67"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/hilux_alb.tiff",
+			"guid": "1807ee1f5ebd64f25de77fa9358ec4f412fc2bc3",
+			"size": 35716536,
+			"hashsum_file": "4d2c6ddb7e839a2ab4168de9f4d92d8d7828730572b40ebbae8413137d2f29c0",
+			"hashsum_meta": "dd002bf74d56375127e28ac6f4a59f9d33572a37fb537523939382b3e9c246b3"
+		},
+		{
+			"path": "/data/archviz/interior/wood/wood_alb.jpg",
+			"guid": "736a81e237a997d976bd1f64af4f63737b51d236",
+			"size": 10692045,
+			"hashsum_file": "b0a02d73583f32011d1d620517d92afcb85da795ffeae567a7172fe2dd1024c1",
+			"hashsum_meta": "da777656b8982e462309fc54c24caea17472fcb1b6330a797d64dfa83cd206ac"
+		},
+		{
+			"path": "/data/archviz/interior/food/fbx/bun.fbx",
+			"guid": "c2bbe4964fb352fdd64ff83838dcde37d38f262a",
+			"size": 118400,
+			"hashsum_file": "335b29eb5bdb72d29680e25f427b24935deab9bd8ac4fc86b8ce5adb0073c487",
+			"hashsum_meta": "8ae51128eaaaef88a4a2a6878c8cf6903058d5c04578cff9b092d2e64426fefa"
+		},
+		{
+			"path": "/data/archviz/interior/dinner_lamp/materials/lamp_metal.mat",
+			"guid": "8cd1942a7eea915c843c9bb8a58f3c6660f60458",
+			"size": 483,
+			"hashsum_file": "fdb994055a9c3d88456dfdcfa7c0bcada0037a94c1e3bc801e0eabdf9a33ff5c",
+			"hashsum_meta": "5d87b7fbe430cae2cf8fb91dad565a2a6ccdb9f641fd49947f80e1c4a3d2fcc1"
+		},
+		{
+			"path": "/data/archviz/interior/sockets_and_ventilation/textures/sockets_alb.png",
+			"guid": "95cd0b93dca728c3b1489e412427216a94a4d86c",
+			"size": 8105981,
+			"hashsum_file": "dae4af638e0e5b7c5c1d6b270e9ee46fb5add6f080a1c80cf035bea52c6594c9",
+			"hashsum_meta": "fd5c89d06d2597f522269e8164fd686eef861fa12dfbf9634d1f4a10e1b4032c"
+		},
+		{
+			"path": "/data/race/terrain/details/detail_flow.mat",
+			"guid": "b8a9f48a35f95a612794304c019faf3b0e1f5b5e",
+			"size": 495,
+			"hashsum_file": "ca728b3d996c8b18b72e8f5b9571e553fc5284a6b9761c199f2f397c912fc925",
+			"hashsum_meta": "92c30af3cd6f74f48918db1ae8ca7eeaa6b7af28b0685d65ec93ca587c52c573"
+		},
+		{
+			"path": "/data/fps/hands/hand_n.png",
+			"guid": "682ed9de784c77a57f19c4c02be2711fbc080bf2",
+			"size": 2315325,
+			"hashsum_file": "0f571a829d0a19cfa81f22943d33129ecf5090ff1e53044506beb43e4b5df31a",
+			"hashsum_meta": "2646cf9b37e4687cca421a2988836ec8e977813f03e4327ac6ed9d105fc5646f"
+		},
+		{
+			"path": "/data/archviz/interior/slippers/fbx/slippers.FBX",
+			"guid": "d718246f56040702e4a01a7938ed818467fd1f13",
+			"size": 207824,
+			"hashsum_file": "a1d8e3600bb1acdd86aa360460f8816332a5375a28e1cb3b6280abe4bebd0a31",
+			"hashsum_meta": "b266c28b4be7d6002ec153005c368d4c0a6ee17a86661af047b38212630a5e6d"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/d7bc9cb2a4d3d469c01392b41d751e836054b206.texture",
+			"guid": "d7bc9cb2a4d3d469c01392b41d751e836054b206",
+			"size": 68506,
+			"hashsum_file": "d89ff3cecb987983d6a0de42d82705f0f7dfdbda860413e25feef2c9166d00f7",
+			"hashsum_meta": "3d80b78de1b9ec6987971fc71e7525f6dca133698f205ed10555fadd65f40e81"
+		},
+		{
+			"path": "/data/fps/hands/hand_alb.png",
+			"guid": "371cb0b2b8acd8699db0c6b41528c2838bcc0606",
+			"size": 2204629,
+			"hashsum_file": "d65f367fb61a7467d81950b68914f990e17665a4bc9401aa75853d59b9ed1448",
+			"hashsum_meta": "7636e929bb53543c7f02bacd77e6bb0ec008da8ca2fb930a9027d2ee9ffbb709"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/a934232408991433a33c4bf6f7c8d2dd6d3ab698.texture",
+			"guid": "a934232408991433a33c4bf6f7c8d2dd6d3ab698",
+			"size": 64562,
+			"hashsum_file": "a4e20bb60a3c199037af5cfe42720a48528bc2e5c0133ce0fa9b62f9b6ab763d",
+			"hashsum_meta": "102c81a48df33f499dd5dea39795f2b901e406228bfd3b6f6cbbd910e49ef0c0"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/4db77c667046e88de675f0886b8a5a47a35cd2fa.texture",
+			"guid": "4db77c667046e88de675f0886b8a5a47a35cd2fa",
+			"size": 53215,
+			"hashsum_file": "2dcfd081f6fcd83c65f0ad3ecf421c35d3b33a11322d296dc348e179c9892ff3",
+			"hashsum_meta": "46e1e1760acef8c1bc2e527977459eadd899f232ed784dc02fe253235b9d8669"
+		},
+		{
+			"path": "/data/fps/bullet/textures/sparks_d.png",
+			"guid": "ff112e9a95e9ad31de1744dc82891a8b158bae6e",
+			"size": 104955,
+			"hashsum_file": "4b6b34c8682174129ee9f2219004022d6227d8b96ac3711222eaaaef5e07f8ce",
+			"hashsum_meta": "484fdfdead870143d9452182b6c94cf6385afb3cddb584fa29362b2466571100"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/357917cc85fc70bba16e2edee961c8a5a474e1c0.texture",
+			"guid": "357917cc85fc70bba16e2edee961c8a5a474e1c0",
+			"size": 1583486,
+			"hashsum_file": "27667156c45373b4ec71ca997fb6976b959f4859279d95abf02f174db345f6ef",
+			"hashsum_meta": "ca51ca0c9dc878bd1925c2ef76b31be33b0e1512e29072af71121a22aea5834f"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/salon_a.png",
+			"guid": "1c3ea7e307acebe60faa920d418e8c08093f3fc7",
+			"size": 8965893,
+			"hashsum_file": "4f25863b907e3e842806eca00948afecbfdc5d2eea74f28d2a294651c4cb77fe",
+			"hashsum_meta": "088ecb8d83d1c787354467099fc645935e38581bd8a24a392c6c70befe6130df"
+		},
+		{
+			"path": "/data/archviz/interior/plates/textures/plates_flat_sh.png",
+			"guid": "7dc80b58ced3543d131c15145ed2953ddbc3b5ea",
+			"size": 9001690,
+			"hashsum_file": "d95bcbf99291fe02d9f0f9fa95c108344a352d4a3498e5b5e9ee06252ea55bad",
+			"hashsum_meta": "f013e1374107b28836c9079b045d4a557373dd6640a778fc7bc27db19eb4dc83"
+		},
+		{
+			"path": "/data/race/props/pickup/car_shading/carpaint_noise_n.png",
+			"guid": "c467e9b46f67898393462106e1bd04ad77ca1e28",
+			"size": 2582097,
+			"hashsum_file": "5edcf1c90b639311c40efe96b3c1bdd73bcec5279ae04623881663c9588c47c0",
+			"hashsum_meta": "6ea3472d8ad62e6c2536f7fa730da2d97d0e46ba33141a02d448d809097a772c"
+		},
+		{
+			"path": "/data/archviz/interior/tv/textures/tv_sh.png",
+			"guid": "b1f703ca462c4abb97bab0d8b7efa7742a3a30eb",
+			"size": 1001619,
+			"hashsum_file": "f83ee5df938373e16574734e497e38f3153ce253b8db4dc1487a9dc7063a2490",
+			"hashsum_meta": "80a8731f7b07388275319978b26becb6e5364d3eb9c4b9f25f61f4fb74199d28"
+		},
+		{
+			"path": "/data/archviz/interior/dinner_lamp/textures/dinner_lamp_sh.png",
+			"guid": "d31dd4efa26e14ff7de8f24ff04efbcfdf4d2eeb",
+			"size": 793477,
+			"hashsum_file": "7aeb481e9103645e613d6e5c0a118d173a3e6e1bda8884498a09bebbac7b03fd",
+			"hashsum_meta": "762e71e379c8c5e2512721ad162202599029c707a1f5442acd0941124af3e214"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_body_dirt.png",
+			"guid": "1dd77c1cba8f68cb154b27ae230d4b35a83fe310",
+			"size": 3402649,
+			"hashsum_file": "b391eb50dce5cfd5da7c80d535da45de723f3fe37e699a69b50eaf22e9d9b0cd",
+			"hashsum_meta": "5bedf8f81b7fdf74cbaf0398f16938cf1e4f0b61a37b850a478c2d82d08bb2af"
+		},
+		{
+			"path": "/data/archviz/interior/bed/textures/bed_pillows_n.png",
+			"guid": "3a54a1fa1710afbd50cba81d9f31ffc50b4bae57",
+			"size": 24156096,
+			"hashsum_file": "20a0d6d4414cacbe7e01781d6938741d5de29162ac069d319a00dd8a94c96eb4",
+			"hashsum_meta": "7220d90579ee55ffb668946e339c9b5d9e38ea3bb384cb69d3390787bfe01cd0"
+		},
+		{
+			"path": "/data/fps/hands/hand_sh.png",
+			"guid": "d3eef820718e4cff383d765222b4a189be58bd54",
+			"size": 200724,
+			"hashsum_file": "ca24a0fda531928426e9c84cd227292b3b3ae2f0b51481f4748bccd62d4dd76e",
+			"hashsum_meta": "e9f9d3faebc413b24194e62a6a5837b1ab82666788c6566edb2984898c7d6f56"
+		},
+		{
+			"path": "/data/archviz/interior/lamp_bedside/textures/lamp_bedside_refraction.tga",
+			"guid": "5d2c9bef7b02a6d4ca53ecb3881570d0fe8cf671",
+			"size": 50331692,
+			"hashsum_file": "0414c1ce7ea8357c3dae9c1218af7bb6b9fb5ce18dcc72d38d8e34fb16eaf283",
+			"hashsum_meta": "3c57eef1289a62559e047b9d586b4285c2fee789e29fbceefa1f875fc53e2d5e"
+		},
+		{
+			"path": "/data/race/terrain/details/detail_protrusion.mat",
+			"guid": "8abfc8043a41b393e8aca3d6d660893dfcf93978",
+			"size": 465,
+			"hashsum_file": "3c834116d285213ba2e6b44346eaa770de2a059ac767046ea301ca9a487fcaff",
+			"hashsum_meta": "35c803bf5c030aa01a5edbcb4d1fd9a97f1499b0ed428e65b0b4dc3aeb70e035"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/13fcdad75e76ba4a87e9e521b4d3bc0c254847fb.texture",
+			"guid": "13fcdad75e76ba4a87e9e521b4d3bc0c254847fb",
+			"size": 95584,
+			"hashsum_file": "aae95737f4cd9eee99ac713123ddebd858d1f348e498f487760359419cd9291d",
+			"hashsum_meta": "5cc2a3ff1e94ceac4fb6f0ce62d3765cab4df11a7aa112f997bb9756e3d2da83"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/salon_alb.png",
+			"guid": "227d7a7a7184c79164d9dbbc1e6803eb1b39c84e",
+			"size": 11052402,
+			"hashsum_file": "e998ac17fa6dfd6b651a1f66f491c611831b6c25139faa605b388c84a3a5a8c3",
+			"hashsum_meta": "b25c8a42c11b23f74db1724d9df3f8bdaff606fab0946b6a84bd7b45481e4e54"
+		},
+		{
+			"path": "/data/archviz/interior/materials/celling_plastic_mat.mat",
+			"guid": "223670ceae42c1d59cdaa930d8a2aacfbaf719e2",
+			"size": 351,
+			"hashsum_file": "c34be6edace59f46ed45f0b636db6262c17b704fe8213394a82fca7c5cdbec4c",
+			"hashsum_meta": "e2af1bd98e7c30f7efb54337bad942a8064348c7b91d8c0b43a923836eebe750"
+		},
+		{
+			"path": "/data/archviz/sounds/track_02.mp3",
+			"guid": "ad92335f519a69322d1236e924fd9334860a2503",
+			"size": 971041,
+			"hashsum_file": "9e4b02073359aab9b42ad40674d6d9c16456c0b6843c5ef62c82e68c6a4675a5",
+			"hashsum_meta": "e40f678f148ddc262ef193dafc8f85a07b7ba770ab820fc2bd9c3dafa3d17b87"
+		},
+		{
+			"path": "/data/fps/robot/robot_enemy.node",
+			"guid": "1052eb5f16b3c132e06baee99e58ab34533a5d03",
+			"size": 5176,
+			"hashsum_file": "c1025d1cbf8c4db38d694ed8925f9b04713562c74b1e3c0ed6e4120e31ba8490",
+			"hashsum_meta": "05fa36334ede6e35c4a993fb40de0493e96a5fb71b3e5e287b898e2b18a43396"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/dirt_roughness.tga",
+			"guid": "f23ff0c386a6df465db42ded4506b6683a9ba6a7",
+			"size": 4194348,
+			"hashsum_file": "b1e8b0f8305c391eb7d30563c55f9103e9225a495fc2e5f9f78b5044488e898c",
+			"hashsum_meta": "b6bebea8138e8ab8384e859cd45e47387ddeece8e3149af5b705c57345babff1"
+		},
+		{
+			"path": "/data/race/props/pickup/materials/glass_ssr_pickup.mat",
+			"guid": "8ca6d058308297d78f8f534ac41faa216d0cbd0c",
+			"size": 742,
+			"hashsum_file": "25eeaeca0c9fccc42b3307577dbb5a63ef8ffda5f57dfe3e8fe363baeeffb880",
+			"hashsum_meta": "7d12a56fc944a22e00714286682b0432396f414163243364f3a877dd2cd7032c"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/47e8616bfd7f87ce2f22ecd5ac5ed830e4130dcf.texture",
+			"guid": "47e8616bfd7f87ce2f22ecd5ac5ed830e4130dcf",
+			"size": 12234704,
+			"hashsum_file": "917c24dcb81ed32e0efcd2594e14656294b172dc37e9422dfea25c50224b9a58",
+			"hashsum_meta": "ce97e1fc6771d942079ad16854fd7a27705a01811e8eb4b37f42702b5332066f"
+		},
+		{
+			"path": "/data/archviz/interior/plants/fbx/pot_ceramic_small.fbx",
+			"guid": "ccbe3d6b6e03b3cedb6128d5136fe43016b8a9cf",
+			"size": 64560,
+			"hashsum_file": "337c3d986f7a301e79ed075c1562cf77e101cde85ca13fda08d6563ba43278b0",
+			"hashsum_meta": "49dc54b42a8e4484f5a81877755d3a4da3f603cc2f2d64bd10273df61de86643"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/shadows/1be2769376888ad63795443d3228b87805b82177.texture",
+			"guid": "1be2769376888ad63795443d3228b87805b82177",
+			"size": 4176075,
+			"hashsum_file": "37003a9627cd94089b74ece807ab13b209d397f55f280f9ba58a7f7d21b5504b",
+			"hashsum_meta": "50aa21f0ffbda6687e32e04557b10ca764a957f3d9aaf548201910482c40684c"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/02aa5fe49e8ea9f3ba1f66b63ab9ae9d40c45f58.texture",
+			"guid": "02aa5fe49e8ea9f3ba1f66b63ab9ae9d40c45f58",
+			"size": 102519,
+			"hashsum_file": "d58e8ac4af20181bc7c8905a63b13055293fb7b45127f4055e20a27d36b4c11f",
+			"hashsum_meta": "107e21a351a86f0f7a33d9b4d35449043ebc0f72465278c1eb48fd7022d5a9eb"
+		},
+		{
+			"path": "/data/archviz/base_materials/pbr_detail_multiply_base.mgraph",
+			"guid": "50f77115fb1b0f7046e55c0f36399a22fe175319",
+			"size": 115237,
+			"hashsum_file": "00e4523e8946fdaaa6482ce50fc4da66d3a126c178f1f5a0723f685f54778167",
+			"hashsum_meta": "c699242156213caa49ebd65dd3231a0779febb8edeec8e9164d5a142017c31a5"
+		},
+		{
+			"path": "/data/archviz/interior/bed/fbx/blanket.fbx",
+			"guid": "b22f65150a2a7370f085700f8f529e22dff48719",
+			"size": 7167056,
+			"hashsum_file": "6a07eebf39ca0099ebc3ea5400de1e00801b4ed0d6963c179d68224a9d013c56",
+			"hashsum_meta": "7f2a551dda180fab1442b11764cb459d1b1a5bdf0dcbc191ff73e2b9ba4bdb61"
+		},
+		{
+			"path": "/data/fps/particles/textures/glow.hdr",
+			"guid": "8190231c70feb50aedd43421653d4267c1676d13",
+			"size": 1342618,
+			"hashsum_file": "f2a91a8183e9403234d34a1a6460d967839cb39ef3a80981a7e17135dd021c50",
+			"hashsum_meta": "419b0ed7bd4caa13ace26cb3acfbb6ee4fff0282ab3ae8ddc7ff603c2bbf4996"
+		},
+		{
+			"path": "/data/race/props/trinkets/textures/trinkets_car_fresher_sh.png",
+			"guid": "0956e91519c427708d0b940f787a722249724b19",
+			"size": 417671,
+			"hashsum_file": "687faac9b1d023c4a54c1c03964b374de0d570db921662cd8017b7f7a64538ed",
+			"hashsum_meta": "a82eb0da3577d9c417b84a1bc1f67e40d92a605c45d5565e63159f0a72a15eb5"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/f43475b90911a3c4b7b85c5309afb596785aeffd.texture",
+			"guid": "f43475b90911a3c4b7b85c5309afb596785aeffd",
+			"size": 6204587,
+			"hashsum_file": "b0df5241a1b1d1054158738166300c7485514386be7ea81870bf66d99b6613df",
+			"hashsum_meta": "aa9f8817b6f875e9dda424046f0bb509854a58f8f9051df3f00724bbcb7f7490"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/0922627b046df59e424f6065a4bc1680bd7317df.texture",
+			"guid": "0922627b046df59e424f6065a4bc1680bd7317df",
+			"size": 803643,
+			"hashsum_file": "b30f8d1bf27da9a0fb0634a6d52727f0ec47c45d31ddcb77054144d3b1425597",
+			"hashsum_meta": "00347e335367c40f5eeeb644986170937d64c3d0e7b5f775a09ad85a7d30fa29"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_1_sh.tiff",
+			"guid": "17cebe1d628328d87c761657c9d3bfca95542ca1",
+			"size": 35460772,
+			"hashsum_file": "5171f222ff15bd2a57b995829200348fee389104a759600b5be5ed27823fe918",
+			"hashsum_meta": "c2e5a6f07d5d32b93588bf117044c99b450965c9f947cf10040ef7cf64493d55"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_lights_e.png",
+			"guid": "1b4b2ad0c09effef5cd22c82098901f9807e4304",
+			"size": 428576,
+			"hashsum_file": "7722a783a273392a633b697f1b71b3412bce7101edbeec5debad449eef7b7a03",
+			"hashsum_meta": "7972dd7f7f5e40dbf74302ce5c8e5607b8d6f9f04f7690fa259015da1e3f4c48"
+		},
+		{
+			"path": "/data/race/vegetation/trees/textures/tree_bigleafmaple_branches_green_alb.tga",
+			"guid": "64fd5221513e450cea473cfb78dc0e1e6e299ee5",
+			"size": 16777260,
+			"hashsum_file": "8c02ba35a3a66e238360cd3f66493575ad051ab6cc6b63a0bd5f3a2bcfc22127",
+			"hashsum_meta": "4c6958d6995bc92bffdce79aef58fed22dd5591c1878ea0c71766e33fda16f3f"
+		},
+		{
+			"path": "/data/race/terrain/LandscapeLayerMap_1.lmap",
+			"guid": "16f7182336041f26a9c3ac4da58a614847409407",
+			"size": 77094652,
+			"hashsum_file": "0fa10af76dd501372e54d539c9aba7ddad9aeb68dc67aa3b0a9a1bcf988e47ff",
+			"hashsum_meta": "446c8947f11dc42172fbe6db85b7d08be8e804bfcb4eb6f7f2eb8bf914962e64"
+		},
+		{
+			"path": "/data/fps/particles/materials/sparks_mat.mat",
+			"guid": "d38252bb6ddf0416dc02c8c10408f97d435125ba",
+			"size": 993,
+			"hashsum_file": "4b95838180cc25ad6e514b5b5bd3d7d2220d08bcd3d8d2c0ac73631ade0f7e69",
+			"hashsum_meta": "7ec547b56fd35157248031165a918e429118ead0c2a680509a5b0c73c7bc43c0"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/0460f138a3ef8337ce3f872a389d8c819b037bec.texture",
+			"guid": "0460f138a3ef8337ce3f872a389d8c819b037bec",
+			"size": 5052294,
+			"hashsum_file": "90cdc8079577886b85c0a01cf625572d7f6e64f70fda4f913c5d16d1a8abc60f",
+			"hashsum_meta": "a18ceee2e34a883775090582165b677806ef15b8d3931864a928280ea6d1cb66"
+		},
+		{
+			"path": "/data/archviz/interior/food/materials/bun.mat",
+			"guid": "a0a4f0cdefa0d37117a6eb39c782d38b2e495295",
+			"size": 693,
+			"hashsum_file": "9a78fda9b065ee982d5a6c4c3efe3a43a2242d599d057762833e1b7419ef6599",
+			"hashsum_meta": "4f0129a624f7ca865f9c89f70b3e4409aa5b9d005d41b38456a9766d4e3a29a6"
+		},
+		{
+			"path": "/data/archviz/interior/tv/textures/tv_detail_alb.tga",
+			"guid": "5617bf421e4a341d4504992e81a9c3e531ff8081",
+			"size": 16777260,
+			"hashsum_file": "38b5873b3aeceed749720f21a6e44649739c7d43cc21cf6b405cbe1cee2e6f0c",
+			"hashsum_meta": "f73aa39998709e510cf662c14159e3edd7aa5ea7d1337358192328807e785ddb"
+		},
+		{
+			"path": "/data/race/props/pickup/fbx/pickup.fbx",
+			"guid": "ee09b20f9355f82233fc1919c5ad2fa4ee39b6b3",
+			"size": 1202812,
+			"hashsum_file": "b47242c8e0d4af861ca204fde97a6eae82b8db46940653c06b2ab8a7aebe1420",
+			"hashsum_meta": "6b05e49021e89e5b3c2687873a1629fb37661db4b177d4973e41ac347801bde9"
+		},
+		{
+			"path": "/data/fps/robot/materials/robot_glass_reflections_mat.mat",
+			"guid": "2771ecd2c215a609ee90f7d4503e01232073f426",
+			"size": 259,
+			"hashsum_file": "9d1448c74516e74503553d37bbd96e4002fb863946a3a1a0d733a81cbe997417",
+			"hashsum_meta": "7528a1cd461c9e395711f5d1ed7fdba6300fae0dc9b50ca62cb66836bb946f94"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/rocks_1_albedo.png",
+			"guid": "ad12ee0dc76f91edd38f8833a336dd68eff340e8",
+			"size": 7896245,
+			"hashsum_file": "613696728361659650a041eec66c1583372aefc08ac3a687a746425090b160b9",
+			"hashsum_meta": "b86cd0095f35551f305f4177ea622f7393fe1216c15dfad0186b7753daf5ee94"
+		},
+		{
+			"path": "/data/archviz/interior/home/textures/handle_door_n.png",
+			"guid": "928572f2ff8a45299776ea1126f77ea2fc86066b",
+			"size": 2337568,
+			"hashsum_file": "d666c51a07dfe785f86502a086ede02902d94abf1954a50dffb4f3729f051cf3",
+			"hashsum_meta": "267be12f426a855f9892c8faa91394e72be5b8b493e4ee125d2bc13d69d42edc"
+		},
+		{
+			"path": "/data/archviz/base_materials/pbr_detail_alphablend_base.mgraph",
+			"guid": "68dbd33ac66bc951eb07727c51892bab4b7f4d0e",
+			"size": 108263,
+			"hashsum_file": "46ac42f6a287d8c0f646e731f0da31d9693ebe4ca7e460a86fd35854ad6c1b85",
+			"hashsum_meta": "63832033448461d2ce3b31f626643f8f1c30285648636f31bbd164034e9c4c46"
+		},
+		{
+			"path": "/data/archviz/interior/pouf_bedroom/textures/pouf_bedroom_a.png",
+			"guid": "0cb500439f09925745bb3bab518db5df7348114b",
+			"size": 986887,
+			"hashsum_file": "dbb0bd052f9b1f44541e6a21a9bc9067dc9fb29d07c12300056ebe6cc75bc2e4",
+			"hashsum_meta": "d35e0e522efcb5ae40f942978b60cc9a57346ec9e4b684b2640e09c4376909cf"
+		},
+		{
+			"path": "/data/fps/bullet/bullet_materials/bullet_mat.mat",
+			"guid": "55268c62a0e52059dba60de4e8aa7ff37acd44b6",
+			"size": 1177,
+			"hashsum_file": "a9d29cfdbd0ab847bb72159778eec9c129891b9813e6df05eb22eee73f19960e",
+			"hashsum_meta": "50066520ef45db38ed0d526f48f61b775f372039a546816bd9cb6e3b5d665cce"
+		},
+		{
+			"path": "/data/archviz/interior/cup/textures/cup_alb.png",
+			"guid": "cf6baaaec54df0667de183c9642d72c9747ee1c3",
+			"size": 738663,
+			"hashsum_file": "00494012d57ce07341ad2d756eb496c0f574ad5caa20cca5ebecc840aabac1de",
+			"hashsum_meta": "dfb9eeb2aabf7e6be284c18f67952d9ed026829f278dfbf90ef82dd64925afa9"
+		},
+		{
+			"path": "/data/archviz/app_icon.png",
+			"guid": "59cb38c54f9c5360b4f76f3fe079b392a96b3dc9",
+			"size": 12748,
+			"hashsum_file": "5cc7129c13af81352c61d196f99c513640a2d4aa76858af5326e46c8ed3b93eb",
+			"hashsum_meta": "39c4421bbd7c8364662b6e882cfc0ae714e594e18392de96ebb11c90f9397416"
+		},
+		{
+			"path": "/data/archviz/interior/sockets_and_ventilation/fbx/sockets.FBX",
+			"guid": "6961d2ab2309c80e7301b015f1ba4270364cf30f",
+			"size": 639984,
+			"hashsum_file": "744e1eff359b82bdf59df5319fde376bc60bce09010c498517b46638f8df6a88",
+			"hashsum_meta": "af3833b079aac11ea85454b512d34cb9ace3e5153bfabde72779368be12f3990"
+		},
+		{
+			"path": "/data/fps/hands/hands_mat.mat",
+			"guid": "6b953d4d25f4be4842b54d076203a6baf33686d1",
+			"size": 765,
+			"hashsum_file": "a0d681d9c561718d7404c808a7df4594610ff987ed2c1cd5137e80dfd4fe13ec",
+			"hashsum_meta": "c11fe3aae474c268ecb6912cb00c73d10b1c12eaa4968e25d2e9c98fbf5017c4"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/b8cd3fefa4ab6c827f1141f901e983042ae23293.texture",
+			"guid": "b8cd3fefa4ab6c827f1141f901e983042ae23293",
+			"size": 468296,
+			"hashsum_file": "9c931f5051cc46d6acd81f830f0d420e5a840618a2eed0d3cc4e112590321e0c",
+			"hashsum_meta": "3310ade1ac5cf3f900b8d3218ed8499f4e79c48f3800d73e43baf0a5b1226f2f"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/ab7306406203c49fea7e4972a23e1a29c6039d74.texture",
+			"guid": "ab7306406203c49fea7e4972a23e1a29c6039d74",
+			"size": 122874,
+			"hashsum_file": "d0e4d581986bd036328a36e9ab226ab531bdbdfe31da3f4c826037c2db9e91ab",
+			"hashsum_meta": "f7972c0c9fe3b676e16682a0973943a7b931cb2b9081a4543230c7831207cb71"
+		},
+		{
+			"path": "/data/archviz/interior/lamp_bedside/materials/lamp_bedside_refraction_mat.mat",
+			"guid": "aa8444fe976661e250fc787fbe62793b863f2f16",
+			"size": 1162,
+			"hashsum_file": "dd1305cebfc9b271cb226d807947e3390caa52da1db03a14b9560fac82d0895f",
+			"hashsum_meta": "0bac8603fbf25904bb75e60f02d1b98c7386ef486104cf7be440cd4eaa8f9122"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/5726efe89aa7922720fbe95a11fda8f1b7298d9c.texture",
+			"guid": "5726efe89aa7922720fbe95a11fda8f1b7298d9c",
+			"size": 8872685,
+			"hashsum_file": "abe6ebacbd7498b80a2746618ef01e07a95a312ad17eb798bfd4dc4d2d0cd3c9",
+			"hashsum_meta": "1b6f0f9ad0dfa619f0aa0fe7b4611738d778d6906f0fc15e3bedb1a1b104214f"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/e5d9e3e8faf5f62704cefd5ab1adacf158b1c19c.texture",
+			"guid": "e5d9e3e8faf5f62704cefd5ab1adacf158b1c19c",
+			"size": 432803,
+			"hashsum_file": "c2b7c58b1c0796ef235bbfc781a2cf35e9e329583ecbd280bfcf731d59313e42",
+			"hashsum_meta": "5273550e31ce1c2e4d4e20ea577a727b8b15122469114142eb6e245dc4f2e35d"
+		},
+		{
+			"path": "/data/archviz/interior/sockets_and_ventilation/textures/sockets_n.png",
+			"guid": "ddfcc4f0177cb33a0f2f47e077bc96061424a57e",
+			"size": 1128704,
+			"hashsum_file": "b90b90f5f2e28209782397cc3517b63e589f64527c90f64e6aeb77937a44fac1",
+			"hashsum_meta": "d8eafa033b7ff6d7606da85ed6770b396fcb71d694a9d093e7cd558533c62c27"
+		},
+		{
+			"path": "/data/archviz/interior/fabric/cloth_2_sh.png",
+			"guid": "7f5fa3196c5a0e0c02630ab0947a4bb716450a7d",
+			"size": 7613656,
+			"hashsum_file": "35e29c5634c3a809ac62ad85fb2201ff92ee6696b679a829be17e0a5791acf60",
+			"hashsum_meta": "d1901aa38cb8fdf9be2165780aab8558d7b2e51d1b5abd852341b3d9a578bdd9"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/flow_albedo.jpg",
+			"guid": "268e191a433095b19fd4135cbde6970b816600ee",
+			"size": 5418382,
+			"hashsum_file": "8eb9e5c8fc2be65ce2510652e61d48e18bcd291e426afe52170f2edd7e3ab793",
+			"hashsum_meta": "36056c350110513c11958c7cc287a69d91fcf828ced5e1a5a29925c1b9e3da44"
+		},
+		{
+			"path": "/data/fps/bullet/textures/muzzle_flash_side_e.jpg",
+			"guid": "6e6cc97ef75fe0b4cf047bbd8633f22a7aeb890b",
+			"size": 57943,
+			"hashsum_file": "5946b31559739bc7910bcbaa88e41e5d95b7c3f472c0bbc84e5d01c12c6e9ddc",
+			"hashsum_meta": "a1bea1ecb8054d75306e47aa1d7b0b3b4c54109642c0fc33a9fda46895f18d44"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_glass_dirt.png",
+			"guid": "0ba604ff76c1ce52a27d1989d356d554660b40a3",
+			"size": 3126358,
+			"hashsum_file": "c350abc2c616054855d0528095c8dab38a6ad74efe93b95a9db0a990fdcd47db",
+			"hashsum_meta": "6e5a4d114a2ddd14da16e6921af72439d9c6fbf87a4550675d7092121d575409"
+		},
+		{
+			"path": "/data/archviz/interior/plants/textures/plant_bedroom_alb2.tga",
+			"guid": "7efc2e6523df6e7db0bf9572ed9933bd62e8dc10",
+			"size": 16777260,
+			"hashsum_file": "62d7ba37b77c39e3bbb8fdae67a9f1c5a28cd50e8501b8e15a2d049d293f3673",
+			"hashsum_meta": "3db4dec416434359391e9c6ef5cc0fdb51c2e6046e68a86d4b2289d086e7dd31"
+		},
+		{
+			"path": "/data/archviz/interior/bed/materials/bed_wood.mat",
+			"guid": "10f65fc4a0cb29aa908826e432750bb524ec5570",
+			"size": 1506,
+			"hashsum_file": "9fd88b9f9dfa9828beaecde37abdc3e68c4b46523c333c164ee71acdba71bc1f",
+			"hashsum_meta": "81e76fb766335373169f2f1472fac21c19ea4f4e48cb442d7f01b9cd4cb35270"
+		},
+		{
+			"path": "/data/fps/hud/crosshair.png",
+			"guid": "5b6945639917eb6687668b8d99033788b600f547",
+			"size": 281,
+			"hashsum_file": "c991f3beec50cf4a5a228b8c256e5672e6666f4791e7245c9c9d5d8e8be8fd71",
+			"hashsum_meta": "40b11d4ef80e32e70479cb0ab6d06e28079b2b6ebf487627f0a69dd110d0d921"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/env_probes/6203a934321d4303fbe98c86ce5e7a2d4a4e15a8.texture",
+			"guid": "6203a934321d4303fbe98c86ce5e7a2d4a4e15a8",
+			"size": 1468931,
+			"hashsum_file": "5376c8fbbbf59ff992743874143e5e4c56e51e81f15f0f299586834d655b3d60",
+			"hashsum_meta": "aa857df827989f3074a8bdc9913c18a37b820506d491bf03c678cf290804f15e"
+		},
+		{
+			"path": "/data/archviz/interior/pattern/pattern_01.tga",
+			"guid": "a81ed27061d4e1a5fcfe51551cf3da98b3b6ac89",
+			"size": 4194348,
+			"hashsum_file": "cc8e3c3a12b3aee6ec0f9bb91be4eb3c13e418b3110b72c51626b04d328b1ee3",
+			"hashsum_meta": "a02d37ca3cba2a0b0264a66fb1927e01cc68149c99450d5f30dbf9515c4439e8"
+		},
+		{
+			"path": "/data/race/props/checkpoint/materials/checkpoint_1_mat.mat",
+			"guid": "2b882e6a3d318ac1a214e52c2c1a1e9bdf17433e",
+			"size": 341,
+			"hashsum_file": "6d26366604b5f08d0879d45e8ca1943d9d97df2f4592334045250a10844425a4",
+			"hashsum_meta": "0159c11ff7fc3a3e1da74bef6d8c49175e4d4ac00d74ace7fbb1d94afcd9c376"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/f27bfba0859c7a7f5496c5d2ec6aab0971e038d4.texture",
+			"guid": "f27bfba0859c7a7f5496c5d2ec6aab0971e038d4",
+			"size": 311543,
+			"hashsum_file": "70f72935bd563d729bb9c2dfa0096608a18aabbc9ab7e24f8f2acdbe26c50eca",
+			"hashsum_meta": "919936634dd37988d156b6e5f5112143be93ebadef757d6d0a39c478f184bf7a"
+		},
+		{
+			"path": "/data/fps/hands/hands_animations/hands_pistol_walk_r.anim",
+			"guid": "cbfdf1845c72cf13e5a0095692adb0bd26213af8",
+			"size": 6341,
+			"hashsum_file": "c3bf070825674381ec96569766a0b5d39c91e7efd072b5459eb77eb080adc0ab",
+			"hashsum_meta": "bfa1555800ee32994e26e86c0891234d0e31b3a76fd0dc716bc38a1251da3645"
+		},
+		{
+			"path": "/data/fps/particles/vfx/gun_fire.node",
+			"guid": "dda131848d3d0f13356549567731f0bdb2587af8",
+			"size": 15954,
+			"hashsum_file": "c939f2fac834a39194c7ce4bc945319c42e6d265e8176d37584adf6a42f1f552",
+			"hashsum_meta": "3c8b0900224f88b2266dd8405f70e1bb0000cbf0434d1da5067c0652a257a64c"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/f8aac0d9bb2234647bcf74738d98af365f455d1d.texture",
+			"guid": "f8aac0d9bb2234647bcf74738d98af365f455d1d",
+			"size": 678941,
+			"hashsum_file": "4d02cd8770b666ebcbb7b067c09d2b4d19dc3687f263dbea94a9cdd986b09b60",
+			"hashsum_meta": "ec89e83ce4d72abf976628b82fd59ade519937909306f97977e880c16ba69a0f"
+		},
+		{
+			"path": "/data/race/vegetation/grass/fbx/grass_high.FBX",
+			"guid": "9912ceacaf87fa1bc0a068be28ddf905126996a0",
+			"size": 37712,
+			"hashsum_file": "f6c6dffeeb59832d8891321646e6999f3df9b1a1f7fbd4ddbab9a9cfd0bfa714",
+			"hashsum_meta": "61143c10bfd3c340d62e8f85b1463f2a7386259a58751e0ee116d13b7dd69318"
+		},
+		{
+			"path": "/data/race/terrain/details/detail_soil.mat",
+			"guid": "a1d8b14e1bb30855ca253db05d17354f6a912262",
+			"size": 464,
+			"hashsum_file": "878077ccfbeca67e02f83aad5d162caac85fda0ccecc35b906b87c3b64ba7db0",
+			"hashsum_meta": "0505b49c1e74d6163768fd78d03f24e9fbe84d92d957e82a8293eadb13d23fdc"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/1bae2a4329a8cac66822236d95ed2de8d56cb827.texture",
+			"guid": "1bae2a4329a8cac66822236d95ed2de8d56cb827",
+			"size": 121589,
+			"hashsum_file": "43db7f4735d3cc4421faf27cc2ee6cfb5bd10616d607020925444aa5e1f554f9",
+			"hashsum_meta": "ff091b4c925af851c637989892c3841de788a405792446ebc3e97bd814454f27"
+		},
+		{
+			"path": "/data/archviz/interior/frame/textures/frame_2_n.png",
+			"guid": "5be4c67eb59a5ae686447ed1c3765d852778be57",
+			"size": 9209654,
+			"hashsum_file": "e375ced9a518aea25a34eaeb59ae3d029443339feacecaadb20c3f74e7e1cc4e",
+			"hashsum_meta": "52c382a2588cdda42d5422404cdcd2c5cf6724e2abf90e8db8bd5d4e92257a55"
+		},
+		{
+			"path": "/data/archviz/interior/plants/textures/plant_bedroom_sh.png",
+			"guid": "fb8ba497bd452abcdde9b71146e9b690c62626e5",
+			"size": 3688823,
+			"hashsum_file": "5401cd18e46a3acfb4cac210dd70b9ddfc6083ba184ef1869990c48a74a221cc",
+			"hashsum_meta": "05cc6e40c1ad093382bcc06a2677aae0df9b76f101b931be7674bb67d41ba7e5"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_a.png",
+			"guid": "c122ee433aaebec678a7876d568b41e88d6bbc27",
+			"size": 4908765,
+			"hashsum_file": "2378ae1a41d207af2b5298d40715a9d6e21e333fb85cbe852c61b00a50e66194",
+			"hashsum_meta": "b953ecc99de767f31b2e6ad805327ba4f69963b458f5038a6969c53a11c8a9d4"
+		},
+		{
+			"path": "/data/race/terrain/details/detail_grass_1.mat",
+			"guid": "6eeafc942974bee37f9616e6c0a3c10d1defef08",
+			"size": 811,
+			"hashsum_file": "2b0beb9d6fad19e435f341bd581004bb9eabcc6ac1ba11a0d3567d250ac04ef3",
+			"hashsum_meta": "6d41640afaba82bf3f57d65f886116dae04086ecc76164e1536eba2c1ededab6"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/env_probes/502b2aebb2acc34e37a3f2550c9d1fb09339af4f.texture",
+			"guid": "502b2aebb2acc34e37a3f2550c9d1fb09339af4f",
+			"size": 144,
+			"hashsum_file": "e4b699905b1ecca4b3f6d69a47c39b17a5a41aad5c2806891591ee9570faabe1",
+			"hashsum_meta": "c369d5677c2624b6b6481084dd29c6e8c8063985190b58f92cdcb9c2002f011b"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/586eb9fc01c4cd2bc65f808eea5f0e956f9f0ef0.texture",
+			"guid": "586eb9fc01c4cd2bc65f808eea5f0e956f9f0ef0",
+			"size": 253563,
+			"hashsum_file": "4d0efe2416430e0e8264ddf92d2401a20d4a3dd696778be1ca059604db6dca9b",
+			"hashsum_meta": "b6486fecfe345f3f94354657f699d85912133bfe1f3fa31bee997d1f4b590fd0"
+		},
+		{
+			"path": "/data/fps/robot/materials/robot_mat.mat",
+			"guid": "ccfd51fc9592852b3721d88eab4d8695f78b26f0",
+			"size": 259,
+			"hashsum_file": "1a99e117a0c7cbbdc411810272c9900bc1989c2ef781788dcccb012e72a7a7a1",
+			"hashsum_meta": "725032019e464047b8b58d9a80c3ab48e6b928a73d66c18933893eaad71c197a"
+		},
+		{
+			"path": "/data/race/vegetation/trees/impostors/mapple_imp_opacity.texture",
+			"guid": "7bb1d2ebf7734b4e17e8da558c8ce7b02416d74f",
+			"size": 2348697,
+			"hashsum_file": "e734230826dd0fb960d81e89ea73f608ece7c3c0cd713b0c5b0508e80ce506f3",
+			"hashsum_meta": "0abb4ac55cfb77504b0eff54e2db9f8d6e84a2c8eb6bc3c02a34192fe9af3efd"
+		},
+		{
+			"path": "/data/vr/particles/smoke.node",
+			"guid": "ba4d821e492482e547cdd700e48cde5faf771832",
+			"size": 7931,
+			"hashsum_file": "f84177f9c7117c761c46a94341ba2b5a0dc0e8d87600e9d4f258861732a7d800",
+			"hashsum_meta": "3f404798f7f3a030f994012a5961218421ad1708c232a9bc3c68eed020e15872"
+		},
+		{
+			"path": "/data/race/props/checkpoint/materials/checkpoint_0_mat.mat",
+			"guid": "1c5670f225751ba97fe7b0f4538827c39c3baa46",
+			"size": 175,
+			"hashsum_file": "94b26a3ade17023fdc0e66ea8ccc6e8fc884f28bc0133b87047aabba8b31ccbf",
+			"hashsum_meta": "af923b2cebd9100e1302bea9b3c68763e8e0b4e9331bba074db8c4b8cdcad2ff"
+		},
+		{
+			"path": "/data/archviz/sounds/fan_sound.mp3",
+			"guid": "de74a7645bd14b73a85a9a36f1c04c1d905b5ed8",
+			"size": 336065,
+			"hashsum_file": "54be0af49312b2afaa83587b379940caea9e05b22bbf7f552f3e2f4ee260d82d",
+			"hashsum_meta": "253682588869ee8f9380a2138287aae0f912f776d5e1a504c145752451a75489"
+		},
+		{
+			"path": "/data/fps/particles/textures/normal.dds",
+			"guid": "6fbaf9250d79793e257226fcbca7afaeb81f7c26",
+			"size": 1520,
+			"hashsum_file": "6d48649b25d29b3de0ad5ea8d53729e9ad8e74e680dca0d9666deba1ef8edde9",
+			"hashsum_meta": "ba868549f6234669dcabb549c8b3812806661b3e8a527684e0f12eaa815cc8b1"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/036e502e317959b5dc039f906f416dafaa8c3f42.texture",
+			"guid": "036e502e317959b5dc039f906f416dafaa8c3f42",
+			"size": 4680559,
+			"hashsum_file": "8855431026e953975b28e60d062f36b419324667cb34f216dd6c354652cc1fcb",
+			"hashsum_meta": "f7043ccf0f53a446a2b28256a1425f998cb089c17db507a1c4fad5d3bae0f3b1"
+		},
+		{
+			"path": "/data/race/vegetation/trees/bigleafmaple_green_mature.node",
+			"guid": "1da9773fe8b41b9281d285c9c60ed494f656b6e3",
+			"size": 2280,
+			"hashsum_file": "02531fcf8d87e3bf58f131cc3bf03c3f90b5e92758789ed1b68c8e5e51c67014",
+			"hashsum_meta": "a7be3be9646c725974838eb6e6273635960d7440cd0b4d1473817b69fcf291db"
+		},
+		{
+			"path": "/data/race/vegetation/trees/textures/tree_bigleafmaple_branches_n.tga",
+			"guid": "8609129e7c5e946f78a318314a182f4990490b78",
+			"size": 16777260,
+			"hashsum_file": "1919a32e61d49d6e1ad192afd25dce7524ce3f8a5e0f344ecc720f9419b3a3fe",
+			"hashsum_meta": "561eb624ff3ef12a3c7170d61f85de563dbae046de94451c7310609906243d25"
+		},
+		{
+			"path": "/data/archviz/base_materials/pbr_base.mgraph",
+			"guid": "0239d7a37434d8a659a617cd4a5ed6c8c65b8b87",
+			"size": 41630,
+			"hashsum_file": "d11579ffc24a6c400e3f4bf18abbefef92e8113d0c1eec9807f76f228f26ea25",
+			"hashsum_meta": "c661318b0beb62ed9f6b6569d602831316032fbf2bdf88fb8f7029c1c04de523"
+		},
+		{
+			"path": "/data/archviz/interior/remote_controller/fbx/remote_controller.fbx",
+			"guid": "db9b8a36dbac7c1d3c79ced80a208457a14f55ca",
+			"size": 142112,
+			"hashsum_file": "8d43e26928fa6ab9f495753e390c35394fc8849986f4f92ffc65333d9572ed5b",
+			"hashsum_meta": "f8d66498238aad0357d15417630d746ad8a4fc188934ff970c51f604f55242ef"
+		},
+		{
+			"path": "/data/archviz/interior/magazines/fbx/magazine_02.FBX",
+			"guid": "790a8c6d4c9082e87c9609273c81f45af32e37f1",
+			"size": 34208,
+			"hashsum_file": "6391a8c1d70433f33e810a6f638f840d7d33538dbd626a3d07245127bb46b4ca",
+			"hashsum_meta": "8ebdb360b4c21405c388933830959b77e243ae95931caeb1c08ca75c61d413fc"
+		},
+		{
+			"path": "/data/archviz/interior/dinner_lamp/textures/dinner_lamp_n.png",
+			"guid": "aee5a3a6d37499af2b0195e3524e77a7d1147949",
+			"size": 1015583,
+			"hashsum_file": "36ce11caf43d3292d2e5f34d500d5d526ac04cdc7a8ac3c34e0e6ccd3741a551",
+			"hashsum_meta": "bb8b2ff85dd36affaaeeb576612cdd2d75a30fc873510a1a0318505599d491ac"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/bce6558ff52f45a252660899e9fb5924f83ad233.texture",
+			"guid": "bce6558ff52f45a252660899e9fb5924f83ad233",
+			"size": 253388,
+			"hashsum_file": "3deb218d78de2060099af5e942345ec6665bf088ac70706a187e3d5525771e84",
+			"hashsum_meta": "fd023f51fa0d6b621324b44f9f8a11d40b7d8a3f75aac55c1a1a9d2a2a2d0c2d"
+		},
+		{
+			"path": "/data/race/props/checkpoint/CheckPoint.node",
+			"guid": "dfa6c7528253be89d3fb3654660a2da3ee0d36a6",
+			"size": 2364,
+			"hashsum_file": "da92720ffee0a3695a51d5795e74ec3273d5c32fc4d3177fc872f863cb0f811d",
+			"hashsum_meta": "dadef1c5b27a150b1fb8366fbcea324bce95848efae5d59a9efb0531c5a5201c"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/1a46df73a14b1e364e8f001d369282d82919a857.texture",
+			"guid": "1a46df73a14b1e364e8f001d369282d82919a857",
+			"size": 839862,
+			"hashsum_file": "fd1910c298a203d7cb7237e342e0ae8cd0e57d03a456e4e2ba9ce9e77731d9ad",
+			"hashsum_meta": "9a007bfb53d44b0ead67e403b7bcec9f78d855e634d1784721f11b02e9a65f18"
+		},
+		{
+			"path": "/data/archviz/interior/slippers/textures/slippers_sh.png",
+			"guid": "fb9d38197315896c4188076d719133a359d7a85c",
+			"size": 2766348,
+			"hashsum_file": "00d44b63788cfb0dc03585d9b68f789ea8f6e93b202acb8782ae74035c5cb55f",
+			"hashsum_meta": "ff87493d644d14f7a7d2a0b72ad31d5f7738e24e8b67a10c0fffa83cce55e19d"
+		},
+		{
+			"path": "/data/vr/particles/particle_rain_drop2_alb.tga",
+			"guid": "17f2c7862b58792d059a08a83d1c53e751dc401a",
+			"size": 131116,
+			"hashsum_file": "213cf762f697949e716181b41b5c377dca3b5f5a03b828bd9b7f4eb2abb5c471",
+			"hashsum_meta": "dc03a45238d928b9a1300778a06e6ac1e68d295754728322219c0a9a9be6593e"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/cb2c878887fa0547462a81fa6dcb2911c4c5cf3c.texture",
+			"guid": "cb2c878887fa0547462a81fa6dcb2911c4c5cf3c",
+			"size": 27208792,
+			"hashsum_file": "9d79e72007c7023f74c42bd1405d1b0901c023fe714178bf642dc8505645d119",
+			"hashsum_meta": "82afb501cd246aae9df2e23529d6b941bb7a9a36198f67f0b273234a8cf5ed50"
+		},
+		{
+			"path": "/data/archviz/interior/fan/fan.fbx",
+			"guid": "77d381ba4306a5d17b3fa4fcf702bc2b3ebea38e",
+			"size": 606464,
+			"hashsum_file": "2aa79b819e73b987520a706da94cb39a2f437e510b7b7567c7b479f71d283de2",
+			"hashsum_meta": "7c810049ce2b1172519282ce55ad3a0fdf4e3ccc5c9295ff3d5169d717c53ba1"
+		},
+		{
+			"path": "/data/fps/robot/materials/glass_color_mat.mat",
+			"guid": "1ee39dfdeca5c738c2b26137b098cd2a1f0a1a81",
+			"size": 867,
+			"hashsum_file": "8036689cace51f14d34618cb7c5f0c3e4f0eb8fe40a515ca00a57b99968b0b4c",
+			"hashsum_meta": "0f28bb1bd546e56718158261fe911d52dc4b7690d7b28f0bf5ff53ec259ae9f4"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/44cf3d0e43a6a115cb207f70f1cc0c0ffe108a22.texture",
+			"guid": "44cf3d0e43a6a115cb207f70f1cc0c0ffe108a22",
+			"size": 299291,
+			"hashsum_file": "ec2013d44a4b4ced3be41311915417d8f16bd25b742cf46ebffd71af6b2e167d",
+			"hashsum_meta": "a5fea0c591b0829bf3d4bcaf59dc4901001b52c41ed4ea7064725816d1bcb8f2"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/c21e20e24f22aad9c0751664d910ee734a87e136.texture",
+			"guid": "c21e20e24f22aad9c0751664d910ee734a87e136",
+			"size": 21608872,
+			"hashsum_file": "4a6e1f1d80dde9b32589da721f3f4b20363e9130edcca5c3a6366177c2507fd4",
+			"hashsum_meta": "c8f24695205204fc6691525c58195dfa59718661d9dc7d889989086fc0020ca2"
+		},
+		{
+			"path": "/data/archviz/interior/pouf_bedroom/fbx/pouf.fbx",
+			"guid": "9a32b7542d41baa3f30d5fa63f6ef2cd5fd3f5c8",
+			"size": 367472,
+			"hashsum_file": "6e8f58d2938c2cd8c2d169f2f9148302a14574b022e014fe64f395b641f8c9a0",
+			"hashsum_meta": "db732c0aa6b7c50d0cf732b9926845ce11796eee99b8d22f964675aa2befcabb"
+		},
+		{
+			"path": "/data/archviz/interior/toy_fox/textures/toy_fox_sh.png",
+			"guid": "500066c084a5698cadf0ac59073db45a191117c5",
+			"size": 3473667,
+			"hashsum_file": "75a5b31c2d1697117620aa4ee204a45a14f406c9bbf8bfda22ac57d7d928d0fb",
+			"hashsum_meta": "0c85082b33241d6b13bf34c666df1c336b4b31dc3cd1955975e1614061f3c73b"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/1edac4291fb43f74dc326443497bbcc6b4446d6d.texture",
+			"guid": "1edac4291fb43f74dc326443497bbcc6b4446d6d",
+			"size": 2670898,
+			"hashsum_file": "2e31d497e1dbbc3f61eabc4f6e9e6fe6a58f486cb4a16b81494f825779cf8298",
+			"hashsum_meta": "c03da4f989ac9ed612e8d3f8a92b5c789853dc1211a2d4866a6d02eb04586fec"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/a29a48290305f37489108843171b90c687da316d.texture",
+			"guid": "a29a48290305f37489108843171b90c687da316d",
+			"size": 575174,
+			"hashsum_file": "a21e9ddbaf761a44b4fb601228efce191ffe861593fe24a75c4f799d9c2cf744",
+			"hashsum_meta": "d3515633cfd8841598f876bddd3121d46c69d0cd5275bf832f6f01b3c50e8fca"
+		},
+		{
+			"path": "/data/archviz/base_materials/pbr_emission_base.mgraph",
+			"guid": "dcc97cdeec18bea5b3c35fc08f41501f5bb35ef2",
+			"size": 42382,
+			"hashsum_file": "372d14f9c00a8ce04f042fd4d0bd44596ce0a054258e7a2bced0439bb72d9890",
+			"hashsum_meta": "66815fb3c5f84b9fff71738d94bfcaa7bb27720cbf90f6507d8255843028586f"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_lights_n.png",
+			"guid": "06b45f6fc37506025ff70d79dc29d8843bb78a13",
+			"size": 844204,
+			"hashsum_file": "95953d2eca602db1ce88d108fa5cf2894cc0d1ef32da3c4a53f431af1ca717e3",
+			"hashsum_meta": "a237238336fc48f72451856c055c0bf8e3a170d1af450755bb4880d7eee6ccc7"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/0b9103b2f6a70f69d44f91b4f31b118313940906.texture",
+			"guid": "0b9103b2f6a70f69d44f91b4f31b118313940906",
+			"size": 484429,
+			"hashsum_file": "2477363230efa56f6c52ca41ff54cf02448b9530c0f4d3de4c2f53a10253c7b5",
+			"hashsum_meta": "a9cabf5c61362d34eb5e36f5309e4dccc2913c5ecf7d05e3640f7af83e5fd0f4"
+		},
+		{
+			"path": "/data/fps/hands/hands_animations/hands_pistol_shoot.anim",
+			"guid": "6e5043b26ddd4f69bf90d1b424eb5183d4a74906",
+			"size": 7298,
+			"hashsum_file": "1ee2346828f97787d13ff4bd4add8c270fd2b8ee1038dbee1e7b8d6f4eb56ba6",
+			"hashsum_meta": "0e556fdd8ebf27627252eeab3de013c2a4160f8c81004afe0316686e92e74de0"
+		},
+		{
+			"path": "/data/race/terrain/Albedo.tif",
+			"guid": "639707683135c3a7436d6cdae3a65671835b5d1c",
+			"size": 6291776,
+			"hashsum_file": "44ef342f3ce808bbc6db50d6845e82609fa1c3a680439b787944af1e2cb7d288",
+			"hashsum_meta": "02ca196730ffab59c6b3f4ecc12479c6db905edad9e23fa924aacceccd4fc0f0"
+		},
+		{
+			"path": "/data/archviz/interior/plates/fbx/plate_flat.FBX",
+			"guid": "99d7ac3bccc5345e527e10253ae18340e56e1d9f",
+			"size": 196784,
+			"hashsum_file": "25837e047142cfbaf0d3360cafc4bbccf18d76332975a7650c19a7de5fa28aab",
+			"hashsum_meta": "2bc085328f1c7023358a441f7a1c3088352cfc7642c4caa77717c16fa5b9927c"
+		},
+		{
+			"path": "/data/fps/bullet/bullet_fbx/bullet.fbx",
+			"guid": "3cdf08cc0d2fadbbde5647deec210da5baa962c0",
+			"size": 23312,
+			"hashsum_file": "ffc40672388914bdaaa9704175fb086cd236130f0749a159ef6d436c55106fb8",
+			"hashsum_meta": "84d70a5d9a44672add09dc99a01d31fc039153930ef95e14177d759a7d0ef790"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/Ground025_2K_Displacement.png",
+			"guid": "c4bb707fe52d43d2884311098a8166d4deada423",
+			"size": 6286508,
+			"hashsum_file": "a1c6f575706b1c403aae1c7d1f33505462f75db2b0b133423a78ab240f59062e",
+			"hashsum_meta": "9ebb0c8fd2e0f0ae07cb52339ef33e4715b0c784ed79d2df9d8da50fcc880968"
+		},
+		{
+			"path": "/data/fps/particles/materials/gun_flash_0_mat.mat",
+			"guid": "5f1ff8207e9ef0fde7b3767cc127388a7044c332",
+			"size": 1174,
+			"hashsum_file": "66f821e7089b5bccc511ed39243fb2963254551167dcb2ba8717cfc274676481",
+			"hashsum_meta": "bb310b7845a56125193841979cc6c33ed7daf95a3f467457b52eea9b672bc616"
+		},
+		{
+			"path": "/data/archviz/interior/magazines/fbx/magazine_pile_02.FBX",
+			"guid": "9bda978b0b7d076e5c7c27f54d9598d0b43a95ef",
+			"size": 38304,
+			"hashsum_file": "8ac04ccc43332dfa6a67b26a56b1a6803f827e6ca52690b1b2137db89cfb9ec0",
+			"hashsum_meta": "84ef1edb517503f8c85696512cc7df38cbf76f6799c7756ea1cda0d7df1b1341"
+		},
+		{
+			"path": "/data/archviz/interior/plates/materials/plates_flat.mat",
+			"guid": "fae4772c61f6394ab700aef16bb0ef783aba2722",
+			"size": 636,
+			"hashsum_file": "96ddce90beb3623168ac7b5151bbc15fb8958923b7b8d3c2ab4f8a9166035596",
+			"hashsum_meta": "937d1b8c414a1df815f14d52da4efb2cfb225b916caf2fddb1f26abd5f8d55b2"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/1821ccadea984628ac067367cfccd99aa8935c31.texture",
+			"guid": "1821ccadea984628ac067367cfccd99aa8935c31",
+			"size": 669426,
+			"hashsum_file": "9692e017404cbe940d7ed1af1109c7ad246eedd49a15bd31c726a88fc2af5e3c",
+			"hashsum_meta": "6a896ef6cd88ebe62547ee279ea85387f1a12c973464194296beec07a65ae2b0"
+		},
+		{
+			"path": "/data/vr/particles/particle_rain_drop2_n.png",
+			"guid": "33e70d1c361fc5cb75ade0ae6ec6b0353be80410",
+			"size": 16821,
+			"hashsum_file": "ed9855724b638916b56f16d677961142103929a1af761f4bc22bb11c0d02b931",
+			"hashsum_meta": "4af44377530482159767ad892755bcd51d7e3e7ea7cd347854d32a1f13fd1493"
+		},
+		{
+			"path": "/data/archviz/base_materials/pbr_auxiliary_base.mgraph",
+			"guid": "ea0313203655abffed3749527876588927190854",
+			"size": 48323,
+			"hashsum_file": "3336004fd8e216840d9f831b512c991bdc8f202c42495679b03861e7ca6f6b8c",
+			"hashsum_meta": "aca51621d2d51eccb38c84f877d0894b19a381854765afe113787ff9161a96db"
+		},
+		{
+			"path": "/data/fps/pistol/pistol.fbx",
+			"guid": "7181bbb30549cd76f991665dd6af3418086e2897",
+			"size": 466352,
+			"hashsum_file": "bd3d652a34a2a60390ee9ca6827da3b3415de12708d0873243222be31fe4f7c0",
+			"hashsum_meta": "75863ac9686077c6f9573d87a1029116b67015316dad1c9b33d9dc0a38ce1edd"
+		},
+		{
+			"path": "/data/race/terrain/Mask6_Grass.tif",
+			"guid": "702b5fb38f3f2176ee7eaa5d73d3a818dd800c97",
+			"size": 4194571,
+			"hashsum_file": "0d0059b2677211e448ac14c318921acf669d3ad0afea8afa15b8e24bc130b614",
+			"hashsum_meta": "286bf0840fca7f72ed4a69c16118b7d31aad130f8f7d9b5b740081df602c7b57"
+		},
+		{
+			"path": "/data/race/props/trinkets/trinkets_car_fresher.mat",
+			"guid": "ca7efb35a525d3104e030b2f80a23ec28a9f6f39",
+			"size": 495,
+			"hashsum_file": "d3ad2c7e3f288c9c3b0f7267040ba228aa9dc54514f843148e062f05a1dddab6",
+			"hashsum_meta": "b8b0164c4361e05d20ecb906b100015dd997238c4abaae0cdadcafa1fe28cd45"
+		},
+		{
+			"path": "/data/race/vegetation/trees/impostors/mapple_imp_alb.tga",
+			"guid": "3c3c8b350326231003e71b2f2b970ec213edff39",
+			"size": 33554450,
+			"hashsum_file": "ada0aa86810ce5759cfe672b8ccc30f092c2a7ed3ba08ebfca975a34ad6c9937",
+			"hashsum_meta": "2714e54e443aec3c49d78840b1132105de0c6d1d939789a37785b7a280d81285"
+		},
+		{
+			"path": "/data/archviz/interior/magazines/textures/magazines_sh.png",
+			"guid": "c56724d2b6346a4724f2ce346f90a0ec8deb160f",
+			"size": 34680718,
+			"hashsum_file": "904d5ef4692346330619dbd43e04a4f0caa702017e0313a1df45911cbb6ab8ad",
+			"hashsum_meta": "fd46c89da574f3b35e6a4931bb5821a62843aa3f14554af924aadfe20e2b47b7"
+		},
+		{
+			"path": "/data/race/vegetation/trees/textures/tree_bigleafmaple_branches_t.tga",
+			"guid": "94f001579fb84ecb60e257e6925279b7801d4fa6",
+			"size": 1048620,
+			"hashsum_file": "298513ea54e67c64d42bcd4162a86b2051a5988ca27915e24625c55b3e17c49c",
+			"hashsum_meta": "4ee37bce1ae7d3f66e75a639dd1084adebc1ef6d67dd0d26de3277535ff3c043"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/grass_2_h.tif",
+			"guid": "4788a97aded02a91a61fe2bc84c05eebe4f8674e",
+			"size": 22193128,
+			"hashsum_file": "b6c4df11d33497b5476fc02d72442f8b80f4b892d9c010d98d1409f780f15999",
+			"hashsum_meta": "b5c5c323de59891ea47d535482791ded6c9bbe8d9baaec625d985c58bd34a7ab"
+		},
+		{
+			"path": "/data/archviz/interior/materials/wood_planks_mat.mat",
+			"guid": "188aee14164d026348f6846617aa508d29f23888",
+			"size": 409,
+			"hashsum_file": "1249d1aa51a4ca2887d2c9ffde7f401044da7a6a59ee293a6100fea34b565f50",
+			"hashsum_meta": "4b02811d3e82c062c7043b7dc74d14cff45ba8a741c3b25c4634360bd32eeae9"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_lights_trsl.png",
+			"guid": "4a0e87850527d320fbb36bff0d7a0952745a1889",
+			"size": 24308,
+			"hashsum_file": "5ab11371caded9f0b46ba4486cff0d65bfd3bafb91fcca4676c125b0d40765f5",
+			"hashsum_meta": "075e7b370675279f3db58b9db507016b201d7b4535c9b190466fc6d392adee65"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/2f22fb561cbffabdac8afcf814809bf7c03a48ea.texture",
+			"guid": "2f22fb561cbffabdac8afcf814809bf7c03a48ea",
+			"size": 6645031,
+			"hashsum_file": "1b1bf6f80f588821fb26540e34ccf8044cc42265b5c86f59b29540b6f69f86a1",
+			"hashsum_meta": "c737c98d1b34ef0e7fac053b770369864b56e4e2786c9a1125fabb46c9a06f74"
+		},
+		{
+			"path": "/data/archviz/interior/cup/materials/cup.mat",
+			"guid": "0d72d28ddde8469687641b997a89279f1f39c5ec",
+			"size": 628,
+			"hashsum_file": "e4e7a7b9ec387703d376a300b6076625181831c99c68334489d3992848f3017b",
+			"hashsum_meta": "8495bc311659581fd9c377a47e63f9192fbfe26761139b4cb70c32741ebfc6bb"
+		},
+		{
+			"path": "/data/archviz/interior/tray/fbx/tray.fbx",
+			"guid": "9b036a6bdc74fccebb37ddd5aa7515309c8226cf",
+			"size": 55392,
+			"hashsum_file": "e722f3c93a69534ef4948ea2c2d564f7add9dcfdda9dcbfbe8ab8268adedfb1d",
+			"hashsum_meta": "c096029e585f0ebad42060939443ad55798eadf663f05a4548addfc9b71e1d57"
+		},
+		{
+			"path": "/data/archviz/interior/plants/textures/pot_ceramic_small_sh.png",
+			"guid": "07095c74513fbf88d9c88e05ff176b229cc4b42b",
+			"size": 2317875,
+			"hashsum_file": "ef7382848c9f2b7485c3dc4a03a009213e684da05886a167048940fc6843ea80",
+			"hashsum_meta": "21f239aaf6b9f23c84ab9977a575900682d817a49001a7a7b7f3ad7042a2b183"
+		},
+		{
+			"path": "/data/archviz/interior/pattern/pattern_03.tga",
+			"guid": "82df2b3c18843d014fb51166f66914edb38f1ca5",
+			"size": 4194348,
+			"hashsum_file": "30d76a8e7c2ef9c6043c08623b3cb06492eec40a1e3c8f29e98df3780a9424ec",
+			"hashsum_meta": "64cf37767a4dc664f7d8394c4cac1b02ef46c395d7ca16fd779c979262fc78d7"
+		},
+		{
+			"path": "/data/fps/particles/vfx/jet.node",
+			"guid": "0a134f9336798fd67bd0853d9e11057894320a77",
+			"size": 2898,
+			"hashsum_file": "8cd0350468149e1ab83aac6497f1702e9a955254c4d6bab9a97f1934b4047e0e",
+			"hashsum_meta": "c67a76d3fe268b53e8f10280c5792f9c3f2d7e4db8236584fbe7ecac8c5e1b74"
+		},
+		{
+			"path": "/data/fps/bullet/bullet.node",
+			"guid": "ec33ae15d2782870bf95a10f4fab1b221b40e019",
+			"size": 9929,
+			"hashsum_file": "89f28b2744bf114cf32d68b0e4847e3f0670ea71f4f2c16f034a055f0dc1927a",
+			"hashsum_meta": "51a83aba4854785c9ba04d481091d294bab992318dae05562571b1c673631b97"
+		},
+		{
+			"path": "/data/vr/smoke.mat",
+			"guid": "1b9e5e15ed031870e443d10f43a38b226b7e9019",
+			"size": 268,
+			"hashsum_file": "b1524696a63f4f496865c2a2459195d9ff1372859c7bc30917756aef6d0d2c9d",
+			"hashsum_meta": "40a7a1773ff19da4cd72964f0952f766f84b330a8339082f6fa83f2c5756c877"
+		},
+		{
+			"path": "/data/archviz/interior/tv/textures/tv_detail_n.png",
+			"guid": "5401e7ba5774150deb187034f8355add9bbd3e9f",
+			"size": 216462,
+			"hashsum_file": "eee6838d66e4d51751273af880ab9055eb380dc15e10974fb05b506c5652c27a",
+			"hashsum_meta": "81a10a1cf403c0f8dba5027680074a7092b7045623e79c9d32ee3ce60936e70f"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/8a9948b973425ac4641ba753ad9c84965cdb72fd.texture",
+			"guid": "8a9948b973425ac4641ba753ad9c84965cdb72fd",
+			"size": 242085,
+			"hashsum_file": "3f89101fb6ea76925e78b586c915e1600d7aa5b62d7682cb9f521d85ec2ca603",
+			"hashsum_meta": "ac671f38009bc5a458897365fdd34b61dcc50e65f35618196be970a0e2e34a04"
+		},
+		{
+			"path": "/data/fps/bullet/bullet_spawn.node",
+			"guid": "19e7f77b24d4869eee4abd659c8dcf80f3cf7cdf",
+			"size": 26317,
+			"hashsum_file": "3d6918de55542d2dfe8e31224a957b8a9c7dd0379aa6333bd8a34827e22c099d",
+			"hashsum_meta": "e2c3d06d17fcc9d0b4511057cb05fbe37a9022d02f3a050682803d88d3616a67"
+		},
+		{
+			"path": "/data/archviz/interior/sockets_and_ventilation/textures/sockets_sh.png",
+			"guid": "7fa88b0223a7b7b3f90d4d851e98ced3d5386fed",
+			"size": 14589904,
+			"hashsum_file": "2c0219a76f98ef0232f71ff668e3f7bd9976e1455240b2d6a73a3e6c4142e6dd",
+			"hashsum_meta": "0f55cad4280b9a0a8b1d52407946f4b5c3d74a4ee2861d59b5b47e346d5f4fdf"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/2756e71d6dc33dd8a4152757d6ad9cca9f7265a1.texture",
+			"guid": "2756e71d6dc33dd8a4152757d6ad9cca9f7265a1",
+			"size": 24916557,
+			"hashsum_file": "5bdb9ed6b3dcc6337bca9db97dc17ec80a11671c1f2597dbd76a64c781d04b03",
+			"hashsum_meta": "f5a81b5159e08e034c42c07b29a1591d5151a97d8847933f958ff6b39f7093aa"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/3a8f79743c7056437d0d06c670212f6dc8a8c9e8.texture",
+			"guid": "3a8f79743c7056437d0d06c670212f6dc8a8c9e8",
+			"size": 169450,
+			"hashsum_file": "3231e1108ea1a4513d9e261598286eacbfa3fa8fe2a6e11a2d24df516e375659",
+			"hashsum_meta": "263357fb019f2d2d84b77b60864848986852e67d2366d25edac1feae1de75662"
+		},
+		{
+			"path": "/data/fps/robot/textures/robot_red_alb.png",
+			"guid": "c9c24b6542340580dcc43adf61a1cab273cb2a69",
+			"size": 11081551,
+			"hashsum_file": "45df88911402c9c62fb1330c999cbce4fe5d5e2516f3a0710a3a629993877b4a",
+			"hashsum_meta": "ed52a8653f3369d720a94873dc93acc9b74cfe06c11901955db2bede77183a61"
+		},
+		{
+			"path": "/data/race/props/pickup/materials/pickup_details_2_emission.mat",
+			"guid": "25da67654695718072beb6dfe8c216b29ab70669",
+			"size": 788,
+			"hashsum_file": "5f03c80167c1d0a30eec7766f369b31e775cc994e05be477269fcd62125796db",
+			"hashsum_meta": "a0e0d90e28f1892cec919364c103999a838a9555d1b4f30f8d18334a3240187e"
+		},
+		{
+			"path": "/data/archviz/interior/home/textures/handle_door_alb.png",
+			"guid": "80adf8d30b50c309a58348691dd13d29b38e58a8",
+			"size": 1657660,
+			"hashsum_file": "551ab652643512e432d3e76c389a8fa24f2087123308dcbecab77308c8a3e359",
+			"hashsum_meta": "b9079b3ab5e7919c15723fd660af605652b43f2077de1754e3f1d83c12fa0e17"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/9e2effedfcef6068df2848a7b6bc2ddaf88c2371.texture",
+			"guid": "9e2effedfcef6068df2848a7b6bc2ddaf88c2371",
+			"size": 163608,
+			"hashsum_file": "6fb16cde9e275fb6cf0c8edbb247f0a51ba3196e3a3ca6286922e2cce887932d",
+			"hashsum_meta": "7b06db5d2abcbf18aeb8cf23a111bcc35335dfcc61b02d5a4ac92806319a475e"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/2dfb0631316ec9dc99f8db8ba61e7b6edee70bf5.texture",
+			"guid": "2dfb0631316ec9dc99f8db8ba61e7b6edee70bf5",
+			"size": 27590137,
+			"hashsum_file": "b356aa7d039e97c8cdff798381a1d10ae239336966649bfa1cd363f24744247b",
+			"hashsum_meta": "16edc6c9bf19afb11593269d84ec19f3873d3815fa83ab6401986a983a62615a"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/e030f3d2ef930109133096d44cb3142372f7eb26.texture",
+			"guid": "e030f3d2ef930109133096d44cb3142372f7eb26",
+			"size": 120102,
+			"hashsum_file": "779ee5f8fc3f561a8bcf13ab6e8281454b34d9c824166ea366d84fb6393ef6cb",
+			"hashsum_meta": "a4492e205b7aef2dde60316b5b8366595c2dfaa12a2f8edb4903865de127bcf9"
+		},
+		{
+			"path": "/data/archviz/interior/bed/fbx/materials/pillow_03_front.mat",
+			"guid": "930c6fd294204d0926a572d4554a40236a2d2726",
+			"size": 1310,
+			"hashsum_file": "cdadac8cdbee7f730aceb54b3b01be60bc8fae52c00f61ea34340b9f8e708caf",
+			"hashsum_meta": "eee15291cd0b92488d324987371deeb44194ff41feafcfecf89433619db857ba"
+		},
+		{
+			"path": "/data/race/vegetation/grass/textures/grass_high_a.tga",
+			"guid": "f54e2fd283f70d09a50d32d4d70f002325aae726",
+			"size": 3145772,
+			"hashsum_file": "279c0b1f6015967c4e0dc577da9155faeb3a17ce5c4340592a1e7220cbfe2652",
+			"hashsum_meta": "a560bfa8c7fb60a1ca15774dee9cce83515718c15a67f130948d34f0e21525e4"
+		},
+		{
+			"path": "/data/archviz/interior/slippers/textures/slippers_alb3.png",
+			"guid": "fe85c884a2c461bebc1951f1438dc9c23c19b5c7",
+			"size": 4618548,
+			"hashsum_file": "e1175eb61fe5a5900ab3c6f258ed45c2bf3fd50b743ea36aacc2b2f9c17fdc83",
+			"hashsum_meta": "b1a775e170b5e406c890a6a83834189dbce39c73666a3b1502a9f555b039f9db"
+		},
+		{
+			"path": "/data/archviz/interior/fan/materials/fan_table_mat.mat",
+			"guid": "4d7aa61742158c8ae7001261ca3b884c892f273b",
+			"size": 283,
+			"hashsum_file": "939c323d44d2e8419eeacdf2136a031de4b781ccb2d170a48db3d65ef8c9201e",
+			"hashsum_meta": "d5fdd07070871519ef9f4e83cdca32466c541541242a5a7f3d6a403a2fb10b0e"
+		},
+		{
+			"path": "/data/archviz/interior/wood/wood_parquet_2_n.png",
+			"guid": "3ccb38c4ad3a74758f898fc5be10c92542c4e279",
+			"size": 15122832,
+			"hashsum_file": "5d7f9b316851fc98b4d22c21ae8f3810da1055486fa8c1e406a8e3683504867c",
+			"hashsum_meta": "1e9d34e8bd96134bcab7327a490548fcc26e465e5c42b42a3895850e443b3ea8"
+		},
+		{
+			"path": "/data/race/vegetation/trees/fbx/bigleafmaple_mature.fbx",
+			"guid": "7014f5bce71a47eef5bf4d7ecebb38b4c1134531",
+			"size": 876064,
+			"hashsum_file": "36ea8f2e6e63744fc5bf60518f94cad23c23c74de752fa6f524a58f1fe55d418",
+			"hashsum_meta": "1bbb42160b4318fc46d055635ed5f746c34fd9c2baef0b2dd99b5019eae7a90c"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/env_probes/b1ff777dbb38d2b8f63ef6b7ebcd64aae092cc01.texture",
+			"guid": "b1ff777dbb38d2b8f63ef6b7ebcd64aae092cc01",
+			"size": 1477148,
+			"hashsum_file": "db45240a925c95dbaea28382dec3a3c75116d094285be64d1837fbcd9fab29e8",
+			"hashsum_meta": "a8cc5fdcf3e5f6763cb2234632ff77d800c72685a60e8ef07513f1eccf40ef28"
+		},
+		{
+			"path": "/data/archviz/interior/wood/wood_n.png",
+			"guid": "8d4817cecd22a1fe190065d6282b30f76204199e",
+			"size": 8158071,
+			"hashsum_file": "539934c28a04332f1095534d6bedb59af5d0114e155cd0281758755230ddf212",
+			"hashsum_meta": "34d765eef98453ec7cf658f800bbbb56b29dec8207424e947def6f7ed6e5a1a3"
+		},
+		{
+			"path": "/data/archviz/interior/frame_picture/materials/paper_mat.mat",
+			"guid": "92981e7cab769041b1fbbb6cf39ca20eda7ee002",
+			"size": 522,
+			"hashsum_file": "4f1b936c8f410bc115b6f6cfb7eb646592b614d2abea6399609a092cb4d1f7e9",
+			"hashsum_meta": "5378c57f8c632c82dc116570975c3e5f1e67647c2e57dd9fc4edcc35b97f5c3e"
+		},
+		{
+			"path": "/data/fps/hands/hands_animations/hands_pistol_walk_b.anim",
+			"guid": "0618cf62aee4875963a848e477497ef3f97a37b6",
+			"size": 6333,
+			"hashsum_file": "070d8488b657b4dbde58cf241befcfee19c810bcb01c467f39def3d0c715a445",
+			"hashsum_meta": "5db846c520139f506e9dca424a10206db2ca4ac55a122fdcfd3d27d0557ffda8"
+		},
+		{
+			"path": "/data/race/props/markers/arrow.png",
+			"guid": "536a7d011bbeb26c0cc10adbdbf2c27e1f8f07c5",
+			"size": 640,
+			"hashsum_file": "d856448cd73417adf9a09ed2081eeb61376f6abb902336c4915d2b026e7fe2d0",
+			"hashsum_meta": "88992847457db1034828344a13b3d92e37b0bc89aee276aa812b8de1e5e7d79c"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/953de0d46cdbd6234455c526220d1a4dc118f748.texture",
+			"guid": "953de0d46cdbd6234455c526220d1a4dc118f748",
+			"size": 974124,
+			"hashsum_file": "ad7367f45cff93ad038f60cfb1b72fef184a6aec9a2c315efa1d515926576fb1",
+			"hashsum_meta": "016a7615522b955174e6b217fbd0f8a03b9ec7e5d4e39882266875d5d913abb3"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/f396fe1894af6a97168e870a5b73cae1d41ee6cc.texture",
+			"guid": "f396fe1894af6a97168e870a5b73cae1d41ee6cc",
+			"size": 162384,
+			"hashsum_file": "0bff7d72cada221875804a0d578860e110e923a1c9fcf3c3f347630305a1955c",
+			"hashsum_meta": "53924e3f59927ac73314aacc6785feee8a6156d4272088a87c8216ffd4e2a106"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/8850c60aae6afde183fe7dcc9f669ebbb82684de.texture",
+			"guid": "8850c60aae6afde183fe7dcc9f669ebbb82684de",
+			"size": 29052698,
+			"hashsum_file": "3c5e8524742ff241da31be316423406d884000a2ec69d3e13b32d17872a6c1e4",
+			"hashsum_meta": "352e33e861119be20666a4c72367c4f24506920607678212e42af83a6e7e5db1"
+		},
+		{
+			"path": "/data/archviz/textures/wood/wood_2_sh.jpg",
+			"guid": "fccc18a48043f822581b7b93d048127515c93fed",
+			"size": 19152399,
+			"hashsum_file": "f6abf5ab2e7f9d1134e6e92b79109ef3bfa3bf4bcfada92364a11e98b0c737a4",
+			"hashsum_meta": "17bbbdb73e4390810f402afb827e90a9311185ceb0c2bcf6193f423f2164f914"
+		},
+		{
+			"path": "/data/archviz/interior/toy_fox/textures/toy_fox_alb.png",
+			"guid": "b41a7ab90127f05b1b18c0cbcd6570368fff3270",
+			"size": 10205890,
+			"hashsum_file": "25b0b0b0d49f4513b499ae752680a4208e278814745f01113df7a3ecc86c4813",
+			"hashsum_meta": "3f9dd342c9b892c6786595acc9f23bddaad109303aae759c0e6a3ac234b8f4a1"
+		},
+		{
+			"path": "/data/archviz/interior/tv/textures/tv_n.png",
+			"guid": "88055457fc22ab8801449d70270f041bd4fe3445",
+			"size": 2114316,
+			"hashsum_file": "c349f0b461a505fde25c02f3bcd41ade44b9b9c56c394f0a85c1aa6cc847f4b6",
+			"hashsum_meta": "82d411f8506333ca7107fcd9116a5366191313e523412a7c8c7d21156bb22bc9"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/rocks_1_height.jpg",
+			"guid": "9475d832f6806379b7d59aec402d06f36a234faf",
+			"size": 95647,
+			"hashsum_file": "ef639b2f082cc4cdbb334c9d044c4b79630b570475c6e341b863db10dc4c4f77",
+			"hashsum_meta": "657246c452412a10dc70dd490a86723d4dca75afa5cc23bc54166ccecbaad94b"
+		},
+		{
+			"path": "/data/archviz/interior/home/textures/.mayaSwatches/lamp.jpg_hcm.swatch",
+			"guid": "cc7822d3e303ca16024afa7db04079b8c32c71b7",
+			"size": 12600,
+			"hashsum_file": "9439d90001e0450f1a661dfaf0b4f5132a990eef2627933d255b8fd8ebcbf6e2",
+			"hashsum_meta": "0a5d679d3cffcdd6f558f6bd8aa298078be213407f557f0f25291eaaccff424b"
+		},
+		{
+			"path": "/data/archviz/interior/fan/materials/fan_body_mat.mgraph",
+			"guid": "843e2bff0505c95274f2d889146b88546e6a57a3",
+			"size": 13602,
+			"hashsum_file": "77eb288332e26e0ea6791a58172140909bb49eacaa49fddac25456db3fe91571",
+			"hashsum_meta": "23f69fdc36166359f07419bb11e9a6303da31a22c675a9b62ffd907547ea98f6"
+		},
+		{
+			"path": "/data/race/terrain/Mask2_Occlusion.tif",
+			"guid": "64bffa634b9d1c6672b0088d088c9088ca707a47",
+			"size": 4194571,
+			"hashsum_file": "19537af862fd80354a1978f7c5739c505f8255e55c7a7d1ae5d5388bd2adeae2",
+			"hashsum_meta": "8dc49974fb379326443f8f2c5ff471006cacb5a0aa7ee563bc036dcb27f5f22f"
+		},
+		{
+			"path": "/data/archviz/interior/pattern/pattern_02.tga",
+			"guid": "82bf42201688b943fd5f4b42e836a60ec4e2e3cf",
+			"size": 4194348,
+			"hashsum_file": "9b48d1fb912bd29b9c70ac732b65c3d12bba020f8560e948f1aef06798355ac8",
+			"hashsum_meta": "d0a4f9db7e006b4f9648d486af98e1687707f2c56fd1006de971d6979cd83e4c"
+		},
+		{
+			"path": "/data/fps/pistol/pistol_sh.png",
+			"guid": "6eeab234c86eb8037faa7d86e830b72d53492ea8",
+			"size": 10749066,
+			"hashsum_file": "92b5b2dc4749b3fd9e792966621200bf528346ba9a2edc0df11c4e0ed5b38704",
+			"hashsum_meta": "ebbb1ae25e1983a4ae001afb9ff9c396f976de3de43a5fe5a069c57ed28e0537"
+		},
+		{
+			"path": "/data/race/vegetation/trees/textures/tree_bigleafmaple_trunk_alb.tga",
+			"guid": "1bd3220cdec495f37f5297f590f6ca3172afbcce",
+			"size": 1572908,
+			"hashsum_file": "9c870fed1e49ee94625debc54822e1d66af8b362486607a59e4cd136ba901015",
+			"hashsum_meta": "17ab8eba5c576353cf80e5a000b303ea35305cbf68cd0cbb1968ad40ffe8520c"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/a794f0b598944a9059bc1caf8b8122421e15fcb9.texture",
+			"guid": "a794f0b598944a9059bc1caf8b8122421e15fcb9",
+			"size": 221172,
+			"hashsum_file": "1c1f426fd292a7533802fbba14387ee4807410ac58dacfd9fe22545a36eb2c9a",
+			"hashsum_meta": "14dd0062f6490148aef8ec6b13c7c16a3d93a374169af3f9ab5834f5211f9f2c"
+		},
+		{
+			"path": "/data/archviz/interior/plates/textures/plates_flat_alb.png",
+			"guid": "4caccbbc7382c75848a3ebad9c0b2b203e5f9af9",
+			"size": 2658706,
+			"hashsum_file": "c024765792ec99e1ba49cfb244f6bf3bde0e2d46a1b51e2267203541981a8d11",
+			"hashsum_meta": "fff2fe164db27814c0b85356f52175e81a62863a7625af0e0da30cec9253713e"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_1_alb.tiff",
+			"guid": "4cc6d4b520f4de90359ba0afa872d642781420b9",
+			"size": 31388470,
+			"hashsum_file": "8712501c5eab958147b6d8a6918dc24d0575372bcbe4134fc9ae9711456c1d43",
+			"hashsum_meta": "87610ce5a70a24a70bac2daf61919af0485bc58e8aea8fca53e284fe74d653f2"
+		},
+		{
+			"path": "/data/fps/hands/box.mesh",
+			"guid": "afa0a5c85a2d0e872fb17a3a4ecf44517e16b17c",
+			"size": 857,
+			"hashsum_file": "d96a15d3d16a8bdae2484aa41f664e4783e12551a0353f4ad6966316486a7b5f",
+			"hashsum_meta": "6d3667c8d159126611ccd39380974e7ba5eea729c4ee77f7d1d6dd54cd6ae50d"
+		},
+		{
+			"path": "/data/race/vegetation/trees/impostors/mapple_imp_t.tga",
+			"guid": "5ffa879b2c52983e43576285181cf220a37ffeff",
+			"size": 8388626,
+			"hashsum_file": "2abc6c8e688250b3afc9db83ebb01e27c1bbc99f030b29ee6e8a57eda320b4a4",
+			"hashsum_meta": "f79a4676bd8eec6fdaea2c2f88d9b6a34e6ea262aa0de231ff984d3127eb1278"
+		},
+		{
+			"path": "/data/archviz/textures/tex02.jpg",
+			"guid": "f12c844e2406bf55704f88b0fa1f044fb770a562",
+			"size": 229178,
+			"hashsum_file": "7f01bbe70151b3b5f6137fc32b1d28d30352dba60abd44605ff5d641b580d882",
+			"hashsum_meta": "51e0d6a8ca89ec4a90f84c55b9d7e4422ff80dafe7d3551bddeb74701eccdd3a"
+		},
+		{
+			"path": "/data/race/props/pickup/car_shading/clear_coat_with_ssr.mgraph",
+			"guid": "5c02bc4e6337975533da80b07efd9c4fff4e5d62",
+			"size": 52188,
+			"hashsum_file": "e09906936831c6ad7215fefc86a7a195d09e68502ee2a69cc163131d5f9fdc50",
+			"hashsum_meta": "592c251ab5200bbb784a0c581cca63b3d83ec606609cfd297e16315329e02c2b"
+		},
+		{
+			"path": "/data/archviz/interior/bed/textures/bed_pillows_alb.png",
+			"guid": "bc65eb5d7cdf417235f8143d3a9d3217a04d2535",
+			"size": 11215918,
+			"hashsum_file": "d7c3e89a71ee96a5870992a904108f96bf465b6e63ef5604956b0844b792f866",
+			"hashsum_meta": "a7308d05a3fba246a33b64edc5838ec8df45f402ccc69a9ab8ab7b9258a6f782"
+		},
+		{
+			"path": "/data/archviz/interior/bed/materials/pillow_01.mat",
+			"guid": "1194e25f35281fd73ac648bd3fcc57fd43b46140",
+			"size": 1121,
+			"hashsum_file": "0bc4a2cbe87c75a2a7a2fba56fb63104562cfce9fc7207d3c3595031d0bb1b3a",
+			"hashsum_meta": "c37318d0ce380f852aaa59d7f29328eb059bf1392492a2c8ce2b6a16d33ecf7e"
+		},
+		{
+			"path": "/data/archviz/archviz_launcher.png",
+			"guid": "054073f08156768fd506f2a28447d19909888e24",
+			"size": 844697,
+			"hashsum_file": "1aa3493a1f04260b85971ce2fdba470cea3d44eae11ccabcd6db665ee25a76be",
+			"hashsum_meta": "48caf144b078fbd7dead8ab9a9555f2fcddca819421646fff48ac493628ab07f"
+		},
+		{
+			"path": "/data/race/terrain/details/detail_rocks_0.mat",
+			"guid": "5d6e57227412ec19b9e7e6a4991f01b3882a5b76",
+			"size": 567,
+			"hashsum_file": "c3157d4340622b3db6136e6a9f8b741bdcdd7d480cb08f29b1be075acff80a1e",
+			"hashsum_meta": "d43dc6d1e7097344bf991b1b06b817a0d5bb06046f3c17c2a03908f30b67bc9e"
+		},
+		{
+			"path": "/data/vr/particles/smoke_white_alb.tga",
+			"guid": "05a117d609026d3d5409cd787984327701dfed6a",
+			"size": 16777260,
+			"hashsum_file": "c244318a9f06f008779bf19b7c002b740e4fb02113f6227b0840acfa6083a9f0",
+			"hashsum_meta": "d319f29594fa93e6f720c6ec1f9f3956e5dc96320ee5508e2ef2cb83dcf61870"
+		},
+		{
+			"path": "/data/archviz/interior/pouf_bedroom/materials/pouf_bedroom.mat",
+			"guid": "b8ce89aec8e8833feda4e11597d3bf367c114b0b",
+			"size": 1160,
+			"hashsum_file": "38e255045b8a2ed7785170605ae05e2b3188fe307754698fe314da633a10d4bd",
+			"hashsum_meta": "632b69780985f91e7bf31023e0b96de160042e1402e0aa9d4c86e3043ac479e3"
+		},
+		{
+			"path": "/data/race/props/pickup/materials/car_paint_pickup_blue.mat",
+			"guid": "9a4b218d4862d58824cffb47830bfffaab728f11",
+			"size": 1534,
+			"hashsum_file": "f93a7fbdc0249c8762d3158fda09d369d44cfeee8f870d284f98f662dc5e0cce",
+			"hashsum_meta": "a9cfba1f8fc189e55d0aa237bd1dc0102336b7a6a792d7fbe1ba22c92e37e8ed"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/f54b9d1e29cde1e57341aa00da80955f26c16332.texture",
+			"guid": "f54b9d1e29cde1e57341aa00da80955f26c16332",
+			"size": 138117,
+			"hashsum_file": "285aba308045198182eb2641385537f1f7a39e0ae69f65c7cc93f6e47c73e582",
+			"hashsum_meta": "f14aa6e2eab7d5d46c78d7c08114203df938e691c9c9f5a9cecb15676bc18623"
+		},
+		{
+			"path": "/data/race/terrain/Height.tiff",
+			"guid": "3fc0b05177612d7c7599aaab19efc00ed57f4815",
+			"size": 2097338,
+			"hashsum_file": "340b92f8b59504d26ba0392dfea7919162b458db0fcdbcb60640db4185a45bbb",
+			"hashsum_meta": "ee14dc47aeb805ba92720f4fdf0ab90a3ff5a421389c29b99e3775d13185c76f"
+		},
+		{
+			"path": "/data/race/props/checkpoint/chekpoint.fbx",
+			"guid": "ca9a7b13182bc5562cae3cbddbf056f8a8822df7",
+			"size": 163056,
+			"hashsum_file": "188475a8f7bef767a8a0a0ce740379c3ef05d16c9423f40c65606fa41db9d563",
+			"hashsum_meta": "c376588ae99ea7aee9bda97c58c0fcecb5724bf292e2f0eeb8b67bad95659780"
+		},
+		{
+			"path": "/data/fps/particles/textures/particles_blur.tif",
+			"guid": "fd6434a82be88fe72e234c1a13162cb167a6be5c",
+			"size": 30056,
+			"hashsum_file": "6f262087abd312f51a4bda12eec62caaea709f9189649fd16800f9df0fa22f6a",
+			"hashsum_meta": "61e1820b7f88fc87da1375536fa3787329b200ae7c5c79fb11c3ab6e010ef66d"
+		},
+		{
+			"path": "/data/archviz/interior/walls/interior_sample_walls.fbx",
+			"guid": "4df4ba39e3a01e448c4394d3d1c49416ac913c7d",
+			"size": 1041936,
+			"hashsum_file": "68c4860caa50d23657d2b9df74ecd56e33fca7d429f9508da567cf52ed5016c7",
+			"hashsum_meta": "d424f9a11248ce91968755bf983eb7792632562449ec3dc2b2b275a16bfcd94b"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/rocks_0_albedo.png",
+			"guid": "2b6dfa39b2485e44544ed4d3b5d6d416c6fe7c7d",
+			"size": 2438044,
+			"hashsum_file": "00b437feb8067c21d722b002debb1a1fa5609a896bd659338597a4601c0a4d67",
+			"hashsum_meta": "616931488e8e06b40ac81f52897250f2bf645e9f009cd9b3be5d06f122e1f8b3"
+		},
+		{
+			"path": "/data/archviz/interior/cup/fbx/cup.FBX",
+			"guid": "103f5b0c32195afbc47b941eeaa76ce57eafb900",
+			"size": 149520,
+			"hashsum_file": "76fea4bc6c2be4e111a405c49088c7e47c3264e46802e273fc78a6c431446ba9",
+			"hashsum_meta": "fd76dac066df0a8331a42bcdc9f35e587c7d83026397a697de01a6328fe03f2f"
+		},
+		{
+			"path": "/data/archviz/interior/plants/materials/pot_ceramic_small_mat.mat",
+			"guid": "676a4f61054492448ea6055ed436b7ce875b052c",
+			"size": 628,
+			"hashsum_file": "4652413303d8a4074a686d6321ddd5ba73e47993581b2f1ed4add26a5492c183",
+			"hashsum_meta": "0ca89ebaf9a053cfe83dac983c5d8d0e3fc1d519ce44dbf9cc7c72ffb4ed1664"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/272c3b87a994c33a2f6ff9519b5de27ca68cdbab.texture",
+			"guid": "272c3b87a994c33a2f6ff9519b5de27ca68cdbab",
+			"size": 275041,
+			"hashsum_file": "b78c96fef7adad2b4eed64052fc54d55576a003e3bf213c564a9b4c320e8f0b8",
+			"hashsum_meta": "622b8031d00596c0b6b9cf05b53716d94089f02af45e2d62736ec4a6fe99d57e"
+		},
+		{
+			"path": "/data/archviz/interior/materials/lamp_plastic_mat.mat",
+			"guid": "c61dd3b8db4603b7a1570daa72e6610155e1466c",
+			"size": 409,
+			"hashsum_file": "07ef81292d8a9f616263499e1b711f80a7f623359ff6e5ea00ff18a6ee7ad2a0",
+			"hashsum_meta": "6a6effd400a8b61cc4b2e6e415d686085c1bad4eac29aeab506b7815d25b521b"
+		},
+		{
+			"path": "/data/archviz/interior/materials/sun_shadows_mesh_mat.mat",
+			"guid": "530f1b5c2515ff0bca3e48ee71e57b7582b3d650",
+			"size": 336,
+			"hashsum_file": "8df93a70b239a3e1ecca69f5719a7098ea0a89157a36c65a34fc28d235d51118",
+			"hashsum_meta": "17de0e7683a6279fc8365dd283963e18f31685581d1d045f97bc23b3fd1a1253"
+		},
+		{
+			"path": "/data/race/terrain/Mask0_Deposit.tiff",
+			"guid": "db155d6dff631fe8d0d6022751f7995a06e598f1",
+			"size": 2097338,
+			"hashsum_file": "5e37f2c57a1e1951edc6ee56a1826af2f0c7055ff303d5f2e4e63df0e79378af",
+			"hashsum_meta": "fd602750e9810189e0b0bd4437bb1a51c7bb2aa3c9ef2e41ca7bcd594f9edf46"
+		},
+		{
+			"path": "/data/archviz/textures/plane.mesh",
+			"guid": "88bf1dfe41e4ad459dd23de00fa357bfae578212",
+			"size": 271,
+			"hashsum_file": "8afb4453e8ff605deadf4bdd8a34e2e09f442d1826b165851c461e05ef18f031",
+			"hashsum_meta": "3dc658b464f9bc035ab62ab4d47957c3d1e3b1077859c58dcf6541ffef40edb1"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/b480b08feb47e4a228001b990160502481c55d33.texture",
+			"guid": "b480b08feb47e4a228001b990160502481c55d33",
+			"size": 122127,
+			"hashsum_file": "be054748a7909a4294542cfda50d11f78d6083b72e51c1f702a244fa1321a779",
+			"hashsum_meta": "fdb237ccfdd19ea0402770eec4091baa736249255efb7565ec5ccbde251f5c3a"
+		},
+		{
+			"path": "/data/fps/particles/materials/jet_refraction_mat.mat",
+			"guid": "e2ce988ff7acaca278ce439927c85824b03dc533",
+			"size": 1040,
+			"hashsum_file": "1ffbb9e3f6185c7ae432eeaac948678afe995d40a0910d6fbe89a400a5795405",
+			"hashsum_meta": "94183632f814c1ab6106414f2e4dc3594b98f1fbdb1d4e83f2566fc089b75639"
+		},
+		{
+			"path": "/data/archviz/sounds/track_03.mp3",
+			"guid": "cfe373b1b75d595c77c3250bb02d36ee8fdb9175",
+			"size": 561865,
+			"hashsum_file": "f0426d4f2850e48fd9f64e5f19535893c9be3002dcac9e7a39a2b09c2109efe5",
+			"hashsum_meta": "cca86d4937153cd1a4f75e610d8460345550c5651032fbb83b296867a28ca345"
+		},
+		{
+			"path": "/data/race/props/checkpoint/materials/target_base.mgraph",
+			"guid": "2a227c8f47c740a2951fc799f6840c248d7de933",
+			"size": 12191,
+			"hashsum_file": "ae531f441b62879a023e48d3b1f20d330159847fefc2bf535495344f610166cb",
+			"hashsum_meta": "074d10e305485a4b560d6e7e05189cee31aafbfe98671eac14706cd394d3616b"
+		},
+		{
+			"path": "/data/race/props/checkpoint/target_alb.tif",
+			"guid": "a4e43473a8266f36f2f81d1d4676fbd8d0e9cd57",
+			"size": 70166,
+			"hashsum_file": "21698416fe398c2266963c94f797da660364b66f6231401496f8022504f55e6d",
+			"hashsum_meta": "24b16c1ab3daf41712f4fccbc4224db3bc1ed87beb625c7630231458843a6edb"
+		},
+		{
+			"path": "/data/race/props/pickup/car_shading/pbr_base.mgraph",
+			"guid": "3f713473af4f6f36a60d1d1dbc87fbd895c6cd57",
+			"size": 26394,
+			"hashsum_file": "61442e3dc55dc69e159d9593ec5ffbaf2c4562587ae25c879156ae7896e9fa05",
+			"hashsum_meta": "7d7b0fd988fca06221f33359ec3f466d14dafc381a9ee46b8224c96d255697c3"
+		},
+		{
+			"path": "/data/race/vegetation/trees/impostors/mapple_imp_n.tga",
+			"guid": "68291bb19bd6e15cc61f0d0bf147feee11e7b975",
+			"size": 16777234,
+			"hashsum_file": "4277d5b1b9d3ade296073b761e3a340f9a1c72084f2ec4f1f9e40a79f50c8182",
+			"hashsum_meta": "67af9f1c40d828cd51147fd98be548848338d4aeb52638b68b1b968d853d224a"
+		},
+		{
+			"path": "/data/archviz/sounds/track_01.mp3",
+			"guid": "b2fd0686c6f7ac2dd6019fa85788fee72882ef1a",
+			"size": 615381,
+			"hashsum_file": "32f59fd66a8c12069d76f992366cccd99e3c9fe23ea3184699154a39296963e9",
+			"hashsum_meta": "78975271318093d30c7f0cfb4a1cb401b98bd2c3e080dbfd1a99c17d73e34242"
+		},
+		{
+			"path": "/data/archviz/interior/clock/materials/alarm_clock.mat",
+			"guid": "7d31dd286bae32836ebd43818d8495767eb330a1",
+			"size": 667,
+			"hashsum_file": "1cb9bceb55c8196dae97280fb5458171a4208abba9e598ac35c567c19fc7639f",
+			"hashsum_meta": "dcdf47830a6f1901c776defaaf02c7df267a5454af3b446436b64097ace580a4"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_lights_sh.png",
+			"guid": "949cfcba0343e4d1cc75d7fcaa15532b7dda4e8e",
+			"size": 152966,
+			"hashsum_file": "92bbcedf6a7ab21d7597f774efa8cecc9e507bc9e314ce246f9ca1aac8bd6239",
+			"hashsum_meta": "8a40f81fd3f513e2f97c8cbcf562f9992e3c70f5b417e0c9edfa66f391e5d7fa"
+		},
+		{
+			"path": "/data/race/vegetation/grass/textures/grass_high_sh.tga",
+			"guid": "e7d198ba6f17d0d1c240d3fca1cc1f2bd36aaa8e",
+			"size": 50331692,
+			"hashsum_file": "9506140f280c7c4d2950881de161eeaf578d2cbaac877753411cbd75391f896d",
+			"hashsum_meta": "e64dd98c638ace16c4ef1fa8a1d9f3b1b06b95e007dc14dc4647ee41fb536143"
+		},
+		{
+			"path": "/data/race/props/pickup/car_shading/glass_with_ssr.mgraph",
+			"guid": "3f007c6cc7944cdbf6f91c7ed0bd99c565914060",
+			"size": 84098,
+			"hashsum_file": "1a573ef1e04f85f1b5afa462b1a5bb8c8564f953afd28da72d58e3a712a9daf6",
+			"hashsum_meta": "8d9b6862ed98077b4732cbd095c3928f6d463e7d33c3ee5a820141818f1e1dc3"
+		},
+		{
+			"path": "/data/race/props/pickup/fake_shadows/car_shadow_base.mgraph",
+			"guid": "689fe2fd6bb3483830c7ee37a2def62a61f02f81",
+			"size": 11302,
+			"hashsum_file": "887571087ca7231f9aa7df403ac24bb6000d1a83fded0d62d2201842c19ccb9e",
+			"hashsum_meta": "e77f4e7b605f3c3405042210386bc21533cd022d697c7e7701955b6381978e29"
+		},
+		{
+			"path": "/data/fps/robot/textures/robot_sh.png",
+			"guid": "cdeaac1f00f50af2fcdeeda91bf35af47fdbc9c3",
+			"size": 8823113,
+			"hashsum_file": "1ce2041ec0464122dd98e9c4b4447eb60642ad057232f3fc9710e81156facdd8",
+			"hashsum_meta": "1dde66a2fa6cfb62508edf36f5a24cb5b332076efed39efffc12c18f9626cc25"
+		},
+		{
+			"path": "/data/fps/pistol/pistol_n.png",
+			"guid": "9f9cceb000ef924f069bdb6218542359727b34e4",
+			"size": 2562046,
+			"hashsum_file": "876f9a6e1776dfe4ea562d1bf3a87c9140a6fbf20f25329d3a262f8d55ade803",
+			"hashsum_meta": "4619d727c19650770586bdb3a7bdcb403fcdc8d18a93c3da821b251d01b293f8"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/protrusion_albedo.png",
+			"guid": "1fb5ec816d805becea9fa65b01b5a7fe1b65af45",
+			"size": 2588284,
+			"hashsum_file": "45244b1f33e7c8437c4eac9f58a1792e6e9d56535b424074c68d52dced71c092",
+			"hashsum_meta": "088e900545ffc09b058eaf2edbfee96713644a4aadde7260b9a3a6e68bd89617"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/fe617854bd8787a31b46c8a66b2f47cd877646c8.texture",
+			"guid": "fe617854bd8787a31b46c8a66b2f47cd877646c8",
+			"size": 264690,
+			"hashsum_file": "047df26bbf4c8edfdebf412e8e094264e33d6c3bbde6e11378eb87383d4cc9e9",
+			"hashsum_meta": "56f0dbdfa1bdb4a52839b0ca3d0ffb12fcd95e9fd86a543f8caabd156ffa10d2"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/shadows/2336c0549f0c2fa3d1f350a6b8222fcde03c0ec8.texture",
+			"guid": "2336c0549f0c2fa3d1f350a6b8222fcde03c0ec8",
+			"size": 694057,
+			"hashsum_file": "95bc8505b9c5948baf228c0e62bc94628745a49ff8bd00feeaf03f640de29468",
+			"hashsum_meta": "f9f87c82f2c380d08522693aba9d160f41b7e10d8118ee741304c3e73a131db6"
+		},
+		{
+			"path": "/data/archviz/interior/wood/wood_parquet_2_white_alb.png",
+			"guid": "6968b57e34037306492dd341f180f2fed25215fc",
+			"size": 23108995,
+			"hashsum_file": "0fc82b1decfdbfc020e3f2beaf512d08760f4aa0cc4c6a61a59d000a5456594f",
+			"hashsum_meta": "695e655c0cd33a071151cbb4e26b14846bc7fa4597512d5d10b5ac2e3d6718af"
+		},
+		{
+			"path": "/data/race/props/trinkets/textures/trinkets_car_fresher_n.png",
+			"guid": "2de00145f10d81e08abdcbbfcce76612ce9c4e49",
+			"size": 673082,
+			"hashsum_file": "7b1ad955fa4f3e95cc462b9c1f7ff1823febdd71bb0b553a1d3588d23e724c08",
+			"hashsum_meta": "a019b20914c3fd235c842917ce24dedc94f52ef55d23bc6924218ed44c1a37a8"
+		},
+		{
+			"path": "/data/archviz/interior/materials/lamp_glass_mat.mat",
+			"guid": "99ab45bc174665eb6b90c24e59d1e555d2c476b0",
+			"size": 481,
+			"hashsum_file": "b98dee8c209c0b535c64ef4d58d3f20ba085eab9bfcdc1fb262e7a978c25f943",
+			"hashsum_meta": "61d27fa7c62e419a7f4e4eb7179b90d80128e0ceb697929314dc609bddd5f5c7"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/82f26e6f4395c902fa52f479dfde9384b1670913.texture",
+			"guid": "82f26e6f4395c902fa52f479dfde9384b1670913",
+			"size": 6223146,
+			"hashsum_file": "551e4f1d93c47abb3209f4bac42b4f3fefd5e6da7370609e61a349c8cd5159d8",
+			"hashsum_meta": "d5b8d529c145be506f73aadf2f837abb9c1ae012ae4231aa3e4ec0e55beeca29"
+		},
+		{
+			"path": "/data/fps/pistol/pistol_a.png",
+			"guid": "45ef919174c21dbc697f5deb83455a4e5a8d9d55",
+			"size": 2242793,
+			"hashsum_file": "7c2bb992a644c7a868e3aa9bf9f6a11e265b4fe60d8ffcdefacadb285372cec2",
+			"hashsum_meta": "9c9e764027308041f64b206d47eb7bb6ae83c73ba1b434e33b98e05446348702"
+		},
+		{
+			"path": "/data/archviz/interior/remote_controller/textures/remote_controller_n.png",
+			"guid": "26f3224e05027ade475b8890f7960db9d6cc0c7d",
+			"size": 9383058,
+			"hashsum_file": "2aac7621bb5bdec0531d175c4a46fcd63865c4d8b097171ee7526718c30e842c",
+			"hashsum_meta": "fb24e93e475812cca09ab85de88cc8edf040e2b7d89192a968b4a613b31fcde8"
+		},
+		{
+			"path": "/data/archviz/interior/magazines/fbx/magazine_01.FBX",
+			"guid": "3edd0a6683c31e8da748ae88bbf200473ac440fa",
+			"size": 32096,
+			"hashsum_file": "226c9f1546aaeb0b8e838f841b6920ef134cc2221867923aa2cab5b60d99a640",
+			"hashsum_meta": "929ba09be48c19044bafc517a0e37301390f2b26282a4eb6dd96bfedac784b29"
+		},
+		{
+			"path": "/data/fps/bullet/textures/bullet_hole_0_alb.tga",
+			"guid": "9f551634da197e09cbc03c7c9e1d80af6a9cd826",
+			"size": 4194348,
+			"hashsum_file": "d6c4116f7ccbb99a4efe1d8874a5871958e4a9cf33f4b2fb2b392f51660760b4",
+			"hashsum_meta": "08c9f2ec34d363fb7e039762866486ea18fd025ccb5ed410e5e5f4169641a56a"
+		},
+		{
+			"path": "/data/archviz/interior/food/textures/bun_sh.png",
+			"guid": "fe94b232905082471c84c8f9f9cae6103e07b710",
+			"size": 662372,
+			"hashsum_file": "56865211f037ffbd9d62e7a760386eca0c69499c42b935da21efe3f2ca7f3761",
+			"hashsum_meta": "4ba004440fde86f7772142740ac02f8586b2b72d896ee5ba9714dec83f34bec4"
+		},
+		{
+			"path": "/data/fps/particles/materials/gun_smoke_gray_mat.mat",
+			"guid": "5936ac236735983db037aeae52c3bc0f5645ae3b",
+			"size": 802,
+			"hashsum_file": "df403a2c27e7cd5bce4ba7550f5235fe49f47ebc66ad3a42f573099437d8b804",
+			"hashsum_meta": "8b5a4f3f2d4619358d3584d81be12069d31b3446d15274e738df1545f4c91b82"
+		},
+		{
+			"path": "/data/fps/robot/textures/robot_n.png",
+			"guid": "e335c1cc1e4d12bb501268dee0d4baa5a3b72bc0",
+			"size": 10390751,
+			"hashsum_file": "8e2c0ab17c367edc0114754d234d4579e5dade51b076205ee5d90d3c3d5cd786",
+			"hashsum_meta": "e68c4318d3e4caefedc527f148c2e239b24cfe77b3f0f9b16842a6695f0f57af"
+		},
+		{
+			"path": "/data/fps/pistol/pistol_alb.png",
+			"guid": "c1898deebb35fc75e83063500145de6fdc727902",
+			"size": 7960492,
+			"hashsum_file": "497b62b56168b432cdceedbe168d4e87d96e4d8e21c16b7d8dd3244fae6f8793",
+			"hashsum_meta": "b329131216b1ea0ac631ed86e033b3bf1548cb4a177cbd80f03215156c4d227a"
+		},
+		{
+			"path": "/data/archviz/archviz.world",
+			"guid": "d650bd74698d10592e3b71d0b75cfe3c68ad8512",
+			"size": 176648,
+			"hashsum_file": "f4e7cca488c72a2ad85877e8018859d3fc56345474d312d844366945a59f5332",
+			"hashsum_meta": "197d1f37da6ff6c4cc1325e2e447abd8487a2fb48671dfc3b28dd9d109ef8147"
+		},
+		{
+			"path": "/data/archviz/interior/frame/materials/frame.mat",
+			"guid": "4fc0c74d0ad63731a3e05a925e935ae9e181c89c",
+			"size": 502,
+			"hashsum_file": "4138b1c426ad8708ab1e415f061faec83e23cd1adcc09009f981d2da4869e502",
+			"hashsum_meta": "c04746dbee43e9dcdb994c1c20ec01fee194ed60eee7736082b136061efd2146"
+		},
+		{
+			"path": "/data/fps/robot/robot_enemy_mat.mat",
+			"guid": "bc7eb378d117e07749b3c36aafc61bc1ce66422c",
+			"size": 850,
+			"hashsum_file": "0878dfa77d7b9cbd62b2daff26c6b427e920546f1caedec2f98cd96093e1592c",
+			"hashsum_meta": "443c36b4e9057843ba266232f3462daa8efffa8ddb856686f2bc9fc03c51e058"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/b7f625ea5ae41c417f9f48ac47462c1b1f34f2be.texture",
+			"guid": "b7f625ea5ae41c417f9f48ac47462c1b1f34f2be",
+			"size": 5987595,
+			"hashsum_file": "aadb9fba5d0f375ba9a9590b1378d73d64ec056689a8c7164b7847f178a3a744",
+			"hashsum_meta": "64745e07eadf6d64fa83e4deaa8120163ccf253f0d3f59b9a58e9c7e31541ecb"
+		},
+		{
+			"path": "/data/race/terrain/Mask1_Flow.tif",
+			"guid": "61bea08bd4a77c6eeb4218f5f4a8d5d0cf82aeef",
+			"size": 4194571,
+			"hashsum_file": "b7a89102d276bb2918a0ffeec63bd5f656775dafd51bb090508500e34319ebb4",
+			"hashsum_meta": "b77054cd1a8d8c15de87863a8a3396183a2bf51e56092b19e4943337a53b17f5"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/27b4c61ca0482acb4ef901ae9fbd5d35e65ccd10.texture",
+			"guid": "27b4c61ca0482acb4ef901ae9fbd5d35e65ccd10",
+			"size": 294157,
+			"hashsum_file": "312a466653f8808a44d3ed21c32235c05ca8033eff30994365abc485c6441981",
+			"hashsum_meta": "7f53f2a99905e4dc1fc5864b237a19f04f717b1c02aa7c3079b86ca72eb7d74b"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/424061adca83d7280fc2d067026b929a8958c131.texture",
+			"guid": "424061adca83d7280fc2d067026b929a8958c131",
+			"size": 65449,
+			"hashsum_file": "8bb9d7caf8d7f2df382425c7488946c58776049a735142016858273ed0903526",
+			"hashsum_meta": "930a7c1745a992eb3a4255895b7a468bc522261e270da66f96bf2cd77ed90d80"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/f80b09be2e6e260531a9dfa047c90e7f67d249d2.texture",
+			"guid": "f80b09be2e6e260531a9dfa047c90e7f67d249d2",
+			"size": 4695391,
+			"hashsum_file": "9607d59fe2e028a064f36b163a46927eb80358b6515b3c8c4e1c8a5f766065bb",
+			"hashsum_meta": "d98a77cc85fe3c4793fdaab0528ad34fc5e69cbe547c2b91dd1d0aa740e6f0c4"
+		},
+		{
+			"path": "/data/archviz/interior/materials/wood_door_mat.mat",
+			"guid": "3360ddbe1841ea059582d3a09f05727fa9bb5dd2",
+			"size": 1242,
+			"hashsum_file": "bf54bf03e2a67ee54b7d59f2b56f66e4d67b2e347727a2cde15006d988a6eeb0",
+			"hashsum_meta": "212bde9f67441bc623c0cca146e5ec8be8d5a18f9c54620310999270bbd2c22f"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/velocity_0_albedo.jpg",
+			"guid": "a87529be8c91c605cb38ffa03acdae7f36ce69d2",
+			"size": 1186733,
+			"hashsum_file": "532dd2dc5f6a2b014ebc2bbb3d082731eedcad807611b8cd02e4ae45f669cd44",
+			"hashsum_meta": "4d22c7bd19d7dad3ddf7f279b1bdfec3b1db0dfae31ea51d2c7963c2306d3592"
+		},
+		{
+			"path": "/data/archviz/pot_ceramic_small.node",
+			"guid": "47b55912d4e3a549e3fa6e1457f68263a7920466",
+			"size": 2615,
+			"hashsum_file": "003a7ef6fa75268dc5b60f0fb81b2fd9d3cc54eef5613df3bdbb6de43311c1a9",
+			"hashsum_meta": "89f87e5147b8838980a3f9d2c6629903508f3d634412f9b8c89f0a564bf3fd2f"
+		},
+		{
+			"path": "/data/archviz/interior/materials/glass_frosted_mat.mat",
+			"guid": "6a56a7487f842207ae6277ba044d23d1b0080afc",
+			"size": 409,
+			"hashsum_file": "13ae52dfdb53660be2d4b89937b1caa0b52fd7ac88d20886556facd3c8f14e6d",
+			"hashsum_meta": "4285bfb35bd9fd5df273168b1513894ec5593788b5fb4846a770cbaeed189475"
+		},
+		{
+			"path": "/data/race/vegetation/trees/materials/bigleafmaple_branches_green.mat",
+			"guid": "3276d348c6ae5e07fb6f83ba4cbebfd1ddf4f6fc",
+			"size": 2072,
+			"hashsum_file": "870a2fe67d3b43128da051303257fd5bc33029bf7a91bbac3052b606cfe512bb",
+			"hashsum_meta": "3b0cf62e901a0680d9defdcae04c3ed517f159ded05d3ca4da699c1e3f0f586f"
+		},
+		{
+			"path": "/data/archviz/interior/frame_picture/fbx/frame_picture.fbx",
+			"guid": "fa2b6c7ad5c61191b9a69dbc7419ddeb1c1dda4e",
+			"size": 70784,
+			"hashsum_file": "1c59d4a5ddeba9901d266e0e9957fdf802c61b3ec8719e2f25aabbe2897127dc",
+			"hashsum_meta": "394c67907033dec429e0a47ff13aac5cef59026b35e7db99b6b87d73b33ae4a4"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/ed53e0c1a817432c99ace49b406f513ecb82c785.texture",
+			"guid": "ed53e0c1a817432c99ace49b406f513ecb82c785",
+			"size": 666430,
+			"hashsum_file": "db101467d243a26e8d5d369d866b9210e473389a633660fbb5fa80d704e86b95",
+			"hashsum_meta": "1f1a9ba94c65fb86589fac45e18ee5d79a355d39705aaf50d339006b01c90188"
+		},
+		{
+			"path": "/data/archviz/interior/cup/textures/cup_sh.png",
+			"guid": "4f80459ead91fc53c4cca550d6f5f8acc8cf3bdc",
+			"size": 6458737,
+			"hashsum_file": "7732b0312bc4ee86c916b2edfdcef79102749cb6583489b4d54a539c2783ef31",
+			"hashsum_meta": "2b311e30fb5757606b9adfbc5f2b2e5b323e815269386c10e7919f45ca51cf8e"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/9e0be927c6be545a667f17f16af6309c8189934b.texture",
+			"guid": "9e0be927c6be545a667f17f16af6309c8189934b",
+			"size": 3969361,
+			"hashsum_file": "45a5c07f27978ee061d7ac64cff575aa660e20569e6a64ebb421cb0b401932dd",
+			"hashsum_meta": "e7936b9281d2016566a90224a636ee445ff76f45bfa2c17eeaebee9fd5aaf0d6"
+		},
+		{
+			"path": "/data/archviz/interior/lamp_bedside/textures/glass_dirty_sh.tif",
+			"guid": "83697b8e7dabc41c7ed6a392f617bd8d0d64afd1",
+			"size": 14183332,
+			"hashsum_file": "2e0d413016c7eea2e02ebd692277f122112ecbe392f60f9c20872156143f194e",
+			"hashsum_meta": "1f1e9fa5f3f31f501a46911bea569cb3c00c2c09b9b6997b1a2b0b5ce2a7af81"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/0850ac93a7a548d6b7beea3d826a2678e8deb777.texture",
+			"guid": "0850ac93a7a548d6b7beea3d826a2678e8deb777",
+			"size": 27776272,
+			"hashsum_file": "125447763a16a773a84b2082c3720426c2b7277c0134cdfaef1378465b70218d",
+			"hashsum_meta": "6b9984bcdf56337a81e9cd1b7185e7fe8f344633f5225445092e5cea7f773f1a"
+		},
+		{
+			"path": "/data/race/props/pickup/fake_shadows/car_shadow_base_0.mat",
+			"guid": "c227db155ecc717095f3560f358b4c22e4295d19",
+			"size": 266,
+			"hashsum_file": "4473a6283566dd2b4053e6da6e4d035f9d1928142e0bf6a0d05036e08119a659",
+			"hashsum_meta": "5aa2939fff64b763c29d8a1d83307fffbcafd1864e17a0fcadf512bdf3f60dd5"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/84c0123748d0ca2addaff38160fcb6ecb732455b.texture",
+			"guid": "84c0123748d0ca2addaff38160fcb6ecb732455b",
+			"size": 166425,
+			"hashsum_file": "e7df5b153ddf9ab6179fa523aaf9f5a1a2b8eb1291db6d6f75b16425f6464dd5",
+			"hashsum_meta": "e5fa89f110e6e0552e0753351d2c9d613a295c770ab50326411c2638442c15b6"
+		},
+		{
+			"path": "/data/race/vegetation/grass/textures/grass_high_n.tga",
+			"guid": "eb691e2804b16b67a74b719ae291143184a17fdc",
+			"size": 50331692,
+			"hashsum_file": "7670f95920de749646e939fba4cf5d8e40b9634164a0d8a61debd651cebe0cbf",
+			"hashsum_meta": "6929d40b50d3bb6d51aab5df55a9bc4b716745b922c48d65f5cf475cbfc2f183"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/6022d75a07cbbef17564ab9c1127d24b8291832e.texture",
+			"guid": "6022d75a07cbbef17564ab9c1127d24b8291832e",
+			"size": 219430,
+			"hashsum_file": "e15f4342073199119165f7c22e839fe3a8d6971edc642f782b1476e4da3a70e0",
+			"hashsum_meta": "95ff66841ab87d5bd304e8a5b58b260ff8c3a5721bc5d318d328e607c5f40ef6"
+		},
+		{
+			"path": "/data/archviz/interior/bed/fbx/materials/pillow_04_front.mat",
+			"guid": "1f8bd35a30888af1ac43079c6f1a7e4bc46c3f2e",
+			"size": 694,
+			"hashsum_file": "47035483981df65a7f1a87d998729a5c78876b22c64425f764880938e3abda54",
+			"hashsum_meta": "ab8fbd63bdf1b42708f74a2d29beecbc50b680bb3b5efe69ff9d6350756c1efa"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/d675428c58931c7b2143679ee6922a65529c5880.texture",
+			"guid": "d675428c58931c7b2143679ee6922a65529c5880",
+			"size": 22430106,
+			"hashsum_file": "90c74a6af13830901dfc4521ca1c030c452ca694c0b1f66e792f1ad27aa662f2",
+			"hashsum_meta": "722ce4d8140c2915fdf6bb86343d493638ae33779a8989488e8aae1256f0f18b"
+		},
+		{
+			"path": "/data/archviz/interior/home/materials/handle_door_mat.mat",
+			"guid": "1b1fb33a6bbfceaa60a169e450acd2689a722a16",
+			"size": 495,
+			"hashsum_file": "26a12a51be712de8a32b07f181b9dcb5195e05effc23406a2657e3a470d6234c",
+			"hashsum_meta": "972150a26f7ba903c6d8bb07e331d4d15ce1481618cf62e02f41a75944ee4d80"
+		},
+		{
+			"path": "/data/race/props/pickup/fake_shadows/pickup_shadow.png",
+			"guid": "4986a1ae66ae7d35335b6d10ec17dd2f555ce8c2",
+			"size": 561012,
+			"hashsum_file": "869c0856082575ff077303a865acb68979bc7e2c36e34a6e7ded3d26b87b67da",
+			"hashsum_meta": "7f7f84ef280bb68d1a918fa70e77a113f10addb0aacda88fc2efce4e7fb91ce3"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/pickup_1_n.png",
+			"guid": "b7ae0b5a049562f1a6f9ff9c4935164b4855f72e",
+			"size": 8197765,
+			"hashsum_file": "c005411f69c6684be98b81b0584d094b6051715a7458031e212abd09cf5ab89d",
+			"hashsum_meta": "cf29b755f685ff7ddee173b2e96124c05e6aa34f7f3cddf6690bb8cd8aa00460"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/c7db2cd016bb19ef789b7e82ab6e2bf921dd6504.texture",
+			"guid": "c7db2cd016bb19ef789b7e82ab6e2bf921dd6504",
+			"size": 27277538,
+			"hashsum_file": "6051a5d2ab811636c63af2db241aae4fc1fe4783a52d8d02b7174f64476b8b20",
+			"hashsum_meta": "b909b3c5fbba03d7fa1bbab5a97fb96ec5d8fa1f3de397c4ca8f4b338b8575d7"
+		},
+		{
+			"path": "/data/race/props/markers/marker.png",
+			"guid": "708cc4d0424fd1efe878d68222bba3f9c69c7d04",
+			"size": 1328,
+			"hashsum_file": "137faf1aa8e4bbf28c63806abdf44d35c2d9af7d4444c3cd89c46bba4412990c",
+			"hashsum_meta": "285e3b9daaa722f176b4d74e990eca432bc5b285b3570177746004892defbb41"
+		},
+		{
+			"path": "/data/race/vegetation/grass/textures/grass_high_t.tga",
+			"guid": "fc7a228c18127c7bfafb479e18288a65217f3880",
+			"size": 3145772,
+			"hashsum_file": "c05222a276d390ef785a47442fc77c6a74bf6bc006d34e5be74f23444c35c81e",
+			"hashsum_meta": "513a098323abe2d0b1dd624dd279492fb67048990c10a5740941e06694a8eff1"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/e82a4e238321dd26fbfa524dce74cf4880fc2a07.texture",
+			"guid": "e82a4e238321dd26fbfa524dce74cf4880fc2a07",
+			"size": 23039055,
+			"hashsum_file": "afc22469076a9ee5fdd8d6814d74c270ad5115be1cd285d81d0dd310490017b7",
+			"hashsum_meta": "56492b3727c0578e793894f50df21dc836262ba1551b563fbf89a6adb257feb5"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/eff882742d5bcb43f69ff7c6b19d6c6d9145e2e8.texture",
+			"guid": "eff882742d5bcb43f69ff7c6b19d6c6d9145e2e8",
+			"size": 10460713,
+			"hashsum_file": "1b38b9020f6ce1f5cb4846e6bd0a124f35333f8883a469fe20b09716d3e0f784",
+			"hashsum_meta": "a5701f808058456ff04b39fcef36f3972714cc2922d11d536a3365274cc5eabc"
+		},
+		{
+			"path": "/data/race/props/pickup/car_shading/car_paint_flakes_dust_decal.mgraph",
+			"guid": "220f206527f8d6805c08d7df83abc3b27882cf69",
+			"size": 112090,
+			"hashsum_file": "19b535207c693d0255f46347130c00320df4fe6c54832efab5940f90fd3877a1",
+			"hashsum_meta": "fe3e4e20eb5e22c7008d65e4337a3c47404f6bf9315876a32a4f224dc70a7b8c"
+		},
+		{
+			"path": "/data/archviz/interior/frame/textures/frame_2_alb.png",
+			"guid": "ba0e56b614507c5b69d117f97e50571b4d2ddae4",
+			"size": 9802825,
+			"hashsum_file": "86dca5b95be4dcdd89e561caf3936d648cab4f735a729247222e120d594c27b6",
+			"hashsum_meta": "8e7cad771193f1b6856c905b6a2549c532697954ba4ff579782d7ed1088bcf1a"
+		},
+		{
+			"path": "/data/race/vegetation/trees/impostors/mapple_imp_sh.tga",
+			"guid": "7a813f071bcaf0ba03d148d1ed7bebfcb75c572b",
+			"size": 33554450,
+			"hashsum_file": "4f8a5ab2ad773caa44d44bd009a1df9e0b46cf7f4fa1b4b3993daac462f94901",
+			"hashsum_meta": "2901c5dab904465357bc8bc1cee317ab8846837488a47b70959140560e40520e"
+		},
+		{
+			"path": "/data/archviz/interior/plants/textures/pot_ceramic_small_n.png",
+			"guid": "4f730181d24889b1aee7f2e9a2e1b333619d5077",
+			"size": 15076627,
+			"hashsum_file": "07d8f0f01c962db43a8c75e29ae2492649e772ee5ed164a590ebd0741403347f",
+			"hashsum_meta": "aa95fc324f70b84d55b33aa544474159ef4605189dac827e073841b0202cbb9e"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/f8e9d2d2a0d054099d5fcdd48002df23abe73a26.texture",
+			"guid": "f8e9d2d2a0d054099d5fcdd48002df23abe73a26",
+			"size": 495085,
+			"hashsum_file": "471b25bd321a06a0180f17e9f26eecaddeeb31ba21a35e956a177d5d317590af",
+			"hashsum_meta": "ffe0a2215cc6566ab4b352674ac122ad56d65913ce4a561fdb09f8dcc4d0b6f9"
+		},
+		{
+			"path": "/data/archviz/interior/dinner_lamp/textures/dinner_lamp_e.png",
+			"guid": "fe6238117bc5819f8eba67b84e799c1707b8fddd",
+			"size": 129766,
+			"hashsum_file": "0e5b99e96d081ed131b8641c2cc2ddbef964277417717ab767d5c124d90a7817",
+			"hashsum_meta": "3526421f54c8248f15a18142c67512935c517c21ae5ae5c91d84e76cc6029d62"
+		},
+		{
+			"path": "/data/archviz/interior/tv/materials/tv.mat",
+			"guid": "4cfcf03154feb7ba223300fbd250d8c65c8e92ef",
+			"size": 1349,
+			"hashsum_file": "2202b13848550c8bc61db07a5c54393f628aa4f089a62c19a012f1d79101e40f",
+			"hashsum_meta": "a4d138e4e7abebbf403bde31e95fad550ba6ef2861dd0a8ff4603cd7a2dfa7f5"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/cd17bb065ebdd6ada680c8288ca10d67db02ab9a.texture",
+			"guid": "cd17bb065ebdd6ada680c8288ca10d67db02ab9a",
+			"size": 16416506,
+			"hashsum_file": "306c5b848a9045a0ea224611590c91296fb56517f7723109f1f2eb0fa1008012",
+			"hashsum_meta": "03c40c132468d69f7cf56698ebd48996bc1f8cbd3cba11f3293fa2cb4353de30"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/0202c91715f1538aa9732d6129d5e74c2cdffa3b.texture",
+			"guid": "0202c91715f1538aa9732d6129d5e74c2cdffa3b",
+			"size": 227721,
+			"hashsum_file": "612459c9569df0f528bbd477949f630dec00fc7331bb21826e4e0b7866dbc264",
+			"hashsum_meta": "18f47ec79b54a0f779f8baf1fb832d8b15aed766dd5ee8a825c1e9b891967c1e"
+		},
+		{
+			"path": "/data/fps/hands/hands_animations/hands_pistol_idle.anim",
+			"guid": "e61be599754592242eb5b733e6a292f613446ddd",
+			"size": 24622,
+			"hashsum_file": "9afc247969f3b7c3e02cce2c6c4569872c2c34b4bbbecddb56ab4fb7bbb5ae82",
+			"hashsum_meta": "ef61ddcc372329e7781512552add24846ac18cd577b7c713cd0f345947d9dcee"
+		},
+		{
+			"path": "/data/archviz/interior/pbr_base_0.mat",
+			"guid": "decef93a5ae8b7517a33887c4d8a49ab7781d30e",
+			"size": 268,
+			"hashsum_file": "f08d748062194be0c942d1479ebbd3974160ab405674127aa2383e59ffce8943",
+			"hashsum_meta": "aaaab6faa525ede9dcd817b01adc42c21c5b3c300ef35d322ae89d589fe81ef7"
+		},
+		{
+			"path": "/data/archviz/interior/plants/textures/plant_bedroom_n.png",
+			"guid": "6e7639bea35c586274d55b34e467a3323b35c43a",
+			"size": 3123549,
+			"hashsum_file": "ee18e721e1739c22009f7dde22cbe2dea69f70155baa9916b152f76195bf61f3",
+			"hashsum_meta": "b2ce0606daceb538f903106e925dc5018c783efd9c52e95789d0807610d482d9"
+		},
+		{
+			"path": "/data/archviz/interior/home/textures/handle_door_sh.png",
+			"guid": "0f375b5ff45024d5aa313874711893d8028b6152",
+			"size": 1846623,
+			"hashsum_file": "639bc4dddae53fa258f1f280709730eba083b4bfc0b12a6b6fa354a5b1018c3c",
+			"hashsum_meta": "cf51b54e6c55ee4309a1f7aa3564f44d0ae67a3217b9fd7aa42b690450058a56"
+		},
+		{
+			"path": "/data/fps/components/Lifetime.cs",
+			"guid": "4aed6f037c03c8869f9b862d692fb1a8ee0be8e7",
+			"size": 669,
+			"hashsum_file": "50defd3f8ec672c1bf899b808dd43001ecfcb0abfccf2009f07b398aed2bed6e",
+			"hashsum_meta": "fdf3ceb4272ebf041201d419db587d9c8d1b76684e3b1f542b8dd0d58e394b80"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/flow_height.jpg",
+			"guid": "7a875703e14490861b95ae2d48d3b9a86c9050e7",
+			"size": 1567637,
+			"hashsum_file": "89a7cba5188ec6b2f83a71dd7c0cefb39c9f8f93cd1750f2de165d5fd61f1a67",
+			"hashsum_meta": "71b1a86d424d1ee51b7695ebf21053e03ebcb25db9f51736b1ef6e9dc7c35e03"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/voxel_probes/8171c2c5280d5560eb80893fcfcc05929f4567c9.texture",
+			"guid": "8171c2c5280d5560eb80893fcfcc05929f4567c9",
+			"size": 1416426,
+			"hashsum_file": "ee5c72266da828ad0969ef70ee0e1a7c7ae403feb4839441418b80c1ceb32742",
+			"hashsum_meta": "a4a288d68ce06c7db30f9bde83b0895c3156d685f8c8ae28716cd176dcf33e95"
+		},
+		{
+			"path": "/data/fps/particles/textures/fire_glow_dr.png",
+			"guid": "afe74a79408ffe987c683c53ab4553ac45e0581b",
+			"size": 98770,
+			"hashsum_file": "97df45e1d1ed8f70381a08b6580b0ab5165962cecc99fb34f0881c74501f6392",
+			"hashsum_meta": "a4e131e8cb77246021ac844c4f7f345adabacd30cdbb4255828031b7a06767be"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/lightmaps/c60e0b4dfe2b3448767d4b07805f8cba918534d1.texture",
+			"guid": "c60e0b4dfe2b3448767d4b07805f8cba918534d1",
+			"size": 349377,
+			"hashsum_file": "3bd0054d3efa9c1d4ac92e38fc135bad0f2ebc21e316e15e3fdd73159a1ae04e",
+			"hashsum_meta": "341badfb717cf5bcd5958d2f4ce18d60e882356dd6049d9f0ca94211754ed37c"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/shadows/edc4634d417dac48757d6307d4f0c4ba31350cd1.texture",
+			"guid": "edc4634d417dac48757d6307d4f0c4ba31350cd1",
+			"size": 620554,
+			"hashsum_file": "260facc44c71032d1a822c4929848a498f7057b92fe44f69daed59c664ac9b4e",
+			"hashsum_meta": "31221671d076346bf4cdf8788760d1c49168169df9dd3cf0dec372155a482ca1"
+		},
+		{
+			"path": "/data/archviz/interior/tray/textures/tray_n.png",
+			"guid": "bc5a2fe854eb7140fc645203d737f17482eedda2",
+			"size": 1984275,
+			"hashsum_file": "cd59684a584d39cbab807b8b21e8aa0428c2e135ea34480f2e95dc771ab3692b",
+			"hashsum_meta": "2521c0a1dcbb989ae67c44ed2e86813bb8c7bddd87ba1f2d8588332d59ea2c76"
+		},
+		{
+			"path": "/data/fps/particles/materials/gun_smoke_white_mat.mat",
+			"guid": "956d8162cc2c2c695238ba5a04a87f6718fd7f88",
+			"size": 802,
+			"hashsum_file": "6ddf632fb6a19cf4f8314ee93af28bda008d975504beb0b2390b7c747fcbb869",
+			"hashsum_meta": "6667887fce97b0539b50b69597e8e14865826baef4e3a46301f9aa536aad206d"
+		},
+		{
+			"path": "/data/archviz/textures/wood/wood_2_n.png",
+			"guid": "15d0cb752239116eb9a3f32546d90427a28c6bb5",
+			"size": 25496303,
+			"hashsum_file": "eca60ca3b125766f9bf9299e42e621ddfdac726af6437ce055f12f0fb982fa32",
+			"hashsum_meta": "a7df297c9a47ab0e3a17742f0653aa66e54e9d3084ac1e0e90ce240679873de3"
+		},
+		{
+			"path": "/data/race/props/checkpoint/materials/checkpoint_2_mat.mat",
+			"guid": "979a5ce682bf4f0dd1ea2508cddc04c7d1f17b7a",
+			"size": 412,
+			"hashsum_file": "317eee02e73b2c7bb316c27711342ad516e12447e7377eea178b2907c83f2a50",
+			"hashsum_meta": "f88519df1691803bb9da46aa57dbda7859af00a366f95a348229c946db1a42da"
+		},
+		{
+			"path": "/data/race/terrain/details/textures/occlusion_albedo.png",
+			"guid": "fe3c7de88b53c8273d3ea75aa7154ef1eb80fb9c",
+			"size": 2181844,
+			"hashsum_file": "ef3956679dfee5a4b69221e7e506a84a13047711e856592a6c07ba0a4bf45aab",
+			"hashsum_meta": "c70a92cdb0c2eaa62437fa7e9545caca86a9b4eed2ac5e28740ced4413a6ac8d"
+		},
+		{
+			"path": "/data/archviz/bake_lighting/env_probes/11a64f4c23e5423bdf39d25e275e1625e2a5d140.texture",
+			"guid": "11a64f4c23e5423bdf39d25e275e1625e2a5d140",
+			"size": 522501,
+			"hashsum_file": "ca7bf00642ef1789e5f244b53cc91330fd8e4cefa0b745f914cde8a497241171",
+			"hashsum_meta": "825b6ca9a26cf64b64b1c88bb43606a0b5212fa1e44ab5c92ab4579a47f0543d"
+		},
+		{
+			"path": "/data/race/props/trinkets/textures/trinkets_car_fresher_alb.png",
+			"guid": "883e6fc2f213ec398921a8440ad396d3d1e0ae16",
+			"size": 587249,
+			"hashsum_file": "1b3c0165f3ab28886d8ad011867ecf3fa27672083dac2d781d921b4d6c69dae4",
+			"hashsum_meta": "2ef62a1d7c0aede29dec1c6aef5da8f56334aaa860ba44fac2ca599ed8287f8f"
+		},
+		{
+			"path": "/data/race/vegetation/trees/impostors/ObjectMeshClutter_impostor_material.mat",
+			"guid": "ab78cf6354dded662740a58d277289884e541f47",
+			"size": 934,
+			"hashsum_file": "8ac27d41e1373197b1462411de103170f1cdc0ce074e89846389b70a06b25824",
+			"hashsum_meta": "1471726b29dd5ed3e2a8634a43186490a8a5d4f0b07b2be16674b28e2b931092"
+		},
+		{
+			"path": "/data/race/props/pickup/textures/hilux_e.png",
+			"guid": "c5f006f89a9e1df70385e2eaeb7eb541616f0dac",
+			"size": 194578,
+			"hashsum_file": "1f4b35e54c1e9af37d6b9a050c7664f68088d4350a6f331dfc405d3e9fe3e546",
+			"hashsum_meta": "f994c797a39f3b5c920b881b5547a4ba1eb72c090f11172fc9508a5219a0febf"
+		},
+		{
+			"path": "/data/race/terrain/details/detail_rocks_1.mat",
+			"guid": "5ba1239c9209ea4b7b9cbb2e3d76c8b5491c4290",
+			"size": 621,
+			"hashsum_file": "0b1d29491d619d7862032a8d3e30c878b5d624f3f70e34b29de93b833ffc53b1",
+			"hashsum_meta": "9e925ef8c95b56e35de4954e710491d29862764246cc6dfa52d731d11ec764e9"
+		},
+		{
+			"path": "/data/race/vegetation/grass/textures/grass_high_alb.tga",
+			"guid": "16502cc8afe0e9879615993a6d3ed751d953287c",
+			"size": 16777260,
+			"hashsum_file": "314e786c7b185db13ce176caa252e333b5c4fe534ad54d5f4dfdc7a686835104",
+			"hashsum_meta": "b70e78f5b514234c338c9a8d13481a475850e95f282fe9a79db36ed31965f01b"
+		},
+		{
+			"path": "/data/fps/navigation/navmesh.mesh",
+			"guid": "acc02afac5babe113e4e603c069dbe6b04c340ce",
+			"size": 17583,
+			"hashsum_file": "2a13db1987cd64c21b75784db69da7b0365a3515bd6459b63b8a04e880de8d3e",
+			"hashsum_meta": "0bf0b039185b35369fccc2a0b26fd46f3cbe154796f8f2d20ffed718af714f93"
+		},
+		{
+			"path": "/data/archviz/interior/bed/textures/bed_pillows_a.png",
+			"guid": "f950fed72674edb2b81aabf83079518078d5c922",
+			"size": 5013771,
+			"hashsum_file": "76c6d7e420e2f984ab120f72f9fc1fea006cd7e635535d79698f0b927be5e1f6",
+			"hashsum_meta": "c72369a1d95417b317e4cea72200cdb833fc4d5c7846e8d8837bd66675876471"
+		},
+		{
+			"path": "/data/fps/bullet/bullet_materials/bullet_hole_decal.mat",
+			"guid": "49f07adb710443e308019a30a69db16e2e3e97a5",
+			"size": 512,
+			"hashsum_file": "4c5b6af061b23fa44517016077ce6bc89b34cc51912013d4ab6a56fa2e0bfa79",
+			"hashsum_meta": "7a986b46f731dcc7b422af37d45475ed613175b4708c934f6e71cdbde3bd757c"
+		},
+		{
+			"path": "/data/race/terrain/Mask4_Rocks.tif",
+			"guid": "45cc72fa780a66117149e83c1d93a66bd1b008ce",
+			"size": 4194571,
+			"hashsum_file": "cd989e86f03e8446a5495d6de9937f1b753a8a7cd832f08e66a41751c0602d07",
+			"hashsum_meta": "416b883827aff65b4e5a59139f093a85cf966c44f1d956c2730a21bc9cf35fc1"
+		}
+	]
+}
