@@ -17,6 +17,8 @@ public class WeaponController : Component
 	public PlayerDummy shootingCamera = null;
 	public ShootInput shootInput = null;
 	public NodeDummy weaponMuzzle = null;
+	public VFXController vfx = null;
+
 	public int damage = 1;
 
 	// маска Intersection чтобы определить, в какие объекты могут попадать пули
@@ -25,6 +27,10 @@ public class WeaponController : Component
 
 	public void Shoot()
 	{
+		// визуализируем эффект выстрела
+		if (weaponMuzzle)
+			vfx.OnShoot(weaponMuzzle.WorldTransform);
+
 		// задаем начало отрезка (p0) в позиции камеры и конец (p1) - в точке удаленной на 100 единиц в направлении взгляда камеры
 		Vec3 p0 = shootingCamera.WorldPosition;
 		Vec3 p1 = shootingCamera.WorldPosition + shootingCamera.GetWorldDirection() * 100;
@@ -39,6 +45,9 @@ public class WeaponController : Component
 		{
 			// отрисовываем нормаль к поверхности в точке попадания при помощи Visualizer
 			Visualizer.RenderVector(hitInfo.Point, hitInfo.Point + hitInfo.Normal, vec4.RED, 0.25f, false, 2.0f);
+
+			// визуализируем эффект попадания в точке пересечения
+			vfx.OnHit(hitInfo.Point, hitInfo.Normal, hitObject);
 		}
 	}
 

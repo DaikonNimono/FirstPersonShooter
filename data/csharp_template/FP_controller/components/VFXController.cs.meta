@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>b23baaa53cabf948b0118226ccc00803ae73be91</guid>
+	<type>component</type>
+	<hash>faabea7a</hash>
+	<runtimes>
+		<runtime id="b23baaa53cabf948b0118226ccc00803ae73be91" name="VFXController.cs" link="0"/>
+		<runtime id="19c5bafbe8a7932cdd4890d4a298a355b4d1dec7" name="VFXController.prop" link="1" type="4"/>
+	</runtimes>
+</asset>
