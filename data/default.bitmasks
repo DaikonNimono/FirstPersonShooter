@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bit_mask_names>
+	<intersection>
+		<name index="0">Trace</name>
+		<name index="1">PlayerHit</name>
+	</intersection>
+</bit_mask_names>

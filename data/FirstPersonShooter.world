@@ -2491,6 +2491,7 @@
 					<parameter name="shootInput">036d975119765037c8ffff946a805cb6d3ccf640</parameter>
 					<parameter name="weaponMuzzle">1277251179</parameter>
 					<parameter name="vfx">89f9e2eb8cec4e8579167ee622b67d8f601db972</parameter>
+					<parameter name="mask">0x1</parameter>
 				</property>
 				<property parent="19c5bafbe8a7932cdd4890d4a298a355b4d1dec7" guid="89f9e2eb8cec4e8579167ee622b67d8f601db972">
 					<parameter name="hitPrefab">guid://8c628a2a1e96b3815d3476ec7c87055be14f7afe</parameter>
@@ -2553,7 +2554,7 @@
 						<streaming_mode_vram>0</streaming_mode_vram>
 						<streaming_mode_ram>0</streaming_mode_ram>
 						<mesh_name>guid://89640b0d7ffa9f7f02a1a97753abc138ef6e3f24</mesh_name>
-						<surface name="box" intersection="1" shadow_mask="0x0" viewport_mask="0x0" material="37b5258e98b7907a6fdfa8cc5256713c8ffef517"/>
+						<surface name="box" intersection="1" shadow_mask="0x0" viewport_mask="0x0" intersection_mask="0x2" material="37b5258e98b7907a6fdfa8cc5256713c8ffef517"/>
 						<transform>1 -7.1054274e-15 2.9611872e-16 0.0 7.1054274e-15 1 2.4335929e-08 0.0 -2.9611893e-16 -2.4335929e-08 1 0.0 5.5368699e-21 3.765877e-14 0 1.0</transform>
 					</node>
 				</node>

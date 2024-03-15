@@ -130,7 +130,7 @@ public class EnemyLogic : Component
 		if (shouldUpdateRoute)
 		{
 			// рассчитываем путь до игрока
-			route.Create2D(node.WorldPosition, lastSeenPosition, 1);
+			route.Create2D(node.WorldPosition + vec3.UP * 0.5f, lastSeenPosition, 1);
 			shouldUpdateRoute = false;
 		}
 
