@@ -2470,9 +2470,94 @@
 				<transform>1 2.5243552e-29 0 0.0 -2.5243552e-29 1 -1.4210854e-14 0.0 -3.5873241e-43 1.4210855e-14 1 0.0 4.0681005 -1.2260934 5.4835181 1.0</transform>
 			</node>
 		</node>
-		<node type="NodeReference" id="1777446179" name="player">
-			<reference>guid://59e4bb833f8dab069c5b06ad189c382836a5bd67</reference>
-			<transform>-0.99999982 -8.7422762e-08 0 0.0 8.7422769e-08 -0.99999988 0 0.0 0 0 0.99999976 0.0 8 11.499999 0.99999994 1.0</transform>
+		<node type="ObjectDummy" id="934126694" trigger_interaction_enabled="1" name="player">
+			<body type="BodyDummy" id="959932081" frozen="0">
+				<shape type="ShapeCapsule" id="494203847" transform="0.99999994 0 0 0 0 1 0 0 0 0 0.999999762 0 0 0 0.875 1">
+					<radius>0.300000012</radius>
+					<height>1.14999998</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="6255027986d202efac987f4adfd5f19c8f358f25">
+					<parameter name="useObjectBody">1</parameter>
+					<parameter name="cameraMode">2</parameter>
+					<parameter name="camera">1303834765</parameter>
+					<parameter name="nearClipping">0.100000001</parameter>
+					<parameter name="farClipping">100000</parameter>
+				</property>
+				<property parent="19086705f07c9e76dd45800696a0f47c5ef21cf1" guid="036d975119765037c8ffff946a805cb6d3ccf640"/>
+				<property parent="f242c1ef0b63af70a079e9989c2f5f4b62a1c57b" guid="fd55e253c510cf1a0de1498c0bc434d0b434f49f">
+					<parameter name="shootingCamera">1303834765</parameter>
+					<parameter name="shootInput">036d975119765037c8ffff946a805cb6d3ccf640</parameter>
+					<parameter name="weaponMuzzle">1277251179</parameter>
+					<parameter name="vfx">89f9e2eb8cec4e8579167ee622b67d8f601db972</parameter>
+				</property>
+				<property parent="19c5bafbe8a7932cdd4890d4a298a355b4d1dec7" guid="89f9e2eb8cec4e8579167ee622b67d8f601db972">
+					<parameter name="hitPrefab">guid://8c628a2a1e96b3815d3476ec7c87055be14f7afe</parameter>
+					<parameter name="muzzleFlashPrefab">guid://dda131848d3d0f13356549567731f0bdb2587af8</parameter>
+				</property>
+			</properties>
+			<transform>-0.99999982 -8.7422492e-08 0 0.0 8.7422762e-08 -0.99999982 0 0.0 0 0 0.9999997 0.0 8 11.499999 0.99999994 1.0</transform>
+			<node type="PlayerDummy" id="1303834765" name="PlayerDummy">
+				<fov>75</fov>
+				<zfar>100000</zfar>
+				<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+				<is_oblique_frustum>0</is_oblique_frustum>
+				<is_main>1</is_main>
+				<is_listener>1</is_listener>
+				<controlled>1</controlled>
+				<transform>1 -3.7421756e-14 0 0.0 0 5.9604638e-08 0.99999982 0.0 -3.742176e-14 -1 5.9604652e-08 0.0 0 0 1.65 1.0</transform>
+				<node type="NodeDummy" id="274094216" name="hands">
+					<transform>1.0000001 0 0 0.0 0 5.9604645e-08 -0.99999994 0.0 0 1.0000004 5.9604673e-08 0.0 0 0 0 1.0</transform>
+					<node type="ObjectMeshSkinned" id="492806727" name="hands">
+						<mesh_name>guid://60020a35ebc7961062ebf22feb7ff9c29363ee39</mesh_name>
+						<fps_visible_camera>-1</fps_visible_camera>
+						<fps_visible_shadow>30</fps_visible_shadow>
+						<fps_invisible>0</fps_invisible>
+						<speed>30</speed>
+						<surface name="hands_mat" intersection="1" shadow_mask="0x0" material="6b953d4d25f4be4842b54d076203a6baf33686d1"/>
+						<properties>
+							<property parent="f21127b33f4bf8120d79170e808b628f1d16ea1a" guid="8d2df1bd5185c8db06adf99e6ec2e58911f6ca29">
+								<parameter name="fpsController">6255027986d202efac987f4adfd5f19c8f358f25</parameter>
+								<parameter name="shootInput">036d975119765037c8ffff946a805cb6d3ccf640</parameter>
+								<parameter name="idleAnimation">guid://e61be599754592242eb5b733e6a292f613446ddd</parameter>
+								<parameter name="moveForwardAnimation">guid://5b9eff0f2598e1220b37ee19579500a41d4553b3</parameter>
+								<parameter name="moveBackwardAnimation">guid://0618cf62aee4875963a848e477497ef3f97a37b6</parameter>
+								<parameter name="moveRightAnimation">guid://cbfdf1845c72cf13e5a0095692adb0bd26213af8</parameter>
+								<parameter name="moveLeftAnimation">guid://4dbed84c58ba373b54a8435e27ffd325d12a6a40</parameter>
+								<parameter name="shootAnimation">guid://6e5043b26ddd4f69bf90d1b424eb5183d4a74906</parameter>
+							</property>
+						</properties>
+						<transform>1 1.6689304e-06 4.0911085e-14 0.0 -1.6689298e-06 1 2.4335923e-08 0.0 -2.9612317e-16 -2.4335897e-08 0.99999988 0.0 5.4846364e-21 0.25 -0.02499938 1.0</transform>
+						<node type="WorldTransformBone" id="769751802" name="WorldTransformBone">
+							<bone>joint_hold</bone>
+							<transform>0.17363977 0.25486851 0.95125794 0.0 -4.068017e-06 0.96593118 -0.2587992 0.0 -0.9848094 0.044934005 0.16772509 0.0 0.17025253 0.16304654 -0.028451072 1.0</transform>
+							<node type="NodeDummy" id="1783352849" name="pistol">
+								<transform>0.99999988 0 0 0.0 0 1.0000004 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+								<node type="ObjectMeshSkinned" id="1980510268" name="pistol">
+									<mesh_name>guid://2a8475f4b0fc28c3ac85b7462c1525ed9ac34e68</mesh_name>
+									<fps_visible_camera>-1</fps_visible_camera>
+									<fps_visible_shadow>30</fps_visible_shadow>
+									<fps_invisible>0</fps_invisible>
+									<speed>30</speed>
+									<surface name="pistol_mat" intersection="1" shadow_mask="0x0" material="0632ab51782cec7c550c5daba114d70eb88b7315"/>
+									<transform>1 -5.8887914e-25 2.9611872e-16 0.0 -3.8976016e-24 1 2.4335929e-08 0.0 -2.9611872e-16 -2.4335929e-08 1 0.0 0 0 0 1.0</transform>
+									<node type="NodeDummy" id="1277251179" name="muzzle">
+										<transform>0.99999982 -2.9802322e-08 1.1920929e-07 0.0 1.1920929e-07 1.0000008 8.9406967e-08 0.0 -1.4901161e-08 -1.3783574e-07 0.99999982 0.0 0.0040171146 0.28044361 0.084044278 1.0</transform>
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+					<node type="ObjectMeshStatic" id="131174606" name="player_hit_box">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://89640b0d7ffa9f7f02a1a97753abc138ef6e3f24</mesh_name>
+						<surface name="box" intersection="1" shadow_mask="0x0" viewport_mask="0x0" material="37b5258e98b7907a6fdfa8cc5256713c8ffef517"/>
+						<transform>1 -7.1054274e-15 2.9611872e-16 0.0 7.1054274e-15 1 2.4335929e-08 0.0 -2.9611893e-16 -2.4335929e-08 1 0.0 5.5368699e-21 3.765877e-14 0 1.0</transform>
+					</node>
+				</node>
+			</node>
 		</node>
 		<node type="NodeDummy" id="1691423456" name="HUD">
 			<properties>
@@ -2481,6 +2566,15 @@
 				</property>
 			</properties>
 			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NavigationMesh" id="1177965118" name="NavigationMesh">
+			<mesh_name>guid://acc02afac5babe113e4e603c069dbe6b04c340ce</mesh_name>
+			<height>3</height>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NodeReference" id="1735244756" name="robot_enemy">
+			<reference>guid://1052eb5f16b3c132e06baee99e58ab34533a5d03</reference>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.075533859 5.9413724 0.99999994 1.0</transform>
 		</node>
 	</editor>
 	<console>

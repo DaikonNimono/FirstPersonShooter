@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <nodes version="2.18.0.1">
-	<node type="ObjectMeshStatic" id="524295175" name="bullet">
+	<node type="ObjectMeshStatic" id="52787996" name="bullet">
 		<streaming_mode_vram>0</streaming_mode_vram>
 		<streaming_mode_ram>0</streaming_mode_ram>
 		<mesh_name>guid://0527657119e3201c2e7ebccb87ea6bae0e3bbf35</mesh_name>
 		<surface name="bullet_mat" physics_friction="1" physics_restitution="1" material="55268c62a0e52059dba60de4e8aa7ff37acd44b6"/>
 		<properties>
-			<property parent="d798d617fcbdfc8a6e2dc2610bad784cb198573b" guid="de2dce49395cc811e39797b0897214b9a2ed512a">
+			<property parent="d798d617fcbdfc8a6e2dc2610bad784cb198573b" guid="d92c6a312c31642aef97ccf4f098c497f1c569a0">
 				<parameter name="lifeTime">5</parameter>
 			</property>
+			<property parent="88d6112b0032ace8365867c48dbe1958c29471f7" guid="4a99812f1556312f6929ed5acf83feefd29e5b26">
+				<parameter name="hitPrefab">guid://8c628a2a1e96b3815d3476ec7c87055be14f7afe</parameter>
+			</property>
 		</properties>
-		<transform>1 2.208811e-29 2.1175814e-21 0.0 -2.2087505e-29 0.99999988 -2.8421701e-13 0.0 -2.1175814e-21 2.8421704e-13 1 0.0 1.9073486e-06 -2.8610229e-06 0.73676431 1.0</transform>
-		<node type="LightOmni" id="445262266" name="bullet_light">
+		<transform>1 2.208811e-29 2.1175814e-21 0.0 -2.2087505e-29 0.99999988 -2.8421701e-13 0.0 -2.1175814e-21 2.8421704e-13 1 0.0 1.9073486e-06 -2.8610229e-06 0.73676425 1.0</transform>
+		<node type="LightOmni" id="1512004555" name="bullet_light">
 			<attenuation_distance>2</attenuation_distance>
 			<shape>2 1 0.200000003</shape>
 			<shape_type>0</shape_type>
@@ -86,7 +89,7 @@
 				<billboard name="flare_30" offset="1" size="1.03999996" rotate="0" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
 			</lens_flare_billboards>
 			<properties>
-				<property parent="d798d617fcbdfc8a6e2dc2610bad784cb198573b" guid="349982a3d7174510327edc621b8a6559a655d5ec"/>
+				<property parent="d798d617fcbdfc8a6e2dc2610bad784cb198573b" guid="1dc79c333432e50787697aec52554dc17c2b107f"/>
 			</properties>
 			<transform>1 -2.2087513e-29 -2.1175824e-21 0.0 2.2088104e-29 1.0000005 2.8421728e-13 0.0 2.1175818e-21 -2.8421734e-13 1.0000002 0.0 0 0.11498165 1.9639169e-12 1.0</transform>
 		</node>

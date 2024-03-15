@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>5158593f996ef01aae4f3a2a8ce7a21d539470f6</guid>
+	<type>component</type>
+	<hash>bc5e00f5</hash>
+	<runtimes>
+		<runtime id="5158593f996ef01aae4f3a2a8ce7a21d539470f6" name="EnemyLogic.cs" link="0"/>
+		<runtime id="5efec285bbcacbfd75d58238dff8fedd1ee54024" name="EnemyLogic.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <nodes version="2.18.0.1">
-	<node type="ObjectDummy" id="1200656553" name="robot_root">
-		<body type="BodyRigid" id="1153434760" frozen="0">
+	<node type="ObjectDummy" id="1441214508" name="robot_root">
+		<body type="BodyRigid" id="1239531732" frozen="0">
 			<angular_scale>0 0 0</angular_scale>
-			<shape type="ShapeCapsule" id="627685890" transform="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.850000024 1">
+			<shape type="ShapeCapsule" id="828655026" transform="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.850000024 1">
 				<radius>0.5</radius>
 				<height>0.699999988</height>
 			</shape>
 		</body>
+		<properties>
+			<property parent="7eb5cbfb6c98181a790c65d41fb95f354d95dfc7" guid="71be60c5352d73e32ce75b78e50b33ea5c69ed64">
+				<parameter name="leftMuzzle">1481376270</parameter>
+				<parameter name="rightMuzzle">390761584</parameter>
+				<parameter name="bulletPrefab">guid://ec33ae15d2782870bf95a10f4fab1b221b40e019</parameter>
+			</property>
+			<property parent="5efec285bbcacbfd75d58238dff8fedd1ee54024" guid="7f4b256739316db736893ef0bbae2f115129d973">
+				<parameter name="player">131174606</parameter>
+				<parameter name="intersectionSocket">981409570</parameter>
+				<parameter name="playerIntersectionMask">0xffffffff</parameter>
+			</property>
+		</properties>
 		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-		<node type="ObjectMeshSkinned" id="418030068" name="visuals">
+		<node type="ObjectMeshSkinned" id="1789521307" name="visuals">
 			<mesh_name>guid://113ec57667d1fe5d0486ec1847b280978e7aa50a</mesh_name>
 			<fps_visible_camera>-1</fps_visible_camera>
 			<fps_visible_shadow>30</fps_visible_shadow>
@@ -21,54 +33,54 @@
 			<surface name="robot_glass_reflections_mat" intersection="1" physics_friction="1" physics_restitution="1" material="e2b3d14bd547762e14a447b5be05b590e4208baf"/>
 			<surface name="robot_mat" intersection="1" physics_friction="1" physics_restitution="1" material="bc7eb378d117e07749b3c36aafc61bc1ce66422c"/>
 			<transform>0.49999994 -3.7865182e-29 4.2351652e-22 0.0 3.7865191e-29 0.5 -3.5527162e-15 0.0 -4.2351657e-22 3.5527162e-15 0.5 0.0 0 0 0 1.0</transform>
-			<node type="WorldTransformBone" id="1303667907" name="WorldTransformBone">
+			<node type="WorldTransformBone" id="266257982" name="WorldTransformBone">
 				<bone>joint_2</bone>
 				<transform>0.71341574 -0.69943857 0.042703133 0.0 0.55578786 0.60190356 0.57342124 0.0 -0.42677617 -0.38535389 0.818147 0.0 0.27450061 0.27222845 0.76832491 1.0</transform>
-				<node type="NodeReference" id="1707656006" name="jet_3">
+				<node type="NodeReference" id="701085829" name="jet_3">
 					<reference>guid://0a134f9336798fd67bd0853d9e11057894320a77</reference>
 					<transform>2.0000455 4.5448542e-07 7.7486038e-07 0.0 -2.2940338e-05 2.0000837 4.7683716e-07 0.0 1.5363097e-05 1.3530254e-05 2.0000713 0.0 -1.9073486e-06 -1.6391277e-06 -0.23828951 1.0</transform>
 				</node>
 			</node>
-			<node type="WorldTransformBone" id="1883069095" name="WorldTransformBone_1">
+			<node type="WorldTransformBone" id="240619090" name="WorldTransformBone_1">
 				<bone>joint_3</bone>
 				<transform>-0.69019872 -0.71501589 -0.11125735 0.0 0.64177847 -0.67588562 0.36235246 0.0 -0.33428502 0.17869264 0.92537683 0.0 0.27457523 -0.2628285 0.76287109 1.0</transform>
-				<node type="NodeReference" id="1006245850" name="jet_2">
+				<node type="NodeReference" id="1066916233" name="jet_2">
 					<reference>guid://0a134f9336798fd67bd0853d9e11057894320a77</reference>
 					<transform>2.0000529 7.1525574e-07 -2.8312206e-07 0.0 2.5868416e-05 2.0000694 0 0.0 -6.1839819e-06 5.0067902e-06 2.0000868 0.0 8.3446503e-07 -7.1525574e-07 -0.24650681 1.0</transform>
 				</node>
 			</node>
-			<node type="WorldTransformBone" id="1383423179" name="WorldTransformBone_2">
+			<node type="WorldTransformBone" id="1925115302" name="WorldTransformBone_2">
 				<bone>joint_4</bone>
 				<transform>-0.66923231 0.73246187 -0.12501162 0.0 -0.695288 -0.55793941 0.45307654 0.0 0.26211244 0.39013252 0.88266277 0.0 -0.25062135 -0.26249185 0.72265375 1.0</transform>
-				<node type="NodeReference" id="1060146094" name="jet_1">
+				<node type="NodeReference" id="1476864205" name="jet_1">
 					<reference>guid://0a134f9336798fd67bd0853d9e11057894320a77</reference>
 					<transform>2.0000427 -6.92904e-07 2.9802322e-07 0.0 -2.2009015e-05 2.0000668 -2.3841858e-07 0.0 1.4021993e-05 1.5318394e-05 2.0000677 0.0 -1.3113022e-06 -2.0861626e-06 -0.23225865 1.0</transform>
 				</node>
 			</node>
-			<node type="WorldTransformBone" id="1159794479" name="WorldTransformBone_3">
+			<node type="WorldTransformBone" id="453294138" name="WorldTransformBone_3">
 				<bone>joint_5</bone>
 				<transform>0.73238534 0.6773814 0.069038153 0.0 -0.6677205 0.69467193 0.26754504 0.0 0.13327116 -0.24204428 0.96106887 0.0 -0.250696 0.2725651 0.72810757 1.0</transform>
-				<node type="NodeReference" id="1723888322" name="jet">
+				<node type="NodeReference" id="2059233873" name="jet">
 					<reference>guid://0a134f9336798fd67bd0853d9e11057894320a77</reference>
 					<transform>2.0000515 -1.0430813e-07 4.4703484e-08 0.0 2.669543e-05 2.000087 0 0.0 -7.0631504e-06 6.0796738e-06 2.0000861 0.0 1.0430813e-06 -9.5367432e-07 -0.2365478 1.0</transform>
 				</node>
 			</node>
-			<node type="WorldTransformBone" id="2073908691" name="LeftGunBone">
+			<node type="WorldTransformBone" id="1481376270" name="LeftGunBone">
 				<bone>joint_8</bone>
 				<transform>0.99988168 -1.7359685e-05 0.015381269 0.0 -0.00013943078 0.99994802 0.010192467 0.0 -0.015380647 -0.010193406 0.99982971 0.0 -0.63721955 0.39293978 1.4175342 1.0</transform>
-				<node type="NodeDummy" id="356081942" name="LeftGunMuzzle">
+				<node type="NodeDummy" id="880452117" name="LeftGunMuzzle">
 					<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999988 0.0 0 0.80000001 -1.1920929e-07 1.0</transform>
 				</node>
 			</node>
-			<node type="WorldTransformBone" id="674080125" name="RightGunBone">
+			<node type="WorldTransformBone" id="390761584" name="RightGunBone">
 				<bone>joint_11</bone>
 				<transform>0.99988168 -1.7359685e-05 0.015381269 0.0 -0.00013943078 0.99994802 0.010192467 0.0 -0.015380647 -0.010193406 0.99982971 0.0 0.62459785 0.39291796 1.4369448 1.0</transform>
-				<node type="NodeDummy" id="535111864" name="RightGunMuzzle">
+				<node type="NodeDummy" id="1444721935" name="RightGunMuzzle">
 					<transform>1 1.4551915e-11 0 0.0 0 1 -9.3132257e-10 0.0 9.3132257e-10 0 0.99999994 0.0 0 0.80000001 0 1.0</transform>
 				</node>
 			</node>
 		</node>
-		<node type="NodeDummy" id="591615159" name="robot_intersection_socket">
+		<node type="NodeDummy" id="981409570" name="robot_intersection_socket">
 			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0.90023208 1.0</transform>
 		</node>
 	</node>

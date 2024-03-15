@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.18.0.1">
+	<guid>27288c553eaee1ae73cc529616f559e6334c2941</guid>
+	<type>component</type>
+	<hash>0625c6a5</hash>
+	<runtimes>
+		<runtime id="27288c553eaee1ae73cc529616f559e6334c2941" name="Bullet.cs" link="0"/>
+		<runtime id="88d6112b0032ace8365867c48dbe1958c29471f7" name="Bullet.prop" link="1" type="4"/>
+	</runtimes>
+</asset>
