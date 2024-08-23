@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>9ce875824cc0b6f9c970740499c26f93691e2fd6</guid>
 	<type>material</type>
-	<hash>0e2ce7bb</hash>
+	<hash>67d00e6f</hash>
 	<runtimes>
 		<runtime id="9ce875824cc0b6f9c970740499c26f93691e2fd6" name="floor_gray_mat" link="0" type="5"/>
 	</runtimes>

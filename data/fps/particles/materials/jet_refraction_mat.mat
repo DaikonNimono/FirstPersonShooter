@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<material version="2.18.0.1" guid="e2ce988ff7acaca278ce439927c85824b03dc533" base_material="b7c07dfd4ce80edac55fcbfdd0befa02ccd20b88">
+<material version="2.19.0.2" guid="e2ce988ff7acaca278ce439927c85824b03dc533" base_material="b7c07dfd4ce80edac55fcbfdd0befa02ccd20b88">
 	<options blend_src="2" blend_dest="2"/>
 	<state name="refraction">1</state>
 	<state name="transparent_blur">1</state>

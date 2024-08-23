@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>f0cb51ed798b8a6885d26aa748ebe7da93149571</guid>
 	<type>texture</type>
-	<hash>ef30c04f</hash>
+	<hash>d748ca18</hash>
 	<runtimes>
 		<runtime id="f0cb51ed798b8a6885d26aa748ebe7da93149571" name="ep_1.texture" link="0" type="6"/>
 	</runtimes>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<world version="2.18.0.1">
+<world version="2.19.0.2">
 	<render_settings_path>guid://92a0ee7917704584f2b913132a497d56e78094bd</render_settings_path>
 	<data>
 		<user/>
@@ -26,8 +26,6 @@
 		<stereo_radius>0.0320000015</stereo_radius>
 		<stereo_offset>0</stereo_offset>
 		<dirt_texture_name/>
-		<exposure_min_luminance>-5</exposure_min_luminance>
-		<exposure_max_luminance>-1.5</exposure_max_luminance>
 		<metering_mask_texture_path/>
 		<auto_exposure_ramp>
 			<curve>
@@ -178,8 +176,6 @@
 		<color_correction_saturation>1 1 1 1 1 1 1 1 1 1 1 1</color_correction_saturation>
 		<color_correction_saturation_per_color>0</color_correction_saturation_per_color>
 		<color_correction_white>1 1 1 1</color_correction_white>
-		<gl_terrain_use_async>1</gl_terrain_use_async>
-		<gl_terrain_waiting_frames>4</gl_terrain_waiting_frames>
 		<gpu_thread_priority>7</gpu_thread_priority>
 		<render_aa_preset>smooth</render_aa_preset>
 		<render_aces_shoulder_angle>2.43000007</render_aces_shoulder_angle>
@@ -267,6 +263,7 @@
 		<render_denoise_color_clamping_blur_intensity>0</render_denoise_color_clamping_blur_intensity>
 		<render_denoise_color_clamping_blur_intensity_ao>0</render_denoise_color_clamping_blur_intensity_ao>
 		<render_denoise_color_clamping_blur_radius>12</render_denoise_color_clamping_blur_radius>
+		<render_denoise_color_clamping_blur_resolution>2</render_denoise_color_clamping_blur_resolution>
 		<render_denoise_denoise_mask_bias>0.00100000005</render_denoise_denoise_mask_bias>
 		<render_denoise_denoise_mask_denoise_threshold>0.100000001</render_denoise_denoise_mask_denoise_threshold>
 		<render_denoise_denoise_mask_frame_count>8</render_denoise_denoise_mask_frame_count>
@@ -279,11 +276,13 @@
 		<render_denoise_num_blur_iterations>3</render_denoise_num_blur_iterations>
 		<render_denoise_preset>sharpest_low</render_denoise_preset>
 		<render_denoise_radius>1</render_denoise_radius>
+		<render_denoise_wrong_velocity_fix_by_depth_enabled>1</render_denoise_wrong_velocity_fix_by_depth_enabled>
+		<render_denoise_wrong_velocity_fix_by_depth_threshold>0.0299999993</render_denoise_wrong_velocity_fix_by_depth_threshold>
 		<render_depth_pre_pass>0</render_depth_pre_pass>
-		<render_direct_lighting_catmull_resampling>0</render_direct_lighting_catmull_resampling>
-		<render_direct_lighting_color_clamping>1</render_direct_lighting_color_clamping>
 		<render_direct_lighting_interleaved>0</render_direct_lighting_interleaved>
-		<render_direct_lighting_samples>0</render_direct_lighting_samples>
+		<render_direct_lighting_interleaved_catmull_resampling>0</render_direct_lighting_interleaved_catmull_resampling>
+		<render_direct_lighting_interleaved_color_clamping>1</render_direct_lighting_interleaved_color_clamping>
+		<render_direct_lighting_interleaved_samples>0</render_direct_lighting_interleaved_samples>
 		<render_dirt_scale>0.5</render_dirt_scale>
 		<render_distance_offset>0</render_distance_offset>
 		<render_distance_scale>1</render_distance_scale>
@@ -309,10 +308,14 @@
 		<render_environment_haze_colorization_threshold>0.5</render_environment_haze_colorization_threshold>
 		<render_environment_haze_gradient>2</render_environment_haze_gradient>
 		<render_environment_haze_screen_space_global_illumination>1</render_environment_haze_screen_space_global_illumination>
+		<render_environment_haze_screen_space_global_illumination_distance_max>100000</render_environment_haze_screen_space_global_illumination_distance_max>
+		<render_environment_haze_screen_space_global_illumination_distance_min>98000</render_environment_haze_screen_space_global_illumination_distance_min>
 		<render_environment_haze_temporal_filter>1</render_environment_haze_temporal_filter>
 		<render_environment_hemisphere>0</render_environment_hemisphere>
 		<render_exposure>0.400000006</render_exposure>
 		<render_exposure_adaptation>1</render_exposure_adaptation>
+		<render_exposure_max_luminance>10</render_exposure_max_luminance>
+		<render_exposure_min_luminance>-5</render_exposure_min_luminance>
 		<render_exposure_mode>1</render_exposure_mode>
 		<render_f_stop>11</render_f_stop>
 		<render_fade_color>0 0 0 0</render_fade_color>
@@ -344,6 +347,11 @@
 		<render_indirect_diffuse_temporal_filtering_frame_count_min>1</render_indirect_diffuse_temporal_filtering_frame_count_min>
 		<render_indirect_diffuse_temporal_filtering_frames_clamping_velocity_threshold>10</render_indirect_diffuse_temporal_filtering_frames_clamping_velocity_threshold>
 		<render_indirect_lighting_interleaved>0</render_indirect_lighting_interleaved>
+		<render_indirect_lighting_interleaved_catmull_resampling>0</render_indirect_lighting_interleaved_catmull_resampling>
+		<render_indirect_lighting_interleaved_color_clamping>2</render_indirect_lighting_interleaved_color_clamping>
+		<render_indirect_lighting_interleaved_color_clamping_intensity>0</render_indirect_lighting_interleaved_color_clamping_intensity>
+		<render_indirect_lighting_interleaved_color_clamping_velocity_threshold>100</render_indirect_lighting_interleaved_color_clamping_velocity_threshold>
+		<render_indirect_lighting_interleaved_samples>1</render_indirect_lighting_interleaved_samples>
 		<render_indirect_specular_denoise_enabled>1</render_indirect_specular_denoise_enabled>
 		<render_indirect_specular_denoise_mask_enabled>1</render_indirect_specular_denoise_mask_enabled>
 		<render_indirect_specular_denoise_threshold>1</render_indirect_specular_denoise_threshold>
@@ -421,14 +429,22 @@
 		<render_lights_tile_grid_size>8</render_lights_tile_grid_size>
 		<render_linear_depth_precision>0</render_linear_depth_precision>
 		<render_local_tonemapper>1</render_local_tonemapper>
+		<render_local_tonemapper_blur_resolution>2</render_local_tonemapper_blur_resolution>
+		<render_local_tonemapper_blur_upscale>1</render_local_tonemapper_blur_upscale>
+		<render_local_tonemapper_blur_upscale_kernel_size>0</render_local_tonemapper_blur_upscale_kernel_size>
+		<render_local_tonemapper_color_difference_enabled>1</render_local_tonemapper_color_difference_enabled>
+		<render_local_tonemapper_color_difference_threshold>0.100000001</render_local_tonemapper_color_difference_threshold>
+		<render_local_tonemapper_debug>0</render_local_tonemapper_debug>
+		<render_local_tonemapper_depth_difference_enabled>1</render_local_tonemapper_depth_difference_enabled>
 		<render_local_tonemapper_depth_threshold>0.899999976</render_local_tonemapper_depth_threshold>
 		<render_local_tonemapper_effect_on_dark_areas>0.0500000007</render_local_tonemapper_effect_on_dark_areas>
+		<render_local_tonemapper_effect_on_dark_areas_gamma>5</render_local_tonemapper_effect_on_dark_areas_gamma>
 		<render_local_tonemapper_luma_blurred_intensity>1</render_local_tonemapper_luma_blurred_intensity>
 		<render_local_tonemapper_num_blur_iterations>5</render_local_tonemapper_num_blur_iterations>
 		<render_local_tonemapper_target_middle_gray>0.600000024</render_local_tonemapper_target_middle_gray>
 		<render_local_tonemapper_tonemapping_intensity>0.400000006</render_local_tonemapper_tonemapping_intensity>
+		<render_materials_quality>2</render_materials_quality>
 		<render_max_fps>150</render_max_fps>
-		<render_max_num_active_targets>100</render_max_num_active_targets>
 		<render_metering_mask_enabled>0</render_metering_mask_enabled>
 		<render_motion_blur>1</render_motion_blur>
 		<render_motion_blur_camera_velocity>1</render_motion_blur_camera_velocity>
@@ -441,6 +457,8 @@
 		<render_motion_blur_velocity_blur_radius>0.200000003</render_motion_blur_velocity_blur_radius>
 		<render_motion_blur_velocity_blur_samples>8</render_motion_blur_velocity_blur_samples>
 		<render_motion_blur_velocity_scale>0.75</render_motion_blur_velocity_scale>
+		<render_multithreaded>1</render_multithreaded>
+		<render_multithreaded_editor>0</render_multithreaded_editor>
 		<render_noise>0</render_noise>
 		<render_noise_intensity>0.0299999993</render_noise_intensity>
 		<render_object_distance>1e+09</render_object_distance>
@@ -452,6 +470,7 @@
 		<render_occlusion_queries_num_frames>5</render_occlusion_queries_num_frames>
 		<render_panorama_fisheye_fov>180</render_panorama_fisheye_fov>
 		<render_pre_post_materials_enabled>1</render_pre_post_materials_enabled>
+		<render_quadro_sync>0</render_quadro_sync>
 		<render_reflection_distance>1e+09</render_reflection_distance>
 		<render_reflection_dynamic>1</render_reflection_dynamic>
 		<render_reflection_dynamic_roughness_offset>0</render_reflection_dynamic_roughness_offset>
@@ -485,6 +504,7 @@
 		<render_sharpen>1</render_sharpen>
 		<render_sharpen_intensity>0.5</render_sharpen_intensity>
 		<render_show_texture_resolution_blend>0.5</render_show_texture_resolution_blend>
+		<render_show_texture_resolution_streaming_accounting_mode>0</render_show_texture_resolution_streaming_accounting_mode>
 		<render_show_texture_resolution_uv_mode>0</render_show_texture_resolution_uv_mode>
 		<render_show_visualizer_distance>500</render_show_visualizer_distance>
 		<render_show_voxel_probe_visualizer_grid_size>15</render_show_voxel_probe_visualizer_grid_size>
@@ -594,25 +614,23 @@
 		<render_stereo_hidden_area_exposure_transform>0.600000024 0.600000024 0 0</render_stereo_hidden_area_exposure_transform>
 		<render_stereo_hidden_area_transform>1 1 0 0</render_stereo_hidden_area_transform>
 		<render_stereo_planar_reflections_per_eye>0</render_stereo_planar_reflections_per_eye>
-		<render_streaming_budget_destroy_meshes>0.100000001</render_streaming_budget_destroy_meshes>
-		<render_streaming_budget_destroy_textures>0.100000001</render_streaming_budget_destroy_textures>
+		<render_streaming_animations_life_time>-1</render_streaming_animations_life_time>
 		<render_streaming_budget_loading>1</render_streaming_budget_loading>
-		<render_streaming_first_frames_force>60</render_streaming_first_frames_force>
-		<render_streaming_max_threads>1</render_streaming_max_threads>
-		<render_streaming_meshes_life_time_ram>20</render_streaming_meshes_life_time_ram>
-		<render_streaming_meshes_life_time_vram>6</render_streaming_meshes_life_time_vram>
-		<render_streaming_meshes_limit_ram>5</render_streaming_meshes_limit_ram>
-		<render_streaming_meshes_limit_vram>15</render_streaming_meshes_limit_vram>
+		<render_streaming_free_space_ram>1024</render_streaming_free_space_ram>
+		<render_streaming_free_space_vram>512</render_streaming_free_space_vram>
 		<render_streaming_meshes_mode_ram>1</render_streaming_meshes_mode_ram>
 		<render_streaming_meshes_mode_vram>0</render_streaming_meshes_mode_vram>
 		<render_streaming_meshes_prefetch_collision>0</render_streaming_meshes_prefetch_collision>
 		<render_streaming_meshes_prefetch_intersection>0</render_streaming_meshes_prefetch_intersection>
 		<render_streaming_meshes_prefetch_radius>0</render_streaming_meshes_prefetch_radius>
 		<render_streaming_particles_memory_limit>3</render_streaming_particles_memory_limit>
-		<render_streaming_textures_cache_resolution>1</render_streaming_textures_cache_resolution>
-		<render_streaming_textures_life_time>6</render_streaming_textures_life_time>
-		<render_streaming_textures_memory_limit>65</render_streaming_textures_memory_limit>
+		<render_streaming_textures_mipmaps>1</render_streaming_textures_mipmaps>
+		<render_streaming_textures_mipmaps_density>2</render_streaming_textures_mipmaps_density>
 		<render_streaming_textures_mode>0</render_streaming_textures_mode>
+		<render_streaming_usage_limit_ram>80</render_streaming_usage_limit_ram>
+		<render_streaming_usage_limit_vram>80</render_streaming_usage_limit_vram>
+		<render_streaming_vram_budget>1</render_streaming_vram_budget>
+		<render_streaming_vram_overcommit>0</render_streaming_vram_overcommit>
 		<render_supersampling>1</render_supersampling>
 		<render_taa>1</render_taa>
 		<render_taa_antialiasing_in_motion>0</render_taa_antialiasing_in_motion>
@@ -625,6 +643,8 @@
 		<render_taa_frames_by_color>1</render_taa_frames_by_color>
 		<render_taa_frames_by_velocity>1</render_taa_frames_by_velocity>
 		<render_taa_frames_velocity_threshold>1</render_taa_frames_velocity_threshold>
+		<render_taa_information_lost_depth_threshold>0.100000001</render_taa_information_lost_depth_threshold>
+		<render_taa_information_lost_frame_count>1</render_taa_information_lost_frame_count>
 		<render_taa_max_frames_by_velocity>60</render_taa_max_frames_by_velocity>
 		<render_taa_min_frames_by_velocity>4</render_taa_min_frames_by_velocity>
 		<render_taa_pixel_offset>1</render_taa_pixel_offset>
@@ -653,6 +673,18 @@
 		<render_transparent_enabled>1</render_transparent_enabled>
 		<render_transparent_light>1</render_transparent_light>
 		<render_transparent_multiple_env_probes>1</render_transparent_multiple_env_probes>
+		<render_upscale_dlss_mode>3</render_upscale_dlss_mode>
+		<render_upscale_dlss_preset>0</render_upscale_dlss_preset>
+		<render_upscale_fsr_auto_reactive_max>0.899999976</render_upscale_fsr_auto_reactive_max>
+		<render_upscale_fsr_auto_reactive_scale>5</render_upscale_fsr_auto_reactive_scale>
+		<render_upscale_fsr_auto_tc_scale>1</render_upscale_fsr_auto_tc_scale>
+		<render_upscale_fsr_auto_tc_threshold>0.0500000007</render_upscale_fsr_auto_tc_threshold>
+		<render_upscale_fsr_enable_sharpness>0</render_upscale_fsr_enable_sharpness>
+		<render_upscale_fsr_mode>3</render_upscale_fsr_mode>
+		<render_upscale_fsr_pre_exposure>1</render_upscale_fsr_pre_exposure>
+		<render_upscale_fsr_sharpness>0.5</render_upscale_fsr_sharpness>
+		<render_upscale_mode>0</render_upscale_mode>
+		<render_upscale_post>0</render_upscale_post>
 		<render_viewport_mode>0</render_viewport_mode>
 		<render_vignette_mask>0</render_vignette_mask>
 		<render_vignette_mask_intensity>1</render_vignette_mask_intensity>
@@ -816,28 +848,26 @@
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 			</node>
 			<node type="ObjectMeshStatic" id="1792114304" immovable="1" name="template_buildings">
-				<streaming_mode_vram>0</streaming_mode_vram>
-				<streaming_mode_ram>0</streaming_mode_ram>
 				<mesh_name>guid://9802276da9e561e8d1bf5c2721ad2b5a2d4a02f1</mesh_name>
 				<surface name="wall_0_mat" intersection="1" collision="1" physics_friction="1" physics_restitution="1" material="b50d447466b5a543f70c09c68846566d9f15c4e8">
 					<lightmap_enabled>1</lightmap_enabled>
-					<lightmap_texture_path>guid://aabd101dcf4952d811423857ffbd79ca9c4e9ea1</lightmap_texture_path>
+					<lightmap_texture_path replace="c6064babff4f9f41e26047ea2db38d972215132f">guid://aabd101dcf4952d811423857ffbd79ca9c4e9ea1</lightmap_texture_path>
 				</surface>
 				<surface name="floor_red_mat" intersection="1" collision="1" physics_friction="1" physics_restitution="1" material="03975a558b6967b07049574fafa8dc62f5633059">
 					<lightmap_enabled>1</lightmap_enabled>
-					<lightmap_texture_path>guid://89f1a2df6c6012b2d824d2696e6478b4a934cc83</lightmap_texture_path>
+					<lightmap_texture_path replace="d9333b7170f0bc04b493ab5e336de45b3cbca6c2">guid://89f1a2df6c6012b2d824d2696e6478b4a934cc83</lightmap_texture_path>
 				</surface>
 				<surface name="floor_orange_mat" intersection="1" collision="1" physics_friction="1" physics_restitution="1" material="fbc9263de6d73278a1305377d3c39a6a013e06c1">
 					<lightmap_enabled>1</lightmap_enabled>
-					<lightmap_texture_path>guid://14c97f31ff20eedca3c2bc8b8e04e86e1a0894f5</lightmap_texture_path>
+					<lightmap_texture_path replace="9d164ad5c9a5266bb4ab032ce454b76dc566b739">guid://14c97f31ff20eedca3c2bc8b8e04e86e1a0894f5</lightmap_texture_path>
 				</surface>
 				<surface name="floor_green_mat" intersection="1" collision="1" physics_friction="1" physics_restitution="1" material="21104c81e1573bec49c9065bb30f87fecc360f45">
 					<lightmap_enabled>1</lightmap_enabled>
-					<lightmap_texture_path>guid://d664880676523fad3be01d286b565e67517dc89a</lightmap_texture_path>
+					<lightmap_texture_path replace="78a5e40b7467919e6d6b5bc0830536d91437f744">guid://d664880676523fad3be01d286b565e67517dc89a</lightmap_texture_path>
 				</surface>
 				<surface name="floor_gray_mat" intersection="1" collision="1" physics_friction="1" physics_restitution="1" material="9ce875824cc0b6f9c970740499c26f93691e2fd6">
 					<lightmap_enabled>1</lightmap_enabled>
-					<lightmap_texture_path>guid://fd5a278ce270bd7b28aa949ec7bd736521e50d80</lightmap_texture_path>
+					<lightmap_texture_path replace="dc8aea0fc0410c5877190c3efa83bc64b56f99d3">guid://fd5a278ce270bd7b28aa949ec7bd736521e50d80</lightmap_texture_path>
 				</surface>
 				<transform>1 -1.4210856e-14 0 0.0 1.4210856e-14 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 			</node>
@@ -854,7 +884,7 @@
 			</node>
 			<node type="NodeReference" id="1475525633" name="cube">
 				<reference>guid://095e96b71e2884aaddf36c010aecd56cff0ad1db</reference>
-				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 8.25 5.5 3.5500014 1.0</transform>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 6.7199621 3.8468461 2.8496859 1.0</transform>
 			</node>
 			<node type="NodeReference" id="143258464" name="cylinder">
 				<reference>guid://f19bda62edee16595d1e8be4cbfce5f3d0a072b6</reference>
@@ -874,7 +904,7 @@
 			</node>
 			<node type="NodeReference" id="2045784632" name="sphere_1">
 				<reference>guid://ce58c1b1fe664f5cab3ba30b9d7f9cee67aebf75</reference>
-				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 9 6.2500005 4.5 1.0</transform>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.72556597 3.4718027 1.4196159 1.0</transform>
 			</node>
 			<node type="NodeReference" id="1565586756" name="cylinder_2">
 				<reference>guid://f19bda62edee16595d1e8be4cbfce5f3d0a072b6</reference>
@@ -919,6 +949,7 @@
 				<shadow_screen_space_softness>0</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.200000003</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="dbf76a35f028705954ab1ef216072760effed516"/>
 				<lens_flare_enabled>1</lens_flare_enabled>
 				<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
 				<lens_flare_intensity>1</lens_flare_intensity>
@@ -997,6 +1028,7 @@
 				<box_size>17.1891861 7.26303673 2.59246063</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -1026,7 +1058,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://f2211973347c1036ea774a1de8da44d8c00a8257</texture>
+				<texture replace="596fa6b331ef31a7ce7c6dd2c093671642b7d8b7">guid://f2211973347c1036ea774a1de8da44d8c00a8257</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -1050,6 +1082,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="744ae86f2a1d6da91f8a91740665de74e1eebcb8"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -7.0023394 -1.0746461 2.2459061 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="954623620" name="LightEnvironmentProbe_2">
@@ -1088,6 +1121,7 @@
 				<box_size>17.1891861 7.26303673 2.66724372</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -1117,7 +1151,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://cf2ba2910494fabc504296eb94e53f4e51ea3e55</texture>
+				<texture replace="dbf68d1dbdd125c1b47f4b5446482e303d97fe01">guid://cf2ba2910494fabc504296eb94e53f4e51ea3e55</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -1141,6 +1175,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="40fbfd39a7a37fe13de9a3c681cdb81809fcdeaa"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -7.0023355 -1.074648 5.284534 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="953711150" name="LightEnvironmentProbe_3">
@@ -1179,6 +1214,7 @@
 				<box_size>11.1258888 7.60507965 4.66379738</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -1208,7 +1244,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://d076fbb0cef1db4f86cf9062e212545941a9b1e4</texture>
+				<texture replace="f1a9e59779426b6c3a69c0a6b84ebfee372733db">guid://d076fbb0cef1db4f86cf9062e212545941a9b1e4</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -1232,6 +1268,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="a00a6b13594ee9d1afa0ba68ffaa550fba743f6c"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -1.0131303 -13.748217 3.2312858 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="1315374539" name="LightEnvironmentProbe_4">
@@ -1270,6 +1307,7 @@
 				<box_size>7.13080215 3.6131134 4.63451958</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -1299,7 +1337,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://8e31d3f3022488b64088689d145fd158e44da4d7</texture>
+				<texture replace="cad5dea1d262b18868e4f248e49f1f3dcbbc18c5">guid://8e31d3f3022488b64088689d145fd158e44da4d7</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -1323,6 +1361,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="1b2eb87d0ecee146300dcdda2a9d28ffb878d77e"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 8.5118113 -11.755322 3.2342248 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="1217902211" name="LightEnvironmentProbe_6">
@@ -1361,6 +1400,7 @@
 				<box_size>16.1801338 34.2773552 9.28160477</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -1390,7 +1430,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://e7653bca291f78a1a4d1398c96a8a77b70bd769e</texture>
+				<texture replace="51bd4abb09f25681530d98bae1236b3e7d7b4f3f">guid://e7653bca291f78a1a4d1398c96a8a77b70bd769e</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -1414,6 +1454,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="5fbfcff7ae52ac2a18268a9c3d020feaf217b360"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 20.990999 -5.046349 5.5560813 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="1394392038" name="LightEnvironmentProbe_1">
@@ -1452,6 +1493,7 @@
 				<box_size>33.1792831 16.3409004 11.6417809</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -1481,7 +1523,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://f0cb51ed798b8a6885d26aa748ebe7da93149571</texture>
+				<texture replace="faf2406541cd8b035636207cf7312fd06cfa1dc9">guid://f0cb51ed798b8a6885d26aa748ebe7da93149571</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -1505,6 +1547,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="6bd1a001f730c19a4097712e7ebd5be27a6c1392"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -4.9537063 10.621111 4.6295342 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="1127940245" name="LightEnvironmentProbe_8">
@@ -1543,6 +1586,7 @@
 				<box_size>7.17523193 11.371026 7.45385122</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -1572,7 +1616,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://1d69d10b4e2bf2ee70b31d7533b1105000bca76f</texture>
+				<texture replace="aa1fba1fd1e8c1673135ca0ef861c9c7ae1a0ee3">guid://1d69d10b4e2bf2ee70b31d7533b1105000bca76f</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -1596,6 +1640,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="b134bb1b41f362d4b8b7f610ccd9d46e55a18c94"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -19.42786 -0.16203524 3.6919963 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="754751731" name="LightEnvironmentProbe_9">
@@ -1634,6 +1679,7 @@
 				<box_size>11.3613625 23.8807983 9.76862717</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -1663,7 +1709,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://3c39486f310adb027070de79a49f75849b3e8313</texture>
+				<texture replace="8eac3669bae01f18940cc9f07d0f10503a85910d">guid://3c39486f310adb027070de79a49f75849b3e8313</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -1687,6 +1733,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="0f3ef7c57d533dad245ba1c27881fb29e9db26e6"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 6.6283121 6.3219557 3.7450013 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="1480929287" name="LightEnvironmentProbe_10">
@@ -1725,6 +1772,7 @@
 				<box_size>23.6536903 3.672369 6.38395023</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -1754,7 +1802,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://d7c2274d6378a0480073c707d34bd8ba59cd10d1</texture>
+				<texture replace="39dd57c32f31bd55a5e568a2406a4543cf7596c7">guid://d7c2274d6378a0480073c707d34bd8ba59cd10d1</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -1778,6 +1826,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="1e85107f8f4589b051c830c405d9504f97477f08"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0.22644809 -7.7475748 4.0288157 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="1305946951" name="LightEnvironmentProbe_11">
@@ -1816,6 +1865,7 @@
 				<box_size>14.9439392 16.9175873 5.71576691</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -1845,7 +1895,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://eaf146692cfe5cb4ebdd6083d7ec0c066ccbf3ad</texture>
+				<texture replace="386484ad47431ec49eba22a4556aa6d15aa83691">guid://eaf146692cfe5cb4ebdd6083d7ec0c066ccbf3ad</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -1869,6 +1919,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="eded43c920ffadbfea58b3967abb183758e9e57a"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -14.2983 -14.019426 3.4088275 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="627743344" name="LightEnvironmentProbe_12">
@@ -1907,6 +1958,7 @@
 				<box_size>14.9439392 4.74815941 5.81880379</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -1936,7 +1988,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://f3ac6051b2791d7c6f70daab36fd300e99cdf815</texture>
+				<texture replace="3b7c87a7d8f6df8ec328c8765cc41b028ab04aeb">guid://f3ac6051b2791d7c6f70daab36fd300e99cdf815</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -1960,6 +2012,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="0ec2f423f947d7895395aeb838e57c2430e07ebc"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -1.0500032 -20.104139 3.4603462 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="822136334" name="LightEnvironmentProbe_13">
@@ -1998,6 +2051,7 @@
 				<box_size>8.00772095 8.81672478 5.81880379</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -2027,7 +2081,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://c3b643ae67a5b7356b055f101825272f1785aac2</texture>
+				<texture replace="ea002f314b710022243a9e9832b378b4b1061255">guid://c3b643ae67a5b7356b055f101825272f1785aac2</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -2051,6 +2105,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="35b3480d610200cabbca3aaa7fca52fdd62f634e"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 8.334466 -18.069857 3.4603465 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="899680478" name="LightEnvironmentProbe_7">
@@ -2089,6 +2144,7 @@
 				<box_size>30.1229877 10.0717411 9.54551792</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -2118,7 +2174,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://cc9700e0e0533ebfec503d122b993949182af214</texture>
+				<texture replace="d821edcba35915ea4a297d8afe629a0ff880cf4f">guid://cc9700e0e0533ebfec503d122b993949182af214</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -2142,6 +2198,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="d8daca076d9c4f0d345e23eceb4273536f58bfb0"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 16.249331 17.171385 5.2283964 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="139918342" name="LightEnvironmentProbe_5">
@@ -2180,6 +2237,7 @@
 				<box_size>14.7476854 1.27302504 4.24281073</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -2209,7 +2267,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://d12281c346ee3c46a561e6ed318f1b6872c6c7a7</texture>
+				<texture replace="74ac79f5749538dbb869f1cc98b9731811216859">guid://d12281c346ee3c46a561e6ed318f1b6872c6c7a7</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -2233,6 +2291,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="9f4c0891a84f3aa6757d0afece3f5de66c49f462"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -8.2395735 3.4593794 3.995712 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="922116638" name="LightEnvironmentProbe_14">
@@ -2271,6 +2330,7 @@
 				<box_size>14.7476854 0.695172429 1.69372153</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -2300,7 +2360,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://2f607805cca409a0ed39307fce1003d27446d109</texture>
+				<texture replace="04f46e2f636d3e28d2825bde0671f4686a5607f3">guid://2f607805cca409a0ed39307fce1003d27446d109</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -2324,6 +2384,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="3cb7362b477cb4a2c1d284608ae7c97c9b65b5e4"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -8.2395735 2.3168588 5.2702565 1.0</transform>
 			</node>
 			<node type="LightEnvironmentProbe" id="1901841593" name="LightEnvironmentProbe_15">
@@ -2362,6 +2423,7 @@
 				<box_size>14.7476854 0.535530984 1.69372153</box_size>
 				<sphere_reflection_parallax>1</sphere_reflection_parallax>
 				<raymarching_noise_frames_number>16</raymarching_noise_frames_number>
+				<raymarching_secondary_bounce_projection_mode>0</raymarching_secondary_bounce_projection_mode>
 				<raymarching_last_step_mode>0</raymarching_last_step_mode>
 				<raymarching_ambient_occlusion_intensity>0</raymarching_ambient_occlusion_intensity>
 				<raymarching_ambient_occlusion_radius>1</raymarching_ambient_occlusion_radius>
@@ -2391,7 +2453,7 @@
 				<raymarching_specular_perspective_compensation>1</raymarching_specular_perspective_compensation>
 				<raymarching_specular_non_linear_step_size>1</raymarching_specular_non_linear_step_size>
 				<raymarching_specular_brdf>0</raymarching_specular_brdf>
-				<texture>guid://7b6393ce9c7f88d55c3ac4307e4609cf831cece2</texture>
+				<texture replace="9ce2e8f93c04ab3164771040cdb74364f71ebc9d">guid://7b6393ce9c7f88d55c3ac4307e4609cf831cece2</texture>
 				<shadow_bias>1</shadow_bias>
 				<mode>1</mode>
 				<shadow_filter_mode>-1</shadow_filter_mode>
@@ -2415,6 +2477,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="041ac955bf8669862e633892a9ae401ab0b32cb6"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -8.2395735 2.4172194 2.75 1.0</transform>
 			</node>
 			<node type="LightVoxelProbe" id="977121940" name="LightVoxelProbe">
@@ -2442,7 +2505,7 @@
 				<bake_visibility_voxel_probe>1</bake_visibility_voxel_probe>
 				<bake_visibility_environment_probe>1</bake_visibility_environment_probe>
 				<bake_visibility_lightmap>1</bake_visibility_lightmap>
-				<texture>guid://ef22c5ac89c1851b55ee77be4ecebc05f8557da0</texture>
+				<texture replace="6ec12cd30341d51ebed377728496fa67d3bb18d7">guid://ef22c5ac89c1851b55ee77be4ecebc05f8557da0</texture>
 				<shadow_bias>1</shadow_bias>
 				<fade_distance>4</fade_distance>
 				<mode>1</mode>
@@ -2467,6 +2530,7 @@
 				<shadow_screen_space_softness>0.400000006</shadow_screen_space_softness>
 				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 				<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+				<baked_depth_texture replace="26a51c8f7797cf5ba1cb041476f284ec737a1558"/>
 				<transform>1 2.5243552e-29 0 0.0 -2.5243552e-29 1 -1.4210854e-14 0.0 -3.5873241e-43 1.4210855e-14 1 0.0 4.0681005 -1.2260934 5.4835181 1.0</transform>
 			</node>
 		</node>
@@ -2495,7 +2559,7 @@
 				</property>
 				<property parent="19c5bafbe8a7932cdd4890d4a298a355b4d1dec7" guid="89f9e2eb8cec4e8579167ee622b67d8f601db972">
 					<parameter name="hitPrefab">guid://8c628a2a1e96b3815d3476ec7c87055be14f7afe</parameter>
-					<parameter name="muzzleFlashPrefab">guid://dda131848d3d0f13356549567731f0bdb2587af8</parameter>
+					<parameter name="muzzleFlashPrefab">guid://19e7f77b24d4869eee4abd659c8dcf80f3cf7cdf</parameter>
 				</property>
 				<property parent="96c240040ff7888aa3804c36b43a466e1b430b9e" guid="8f9065512eab9f295d4b71e700410ba2f3c00d69"/>
 			</properties>
@@ -2516,6 +2580,7 @@
 						<fps_visible_camera>-1</fps_visible_camera>
 						<fps_visible_shadow>30</fps_visible_shadow>
 						<fps_invisible>0</fps_invisible>
+						<anim_name>guid://e61be599754592242eb5b733e6a292f613446ddd</anim_name>
 						<speed>30</speed>
 						<surface name="hands_mat" intersection="1" shadow_mask="0x0" material="6b953d4d25f4be4842b54d076203a6baf33686d1"/>
 						<properties>
@@ -2533,9 +2598,9 @@
 						<transform>1 1.6689304e-06 4.0911085e-14 0.0 -1.6689298e-06 1 2.4335923e-08 0.0 -2.9612317e-16 -2.4335897e-08 0.99999988 0.0 5.4846364e-21 0.25 -0.02499938 1.0</transform>
 						<node type="WorldTransformBone" id="769751802" name="WorldTransformBone">
 							<bone>joint_hold</bone>
-							<transform>0.17363977 0.25486851 0.95125794 0.0 -4.068017e-06 0.96593118 -0.2587992 0.0 -0.9848094 0.044934005 0.16772509 0.0 0.17025253 0.16304654 -0.028451072 1.0</transform>
+							<transform>0.99990171 0.014014046 -0.00021249321 0.0 -0.01401363 0.99938524 -0.032123782 0.0 -0.00023782143 0.032123607 0.99948394 0.0 0.066724777 0.14664078 -0.12233469 1.0</transform>
 							<node type="NodeDummy" id="1783352849" name="pistol">
-								<transform>0.99999988 0 0 0.0 0 1.0000004 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+								<transform>0.99999815 3.6561687e-10 8.8766683e-10 0.0 -5.3660187e-10 0.99999869 0 0.0 -9.4587449e-10 0 0.99999994 0.0 0.0018768311 0.13482857 -0.055572718 1.0</transform>
 								<node type="ObjectMeshSkinned" id="1980510268" name="pistol">
 									<mesh_name>guid://2a8475f4b0fc28c3ac85b7462c1525ed9ac34e68</mesh_name>
 									<fps_visible_camera>-1</fps_visible_camera>
@@ -2552,8 +2617,6 @@
 						</node>
 					</node>
 					<node type="ObjectMeshStatic" id="131174606" name="player_hit_box">
-						<streaming_mode_vram>0</streaming_mode_vram>
-						<streaming_mode_ram>0</streaming_mode_ram>
 						<mesh_name>guid://89640b0d7ffa9f7f02a1a97753abc138ef6e3f24</mesh_name>
 						<surface name="box" intersection="1" shadow_mask="0x0" viewport_mask="0x0" intersection_mask="0x2" material="37b5258e98b7907a6fdfa8cc5256713c8ffef517"/>
 						<properties>
@@ -2582,17 +2645,14 @@
 		<node type="NodeDummy" id="403641838" name="gameplay_systems">
 			<properties>
 				<property parent="aa9f1fea1e56f7a6da31878c2789e44171c877b4" guid="35c9434ff1930d4f797ae235ce4e1dca29220167">
-					<parameter name="state">0</parameter>
 					<parameter name="EndCamera">472769653</parameter>
-					<parameter name="SpawnPoint">577391737</parameter>
+					<parameter name="SpawnPoint">1292774535</parameter>
 					<parameter name="enemyPrefab">guid://1052eb5f16b3c132e06baee99e58ab34533a5d03</parameter>
 					<parameter name="NumEnemies">3</parameter>
+					<parameter name="spawnInterval">10</parameter>
 				</property>
 			</properties>
 			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-		</node>
-		<node type="NodeDummy" id="577391737" name="spawn_point">
-			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -5.45014 -1.9063964 0.99999994 1.0</transform>
 		</node>
 		<node type="PlayerDummy" id="472769653" name="end_camera">
 			<fov>75</fov>
@@ -2605,9 +2665,24 @@
 			<controlled>1</controlled>
 			<transform>-0.8171438 -0.57643408 4.1443864e-06 0.0 0.038207922 -0.054155827 0.99780136 0.0 -0.57516634 0.81534731 0.066277385 0.0 -4.7989421 17.581108 4.3357677 1.0</transform>
 		</node>
-		<node type="NodeReference" id="1664156207" name="robot_enemy">
+		<node type="NodeDummy" id="1292774535" name="spawn_point">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -5.45014 -1.7311621 0.99999994 1.0</transform>
+		</node>
+		<node type="NodeReference" id="232664188" name="robot_enemy">
 			<reference>guid://1052eb5f16b3c132e06baee99e58ab34533a5d03</reference>
-			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 -1.0054816 11.708945 0.99999994 1.0</transform>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 19.482435 0.37963626 1.0064416 1.0</transform>
+		</node>
+		<node type="NodeReference" id="135167731" name="robot_enemy_1">
+			<reference>guid://1052eb5f16b3c132e06baee99e58ab34533a5d03</reference>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 24.338367 -6.0222945 1.0121338 1.0</transform>
+		</node>
+		<node type="NodeReference" id="1888656395" name="robot_enemy_2">
+			<reference>guid://1052eb5f16b3c132e06baee99e58ab34533a5d03</reference>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 19.006418 -13.093725 1.0184696 1.0</transform>
+		</node>
+		<node type="NodeReference" id="1376961059" name="robot_enemy_3">
+			<reference>guid://1052eb5f16b3c132e06baee99e58ab34533a5d03</reference>
+			<transform>5.3644095e-07 0.99999809 0 0.0 -0.99999845 5.3644118e-07 0 0.0 0 0 0.99999994 0.0 22.851252 14.141957 3.8669617 1.0</transform>
 		</node>
 	</editor>
 	<console>
@@ -2616,6 +2691,7 @@
 		<bake_lightmap_quality>3</bake_lightmap_quality>
 		<bake_lightmap_viewport_mask>-1</bake_lightmap_viewport_mask>
 		<bake_lightmap_zfar>1000</bake_lightmap_zfar>
+		<world_async_load_node_references>0</world_async_load_node_references>
 		<world_moving_immovable_node_mode>1</world_moving_immovable_node_mode>
 	</console>
 </world>

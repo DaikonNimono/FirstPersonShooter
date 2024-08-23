@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>60586bbbe11bedde064e7ba5e6cbf8c084a7151f</guid>
 	<type>world</type>
-	<hash>f7ff6f8</hash>
+	<hash>6f90ad98</hash>
 	<runtimes>
 		<runtime id="60586bbbe11bedde064e7ba5e6cbf8c084a7151f" name="FirstPersonShooter.world" link="0"/>
 	</runtimes>

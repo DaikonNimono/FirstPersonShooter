@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>afe74a79408ffe987c683c53ab4553ac45e0581b</guid>
 	<type>texture</type>
-	<hash>280b0c4b</hash>
+	<hash>693fc403</hash>
 	<runtimes>
 		<runtime id="afe74a79408ffe987c683c53ab4553ac45e0581b" name="fire_glow_dr.png" link="0" type="6"/>
 		<runtime id="60128bb77a5ccb1c097a1f4e0051f16f3ec80ec2" name="fire_glow_dr.texture" link="1" type="6"/>

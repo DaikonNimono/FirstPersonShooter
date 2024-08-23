@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>189bd33d3377fb78367088772a244b6a33ad03c1</guid>
 	<type>material</type>
-	<hash>e20fa7</hash>
+	<hash>69c08e68</hash>
 	<runtimes>
 		<runtime id="189bd33d3377fb78367088772a244b6a33ad03c1" name="jet_mat" link="0" type="5"/>
 	</runtimes>

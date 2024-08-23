@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>1b58b2195b56f4a46956b7b3138299763fbbc25d</guid>
 	<type>fbx</type>
-	<hash>7d053cf7</hash>
+	<hash>75ddbff7</hash>
 	<runtimes>
 		<runtime id="1b58b2195b56f4a46956b7b3138299763fbbc25d" name="cone.fbx" link="0"/>
 		<runtime id="bada353cdd958f6b159eddce4afe4ad5abf69e30" name="cone.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">dd9f4dc2</parameter>
+				<parameter type="string" name="id">2c3042d7</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="adac1bcf5877d6e27634e8d90f163c64c263dc73" name="cone_mesh.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">1ef0ef69</parameter>
+				<parameter type="string" name="id">82119bff</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<material version="2.18.0.1" guid="d38252bb6ddf0416dc02c8c10408f97d435125ba" base_material="b7c07dfd4ce80edac55fcbfdd0befa02ccd20b88">
-	<options blend_src="2" blend_dest="2" depth_mask="0" overlap="0"/>
+<material version="2.19.0.2" guid="d38252bb6ddf0416dc02c8c10408f97d435125ba" base_material="b7c07dfd4ce80edac55fcbfdd0befa02ccd20b88">
+	<options blend_src="2" blend_dest="2" overlap="0"/>
 	<state name="animation">1</state>
 	<state name="ambient">0</state>
 	<state name="light_world">0</state>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>afa0a5c85a2d0e872fb17a3a4ecf44517e16b17c</guid>
 	<type>mesh</type>
-	<hash>802c6f5a</hash>
+	<hash>5b9884f8</hash>
 	<runtimes>
 		<runtime id="afa0a5c85a2d0e872fb17a3a4ecf44517e16b17c" name="box.mesh" link="0" type="1"/>
 	</runtimes>

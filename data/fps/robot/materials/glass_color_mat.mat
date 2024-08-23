@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<material version="2.18.0.1" guid="1ee39dfdeca5c738c2b26137b098cd2a1f0a1a81" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
-	<options transparent="2" blend_src="7" blend_dest="1" depth_mask="0" two_sided="1"/>
+<material version="2.19.0.2" guid="1ee39dfdeca5c738c2b26137b098cd2a1f0a1a81" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<options transparent="2" blend_src="7" blend_dest="1" two_sided="1"/>
 	<state name="emission">1</state>
 	<state name="ambient">0</state>
 	<state name="environment_probe">0</state>

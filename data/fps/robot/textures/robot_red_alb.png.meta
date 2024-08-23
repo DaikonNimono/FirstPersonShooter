@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>c9c24b6542340580dcc43adf61a1cab273cb2a69</guid>
 	<type>texture</type>
-	<hash>3bebe9e</hash>
+	<hash>bcc00e14</hash>
 	<runtimes>
 		<runtime id="c9c24b6542340580dcc43adf61a1cab273cb2a69" name="robot_red_alb.png" link="0" type="6"/>
 		<runtime id="34e6f0b471a4e48305a5c00650f217ad1e0e1528" name="robot_red_alb.texture" link="1" type="6"/>

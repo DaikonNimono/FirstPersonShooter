@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>6fda30c49d158553cec0ca96559700fdd833ce38</guid>
 	<type>fbx</type>
-	<hash>fe0dab0c</hash>
+	<hash>38af2621</hash>
 	<runtimes>
 		<runtime id="6fda30c49d158553cec0ca96559700fdd833ce38" name="wall_0.fbx" link="0"/>
 		<runtime id="feb2bc37c3df6c2ac3fa2d814fdda8ec1b0a8f5b" name="wall_0.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">3e9ab561</parameter>
+				<parameter type="string" name="id">e84e5921</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="0d6abf6a2478e7c1e4c29e2cd7a2839bca42643e" name="wall_0.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">9cc6397a</parameter>
+				<parameter type="string" name="id">9e64a60f</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>

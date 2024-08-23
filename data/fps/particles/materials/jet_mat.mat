@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<material version="2.18.0.1" guid="189bd33d3377fb78367088772a244b6a33ad03c1" base_material="b7c07dfd4ce80edac55fcbfdd0befa02ccd20b88">
+<material version="2.19.0.2" guid="189bd33d3377fb78367088772a244b6a33ad03c1" base_material="b7c07dfd4ce80edac55fcbfdd0befa02ccd20b88">
 	<options blend_src="2" blend_dest="2"/>
 	<state name="animation">1</state>
 	<state name="soft_interaction">0</state>

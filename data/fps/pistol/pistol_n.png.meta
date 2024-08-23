@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>9f9cceb000ef924f069bdb6218542359727b34e4</guid>
 	<type>texture</type>
-	<hash>f108fd4</hash>
+	<hash>b54a1c07</hash>
 	<runtimes>
 		<runtime id="9f9cceb000ef924f069bdb6218542359727b34e4" name="pistol_n.png" link="0" type="6"/>
 		<runtime id="7962a74a0b52ee211bbf310c9cdb38fb1cc7da1e" name="pistol_n.texture" link="1" type="6"/>

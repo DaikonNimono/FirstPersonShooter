@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<material version="2.18.0.1" guid="49f07adb710443e308019a30a69db16e2e3e97a5" base_material="fa8190d55333a12b84ebf7a323b1ffe5816b94a9">
+<material version="2.19.0.2" guid="49f07adb710443e308019a30a69db16e2e3e97a5" base_material="fa8190d55333a12b84ebf7a323b1ffe5816b94a9">
 	<state name="distance_fade">1</state>
 	<state name="angle_fade">0</state>
 	<state name="normal_substitute">0</state>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>49f07adb710443e308019a30a69db16e2e3e97a5</guid>
 	<type>material</type>
-	<hash>fe5f6ace</hash>
+	<hash>ef2c8312</hash>
 	<runtimes>
 		<runtime id="49f07adb710443e308019a30a69db16e2e3e97a5" name="bullet_hole_decal" link="0" type="5"/>
 	</runtimes>

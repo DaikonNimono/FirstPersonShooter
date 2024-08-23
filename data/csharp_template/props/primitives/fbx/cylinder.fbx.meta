@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>38215ec8a36c738707279b3a89f4f15166ee7a7c</guid>
 	<type>fbx</type>
-	<hash>37baa1ad</hash>
+	<hash>40d78f32</hash>
 	<runtimes>
 		<runtime id="38215ec8a36c738707279b3a89f4f15166ee7a7c" name="cylinder.fbx" link="0"/>
 		<runtime id="a5fe62229ac57b19ccf329a4986368b3cead9676" name="cylinder.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">b54f625f</parameter>
+				<parameter type="string" name="id">faedc21e</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="96b89b5d9dcae518765c2597a1d6060a51af3de1" name="cylinder_mesh.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">2c7e46f1</parameter>
+				<parameter type="string" name="id">76cc447</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>

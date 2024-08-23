@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>9fe8b69de957c75886e922d76126624a0fc56d21</guid>
 	<type>texture</type>
-	<hash>6f5f692f</hash>
+	<hash>30fd4d52</hash>
 	<runtimes>
 		<runtime id="9fe8b69de957c75886e922d76126624a0fc56d21" name="floor_green_alb.png" link="0" type="6"/>
 		<runtime id="5b29a40c7a150ffb6361c51e7cdde9e5d6421200" name="floor_green_alb.texture" link="1" type="6"/>

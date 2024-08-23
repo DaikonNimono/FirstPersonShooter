@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<material version="2.18.0.1" guid="e2b3d14bd547762e14a447b5be05b590e4208baf" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
-	<options transparent="2" blend_src="5" blend_dest="6" depth_mask="0" two_sided="1"/>
+<material version="2.19.0.2" guid="e2b3d14bd547762e14a447b5be05b590e4208baf" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<options transparent="2" blend_src="5" blend_dest="6" two_sided="1"/>
 	<parameter name="material_mask" expression="0">0</parameter>
 	<parameter name="albedo_color" expression="0">0.505882382 0.505882382 0.505882382 0.0784313753</parameter>
 	<parameter name="metalness" expression="0">1</parameter>

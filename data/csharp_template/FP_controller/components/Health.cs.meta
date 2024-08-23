@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>6629c61dbcf5668c3f0966d3e2f41c71b0b5b1b5</guid>
 	<type>component</type>
-	<hash>a2f4f621</hash>
+	<hash>616bd4ff</hash>
 	<runtimes>
 		<runtime id="6629c61dbcf5668c3f0966d3e2f41c71b0b5b1b5" name="Health.cs" link="0"/>
 		<runtime id="51e877b3c29f323185bb02f9fb15bbc3f3022b4b" name="Health.prop" link="1" type="4"/>

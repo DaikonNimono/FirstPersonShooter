@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>683667985250c617f1b52c8a0bdb3261181c284c</guid>
 	<type>fbx</type>
-	<hash>40a5f74</hash>
+	<hash>e2f924ca</hash>
 	<runtimes>
 		<runtime id="683667985250c617f1b52c8a0bdb3261181c284c" name="template_buildings.fbx" link="0"/>
 		<runtime id="c60e1d72cb03de29c8269174f8ac8e43826bdec6" name="template_buildings.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">54060c3</parameter>
+				<parameter type="string" name="id">d79d502d</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="9802276da9e561e8d1bf5c2721ad2b5a2d4a02f1" name="template_buildings.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">cef74f8d</parameter>
+				<parameter type="string" name="id">13d35c55</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>

@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>5e7d62cda42fa5c8bf700e8706187a3a3c0a4451</guid>
 	<type>fbx</type>
-	<hash>70b5cf7e</hash>
+	<hash>83a00e54</hash>
 	<runtimes>
 		<runtime id="5e7d62cda42fa5c8bf700e8706187a3a3c0a4451" name="robot_idle.fbx" link="0"/>
 		<runtime id="7d8a3f0fda0b2122fa852e19860140a4da4493b3" name="robot_idle.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">be7e1791</parameter>
+				<parameter type="string" name="id">b159fa83</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="113ec57667d1fe5d0486ec1847b280978e7aa50a" name="robot.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">acae64b4</parameter>
+				<parameter type="string" name="id">cfa77eb2</parameter>
 			</parameters>
 		</runtime>
-		<runtime id="746550e169c6b4cc6f7b69bb6516d3de27b029a5" name="robot_idle.anim" link="2" type="2">
+		<runtime id="254f9945ed620877034399dc2fc22659541e34a9" name="robot_robot_idle.anim" link="2" type="2">
 			<parameters>
-				<parameter type="string" name="id">93afd856</parameter>
+				<parameter type="string" name="id">e61995cd</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="f0a9b0fbd9171574b497b5705ec981c8af73f5f4" name="robot_scene.anim" link="2" type="2">
+			<parameters>
+				<parameter type="string" name="id">5ba0100d</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>

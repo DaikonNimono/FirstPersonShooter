@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>6b5d71c007403a1fdee140f2a561aba9504b00f4</guid>
 	<type>fbx</type>
-	<hash>33afa068</hash>
+	<hash>a56546ad</hash>
 	<runtimes>
 		<runtime id="6b5d71c007403a1fdee140f2a561aba9504b00f4" name="hands.fbx" link="0"/>
 		<runtime id="5464beda4ce1807188187f1c520e8fcb3f4a22ae" name="hands.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">ef9fa207</parameter>
+				<parameter type="string" name="id">f7f0e142</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="60020a35ebc7961062ebf22feb7ff9c29363ee39" name="hands.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">ba98708e</parameter>
+				<parameter type="string" name="id">cf16d8d1</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="a146e9fd66364a9f7c9f38b44d4bf0686d44b8e1" name="hands.anim" link="2" type="2">
+			<parameters>
+				<parameter type="string" name="id">7561beee</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>

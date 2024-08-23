@@ -72,16 +72,15 @@ public class HandAnimationController : Component
 		// устанавливаем количество анимационных слоев для каждого объекта
 		meshSkinned.NumLayers = numLayers;
 
-		// устанавливаем анимацию для каждого слоя
-		meshSkinned.SetAnimation(0, idleAnimation);
-		meshSkinned.SetAnimation(1, moveForwardAnimation);
-		meshSkinned.SetAnimation(2, moveBackwardAnimation);
-		meshSkinned.SetAnimation(3, moveRightAnimation);
-		meshSkinned.SetAnimation(4, moveLeftAnimation);
-		meshSkinned.SetAnimation(5, shootAnimation);
+		// set animation for each animation layer
+		meshSkinned.SetLayerAnimationFilePath(0, idleAnimation);
+		meshSkinned.SetLayerAnimationFilePath(1, moveForwardAnimation);
+		meshSkinned.SetLayerAnimationFilePath(2, moveBackwardAnimation);
+		meshSkinned.SetLayerAnimationFilePath(3, moveRightAnimation);
+		meshSkinned.SetLayerAnimationFilePath(4, moveLeftAnimation);
+		meshSkinned.SetLayerAnimationFilePath(5, shootAnimation);
 
-		int animation = meshSkinned.GetAnimation(5);
-		numShootAnimationFrames = meshSkinned.GetNumAnimationFrames(animation);
+		numShootAnimationFrames = meshSkinned.GetLayerNumFrames(5);
 
 		// включаем все анимационные слои
 		for (int i = 0; i < numLayers; ++i)
@@ -105,18 +104,13 @@ public class HandAnimationController : Component
 
 		// handle input: check if the fire button is pressed
 		if (shootInput.IsShooting())
-			Shoot();
-
-		// обработка ввода: проверка нажатия клавиши “огонь”
-		bool isShooting = Input.IsMouseButtonDown(Input.MOUSE_BUTTON.LEFT);
-		if (isShooting)
-			Shoot();
-		// рассчитываем целевые значения для весовых коэффициентов слоев
+			Shoot();  
+		// calculate the target values for the layer weights
 		float targetIdleWalkMix = (isMoving) ? 1.0f : 0.0f;
-		float targetWalkForward = (float)MathLib.Max(0.0f, movementVector.x);
-		float targetWalkBackward = (float)MathLib.Max(0.0f, -movementVector.x);
-		float targetWalkRight = (float)MathLib.Max(0.0f, movementVector.y);
-		float targetWalkLeft = (float)MathLib.Max(0.0f, -movementVector.y);
+		float targetWalkForward = (float) MathLib.Max(0.0f, movementVector.x);
+		float targetWalkBackward = (float) MathLib.Max(0.0f, -movementVector.x);
+		float targetWalkRight = (float) MathLib.Max(0.0f, movementVector.y);
+		float targetWalkLeft = (float) MathLib.Max(0.0f, -movementVector.y);
 
 		// применяем текущие весовые коэффициенты
 		float idleWeight = 1.0f - currentIdleWalkMix;
@@ -130,19 +124,19 @@ public class HandAnimationController : Component
 		meshSkinned.SetLayerWeight(4, shootWalkIdleMix * walkMixWeight * currentWalkLeft);
 		meshSkinned.SetLayerWeight(5, currentShootMix);
 
-		// обновляем анимационные кадры: устанавливаем один и тот же кадр для всех слоев, чтобы обеспечить их синхронизацию
-		meshSkinned.SetFrame(0, currentWalkIdleMixFrame);
-		meshSkinned.SetFrame(1, currentWalkIdleMixFrame);
-		meshSkinned.SetFrame(2, currentWalkIdleMixFrame);
-		meshSkinned.SetFrame(3, currentWalkIdleMixFrame);
-		meshSkinned.SetFrame(4, currentWalkIdleMixFrame);
-		// устанавливаем текущий кадр для каждого анимационного слоя в 0, чтобы начать воспроизведение сначала
-		meshSkinned.SetFrame(5, currentShootFrame);
+		// update the animation frames: set the same frame for the animation layers to keep them in sync
+		meshSkinned.SetLayerFrame(0, currentWalkIdleMixFrame);
+		meshSkinned.SetLayerFrame(1, currentWalkIdleMixFrame);
+		meshSkinned.SetLayerFrame(2, currentWalkIdleMixFrame);
+		meshSkinned.SetLayerFrame(3, currentWalkIdleMixFrame);
+		meshSkinned.SetLayerFrame(4, currentWalkIdleMixFrame);
+		// set the shooting animation layer frame to 0 to start animation from the beginning
+		meshSkinned.SetLayerFrame(5, currentShootFrame);
 
 		currentWalkIdleMixFrame += moveAnimationSpeed * Game.IFps;
 		currentShootFrame = MathLib.Min(currentShootFrame + shootAnimationSpeed * Game.IFps, numShootAnimationFrames);
 
-		// плавно обновляем текущие значения весовых коэффициентов
+		// smoothly update the current weight values
 		currentIdleWalkMix = MathLib.Lerp(currentIdleWalkMix, targetIdleWalkMix, idleWalkMixDamping * Game.IFps);
 
 		currentWalkForward = MathLib.Lerp(currentWalkForward, targetWalkForward, walkDamping * Game.IFps);

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.18.0.1">
+<nodes version="2.19.0.2">
 	<node type="ObjectMeshStatic" id="57845890" name="bullet">
-		<streaming_mode_vram>0</streaming_mode_vram>
-		<streaming_mode_ram>0</streaming_mode_ram>
 		<mesh_name>guid://0527657119e3201c2e7ebccb87ea6bae0e3bbf35</mesh_name>
 		<surface name="bullet_mat" physics_friction="1" physics_restitution="1" material="55268c62a0e52059dba60de4e8aa7ff37acd44b6"/>
 		<properties>
@@ -10,6 +8,7 @@
 				<parameter name="lifeTime">5</parameter>
 			</property>
 			<property parent="88d6112b0032ace8365867c48dbe1958c29471f7" guid="117860200fce17d959dfc20e201acfc53b828368">
+				<parameter name="damage">10</parameter>
 				<parameter name="hitPrefab">guid://8c628a2a1e96b3815d3476ec7c87055be14f7afe</parameter>
 			</property>
 		</properties>
@@ -18,14 +17,15 @@
 			<attenuation_distance>2</attenuation_distance>
 			<shape>2 1 0.200000003</shape>
 			<shape_type>0</shape_type>
+			<texture replace="8292c17984d2bfefef6a950682b64bc02ba64bea"/>
 			<color_mode>1</color_mode>
 			<color_filter>1 0.721568644 0.490196079 1</color_filter>
 			<intensity>0.5</intensity>
 			<shadow>0</shadow>
 			<shadow_resolution>0</shadow_resolution>
 			<shadow_bias>1</shadow_bias>
-			<shadow_distance>40</shadow_distance>
 			<fade_distance>10</fade_distance>
+			<shadow_distance>40</shadow_distance>
 			<mode>0</mode>
 			<shadow_filter_mode>0</shadow_filter_mode>
 			<shadow_filter>1</shadow_filter>
@@ -48,6 +48,7 @@
 			<shadow_screen_space_softness>0.349999994</shadow_screen_space_softness>
 			<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
 			<shadow_screen_space_translucent_depth>0.0299999993</shadow_screen_space_translucent_depth>
+			<baked_depth_texture replace="4cbd24f37cab6e9142d2eb121d1f15a87fa6eaf7"/>
 			<lens_flare_enabled>0</lens_flare_enabled>
 			<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
 			<lens_flare_intensity>1</lens_flare_intensity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>e61be599754592242eb5b733e6a292f613446ddd</guid>
 	<type>animation</type>
-	<hash>4d23b2f8</hash>
+	<hash>3250bff8</hash>
 	<runtimes>
 		<runtime id="e61be599754592242eb5b733e6a292f613446ddd" name="hands_pistol_idle.anim" link="0" type="2"/>
 	</runtimes>

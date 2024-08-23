@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nodes version="2.18.0.1">
+<nodes version="2.19.0.2">
 	<node type="ObjectMeshStatic" id="864446535" immovable="1" name="glass">
-		<streaming_mode_vram>0</streaming_mode_vram>
-		<streaming_mode_ram>0</streaming_mode_ram>
 		<mesh_name>guid://6e10090b18eccaeeaa8e15759a9fa850236a5f6f</mesh_name>
-		<surface name="floor_0_mat" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" intersection="1" intersection_mask="0x3" physics_friction="1" physics_restitution="1" material="95d5a1fcc86e952b0aaea88ed4541695ba4076f0"/>
-		<transform>0.99999958 -1.1368681e-13 -3.8213786e-15 0.0 1.6940659e-21 0.99999958 8.7422109e-08 0.0 3.8213637e-15 -8.7422791e-08 0.99999952 0.0 5.2106638e-14 0 4.4711669e-08 1.0</transform>
+		<surface name="floor_0_mat" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" intersection="1" intersection_mask="0x0" physics_friction="1" physics_restitution="1" material="95d5a1fcc86e952b0aaea88ed4541695ba4076f0"/>
+		<transform>0.99999946 -1.1368679e-13 -3.8213769e-15 0.0 1.6940659e-21 0.99999946 8.7421881e-08 0.0 3.8213629e-15 -8.7422848e-08 0.9999994 0.0 0 -3.7959126e-08 0 1.0</transform>
 	</node>
 </nodes>

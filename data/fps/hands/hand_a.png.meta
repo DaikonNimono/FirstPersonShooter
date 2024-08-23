@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>2f288d6c996329db9f88557e01b97ec59c99e160</guid>
 	<type>texture</type>
-	<hash>71926e25</hash>
+	<hash>727e4c11</hash>
 	<runtimes>
 		<runtime id="2f288d6c996329db9f88557e01b97ec59c99e160" name="hand_a.png" link="0" type="6"/>
 		<runtime id="826ba53fe2e47192de8ae3c91edf9a94fdd4c4e3" name="hand_a.texture" link="1" type="6"/>

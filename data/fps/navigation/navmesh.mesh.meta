@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>acc02afac5babe113e4e603c069dbe6b04c340ce</guid>
 	<type>mesh</type>
-	<hash>b7fab218</hash>
+	<hash>828c1828</hash>
 	<runtimes>
 		<runtime id="acc02afac5babe113e4e603c069dbe6b04c340ce" name="navmesh.mesh" link="0" type="1"/>
 	</runtimes>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>ff112e9a95e9ad31de1744dc82891a8b158bae6e</guid>
 	<type>texture</type>
-	<hash>75dd8a77</hash>
+	<hash>b33ba2c9</hash>
 	<runtimes>
 		<runtime id="ff112e9a95e9ad31de1744dc82891a8b158bae6e" name="sparks_d.png" link="0" type="6"/>
 		<runtime id="04c4a2f5bd45d7d0c047c8ef397a61827031b2f9" name="sparks_d.texture" link="1" type="6"/>

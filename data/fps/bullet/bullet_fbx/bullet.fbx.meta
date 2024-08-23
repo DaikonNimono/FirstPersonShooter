@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>3cdf08cc0d2fadbbde5647deec210da5baa962c0</guid>
 	<type>fbx</type>
-	<hash>14e70e1f</hash>
+	<hash>7bbf5c9a</hash>
 	<runtimes>
 		<runtime id="3cdf08cc0d2fadbbde5647deec210da5baa962c0" name="bullet.fbx" link="0"/>
 		<runtime id="aec6a346336921ed0c6f1a68b6c0baa788e5f7da" name="bullet.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">9f41efb5</parameter>
+				<parameter type="string" name="id">b0b5ff11</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="0527657119e3201c2e7ebccb87ea6bae0e3bbf35" name="bullet.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">f3e2ccd4</parameter>
+				<parameter type="string" name="id">935208c7</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>

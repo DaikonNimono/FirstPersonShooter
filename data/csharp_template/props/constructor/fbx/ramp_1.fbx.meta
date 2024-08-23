@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>b081184000e6ae9f3f402b7242229429d739cf74</guid>
 	<type>fbx</type>
-	<hash>1b74380f</hash>
+	<hash>094e3f68</hash>
 	<runtimes>
 		<runtime id="b081184000e6ae9f3f402b7242229429d739cf74" name="ramp_1.fbx" link="0"/>
 		<runtime id="755ab443f067ccc6cca13d6ddebd7fe88aace227" name="ramp_1.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">fcf281de</parameter>
+				<parameter type="string" name="id">896ec5a4</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="17fbfb8c6b20817b45af889e0e35d76571da2180" name="ramp_1.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">f133d43a</parameter>
+				<parameter type="string" name="id">5f724ea9</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>

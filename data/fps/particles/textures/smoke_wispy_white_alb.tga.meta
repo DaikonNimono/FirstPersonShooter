@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>f5132723226ae226a7ad934d4b751c487dae1307</guid>
 	<type>texture</type>
-	<hash>4033edb7</hash>
+	<hash>53a5c395</hash>
 	<runtimes>
 		<runtime id="f5132723226ae226a7ad934d4b751c487dae1307" name="smoke_wispy_white_alb.tga" link="0" type="6"/>
 		<runtime id="d589b4ba98993cd1fadb4ffc2b0c6b2bd5f6868e" name="smoke_wispy_white_alb.texture" link="1" type="6"/>

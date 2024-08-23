@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>fe7bc3548bbf56a307964ba6e46aeecdc307c1c8</guid>
 	<type>fbx</type>
-	<hash>323b3281</hash>
+	<hash>e7f0235e</hash>
 	<runtimes>
 		<runtime id="fe7bc3548bbf56a307964ba6e46aeecdc307c1c8" name="plane.fbx" link="0"/>
 		<runtime id="27917a872cd2f63a9cea9051c1c18d7c02be8aab" name="plane.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">8a6f3803</parameter>
+				<parameter type="string" name="id">f3299e8f</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="6e10090b18eccaeeaa8e15759a9fa850236a5f6f" name="plane.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">4386ef2f</parameter>
+				<parameter type="string" name="id">1dd1d457</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>

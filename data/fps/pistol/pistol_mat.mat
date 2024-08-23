@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<material version="2.18.0.1" guid="0632ab51782cec7c550c5daba114d70eb88b7315" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+<material version="2.19.0.2" guid="0632ab51782cec7c550c5daba114d70eb88b7315" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
 	<state name="ao_map">1</state>
 	<texture name="albedo">guid://dba7e47998cec38478b9791316f2ab56d26beabd</texture>
 	<texture name="shading">guid://2e2541e7dc24561a4d1faeb1d5ee585cb1ba180b</texture>

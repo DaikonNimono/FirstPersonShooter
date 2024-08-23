@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>80697983a5ff51064e4474ade14ace289d475b67</guid>
 	<type>fbx</type>
-	<hash>5bc7cb6b</hash>
+	<hash>83838774</hash>
 	<runtimes>
 		<runtime id="80697983a5ff51064e4474ade14ace289d475b67" name="cube.fbx" link="0"/>
 		<runtime id="4d4169f591e5f2d0fa2b27ef08e03482256f69f9" name="cube.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">fef80bea</parameter>
+				<parameter type="string" name="id">81d2f715</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="e0a18b04956a9a9364ca5ed63f65083d83cdac78" name="cube_mesh.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">14537202</parameter>
+				<parameter type="string" name="id">f2f3484c</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>

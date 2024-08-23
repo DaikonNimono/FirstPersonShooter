@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>8e99a7ef52058cb43a7f551a77b325cb6e7c4ee6</guid>
 	<type>launch_settings</type>
-	<hash>e4991e6f</hash>
+	<hash>83adf5f5</hash>
 	<runtimes>
 		<runtime id="8e99a7ef52058cb43a7f551a77b325cb6e7c4ee6" name="Default_1.launch" link="0"/>
 	</runtimes>

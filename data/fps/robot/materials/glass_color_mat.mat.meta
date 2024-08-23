@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>1ee39dfdeca5c738c2b26137b098cd2a1f0a1a81</guid>
 	<type>material</type>
-	<hash>15c88a59</hash>
+	<hash>956a223</hash>
 	<runtimes>
 		<runtime id="1ee39dfdeca5c738c2b26137b098cd2a1f0a1a81" name="glass_color_mat" link="0" type="5"/>
 	</runtimes>

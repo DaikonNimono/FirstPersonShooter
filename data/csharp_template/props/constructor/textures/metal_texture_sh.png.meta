@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>4c1d9c1b24c5a2bebdddeb053fd4e0a03b5e1b7f</guid>
 	<type>texture</type>
-	<hash>7fc5e25a</hash>
+	<hash>73d3158a</hash>
 	<runtimes>
 		<runtime id="4c1d9c1b24c5a2bebdddeb053fd4e0a03b5e1b7f" name="metal_texture_sh.png" link="0" type="6"/>
 		<runtime id="6e91f2d2b719f409b4dcedd4ac1d7f2325015a26" name="metal_texture_sh.texture" link="1" type="6"/>

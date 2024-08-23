@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<asset version="2.18.0.1">
+<asset version="2.19.0.2">
 	<guid>7181bbb30549cd76f991665dd6af3418086e2897</guid>
 	<type>fbx</type>
-	<hash>4642836f</hash>
+	<hash>af2619b</hash>
 	<runtimes>
 		<runtime id="7181bbb30549cd76f991665dd6af3418086e2897" name="pistol.fbx" link="0"/>
 		<runtime id="995c91a5214716c078db9b1f056b2df2b3d0b4a9" name="pistol.node" link="1" type="3">
 			<parameters>
-				<parameter type="string" name="id">ad7fd9f5</parameter>
+				<parameter type="string" name="id">10ce43ba</parameter>
 			</parameters>
 		</runtime>
 		<runtime id="2a8475f4b0fc28c3ac85b7462c1525ed9ac34e68" name="pistol.mesh" link="2" type="1">
 			<parameters>
-				<parameter type="string" name="id">041c60ce</parameter>
+				<parameter type="string" name="id">d5d815b6</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="a5da4981b26d8a15d9f0f5a8a8f4fb31dd1211a5" name="pistol.anim" link="2" type="2">
+			<parameters>
+				<parameter type="string" name="id">ab94ea1a</parameter>
 			</parameters>
 		</runtime>
 	</runtimes>
